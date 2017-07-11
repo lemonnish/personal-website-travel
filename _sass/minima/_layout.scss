@@ -219,105 +219,81 @@ iframe.youtube {
 ul.post-list {
   margin: $spacing-unit/4 0;
   list-style: none;
-}
 
-ul.post-list {  // these post snippets appear on the home page
-  > li.featured-post {  // top post on the home page
-    margin-top: 0;
-    margin-bottom: $spacing-unit/4;
-    margin-left: 0;
-    margin-right: 0;
+  li {
+    margin: 1em 0;
+  }
 
-    display: inline-block;
+  li a {
+    display: block;
     width: 100%;
 
     div.text {
-      text-align: left;
-      width: 100%;
-      height: 100px;
-
       box-sizing: border-box;
+      padding: 1em;
       background-color: lightgrey;
+    }
 
-      padding: 0 10%;
+    div.image-container {
+      box-sizing: border-box;
+      position: relative;
+      overflow: hidden;
+      width: 100%;
 
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+      > img {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+      }
+    }
+  }
 
-      border-bottom-style: solid;
-      border-color: $grey-color;
-      border-width: medium;
+  &.featured-post-list li:first-child a {  // top post on the home page
+    display: inline-block;
+
+    div.text {
+      text-align: left;
+      height: 100px;
+      width: 100%;
     }
 
     img {
-      margin-bottom: 0;
-      display: inline-block;
       width: 100%;
       height: 400px;
       object-fit: cover;
     }
   }
 
-  > li.featured-post-set {  // other posts featured on the home page
-    margin: $spacing-unit/4 0;
-    display: inline-block;
-    width: 100%;
+  &.featured-post-list li a {  // other posts featured on the home page
+    display: flex;
+    min-height: 150px;
 
     div.text {
       text-align: right;
-      float: left;
       width: 30%;
-      height: 150px;
-    }
-
-    img {
-      float: right;
-      width: 70%;
-      height: 150px;
-    }
-  }
-}
-
-ul.post-list {  // these post snippets occur on all other pages
-                // (all posts, country-specific, etc)
-  > li.post-list {
-    margin: $spacing-unit/4 0;
-    display: inline-block;
-    width: 100%;
-
-    div.text {
       box-sizing: border-box;
-      background-color: $grey-color-light;
-
-      padding: 5px 3%;
-
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
     }
 
-    img {
-      object-fit: cover;
+    div.image-container {
+      width: 70%;
     }
   }
 
-
-  > li.offset-posts a {
+  &.offset-post-list li a {
     display: flex;
-    background-color: lightgrey;
 
     div.text {
       width: 50%;
-      // flex-grow: 1;
     }
 
-    img {
+    div.image-container {
       width: 50%;
     }
+
   }
 
-  > li.offset-posts:nth-child(odd) a {
+  &.offset-post-list li:nth-child(odd) a {
     // picture on the right, text on the left
     flex-direction: row-reverse;
   }
@@ -330,8 +306,8 @@ ul.post-list {  // these post snippets occur on all other pages
 }
 
 .post-banner {
-  width: 50%;
-  align-content: center;
+  //width: 50%;
+  //align-content: center;
 }
 
 .post-link {

@@ -5,16 +5,18 @@ layout: default
 <div class="home">
 
   {{ content }}
-  <ul class="post-list">
+  <ul class="post-list offset-post-list">
 
     {% for post in site.posts %}
       {% if post.location == page.title %}
-      <li class="post-list offset-posts">
+      <li>
         <a href="{{ post.url | relative_url }}">
 
-          {% if post.image-url %}
-            <img src="{{ site.baseurl }}/photos/{{ post.slug }}/{{ post.image-url }}" alt="{{ post.image-alt }}" class="post-banner"/>
-          {% endif %}
+          <div class="image-container">
+            {% if post.image-url %}
+              <img src="{{ site.baseurl }}/photos/{{ post.slug }}/{{ post.image-url }}" alt="{{ post.image-alt }}" class="post-banner"/>
+            {% endif %}
+          </div>
 
           <div class="text">
             <span class="post-meta">{{ post.date | date: site.date_format }}</span>

@@ -10,9 +10,9 @@ layout: default
   {{ content }}
 -->
 
-  <ul class="post-list">
+  <ul class="post-list featured-post-list">
     {% for post in site.posts limit:1 %}
-      <li class="featured-post">
+      <li>
         <a href="{{ post.url | relative_url }}">
 
           {% if post.image-url %}
@@ -30,16 +30,19 @@ layout: default
     {% endfor %}
 
     {% for post in site.posts offset:1 limit:3 %}
-      <li class="post-list featured-post-set">
-        <a href="{{ post.url | relative_url }}">
 
-        {% if post.image-url %}
-          <img src="{{ site.baseurl }}/photos/{{ post.slug }}/{{ post.image-url }}" alt="{{ post.image-alt }}" class="post-banner"/>
-        {% endif %}
+      <li>
+        <a href="{{ post.url | relative_url }}">
 
         <div class="text">
           <span class="post-meta">{{ post.date | date: site.date_format }}</span>
           <h2 class="post-link">{{ post.title | escape }}</h2>
+        </div>
+
+        <div class="image-container">
+          {% if post.image-url %}
+            <img src="{{ site.baseurl }}/photos/{{ post.slug }}/{{ post.image-url }}" alt="{{ post.image-alt }}" class="post-banner"/>
+          {% endif %}
         </div>
 
         </a>
