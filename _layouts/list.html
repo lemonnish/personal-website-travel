@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {{ content }}
+  <ul class="post-list">
+
+    {% for post in site.posts %}
+      {% if post.location == page.title %}
+      <li class="post-list offset-posts">
+        <a href="{{ post.url | relative_url }}">
+
+          {% if post.image-url %}
+            <img src="{{ site.baseurl }}/photos/{{ post.slug }}/{{ post.image-url }}" alt="{{ post.image-alt }}" class="post-banner"/>
+          {% endif %}
+
+          <div class="text">
+            <span class="post-meta">{{ post.date | date: site.date_format }}</span>
+            <h2 class="post-link">{{ post.title | escape }}</h2>
+            <p class="post-excerpt">{{ post.excerpt }}</p>
+            <span class="post-meta">{{ post.location }}</span>
+          </div>
+
+        </a>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+
+</div>

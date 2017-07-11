@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<!--
+<div class="home">
+
+  <h1 class="page-heading">Newest Posts</h1>
+
+  {{ content }}
+-->
+
+  <ul class="post-list">
+    {% for post in site.posts limit:1 %}
+      <li class="featured-post">
+        <a href="{{ post.url | relative_url }}">
+
+          {% if post.image-url %}
+            <img src="{{ site.baseurl }}/photos/{{ post.slug }}/{{ post.image-url }}" alt="{{ post.image-alt }}" class="post-banner"/>
+          {% endif %}
+
+          <div class="text">
+            <span class="post-meta">{{ post.date | date: site.date_format }}</span>
+            <h2 class="post-link">{{ post.title | escape }}</h2>
+          </div>
+
+        </a>
+      </li>
+
+    {% endfor %}
+
+    {% for post in site.posts offset:1 limit:3 %}
+      <li class="post-list featured-post-set">
+        <a href="{{ post.url | relative_url }}">
+
+        {% if post.image-url %}
+          <img src="{{ site.baseurl }}/photos/{{ post.slug }}/{{ post.image-url }}" alt="{{ post.image-alt }}" class="post-banner"/>
+        {% endif %}
+
+        <div class="text">
+          <span class="post-meta">{{ post.date | date: site.date_format }}</span>
+          <h2 class="post-link">{{ post.title | escape }}</h2>
+        </div>
+
+        </a>
+      </li>
+
+    {% endfor %}
+
+  </ul>
+
+  <a class="more-link" href="{{ site.baseurl }}{% link all-posts/index.html %}">
+    View all posts...
+  </a>
+
+<!--
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+
+</div>
+-->
