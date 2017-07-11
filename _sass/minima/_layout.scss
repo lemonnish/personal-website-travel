@@ -222,6 +222,7 @@ ul.post-list {
 
   li {
     margin: 1em 0;
+    background-color: darkgrey;
   }
 
   li a {
@@ -251,6 +252,7 @@ ul.post-list {
 
   &.featured-post-list li:first-child a {  // top post on the home page
     display: inline-block;
+    min-height: 0;
 
     div.text {
       text-align: left;
