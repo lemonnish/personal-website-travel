@@ -336,6 +336,11 @@ ul.post-list {
  */
 .post-header {
   margin-bottom: $spacing-unit;
+
+  > .post-meta {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .post-title {
