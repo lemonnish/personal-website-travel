@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-  margin-bottom: $spacing-unit / 2;
+  margin: 2rem 0;
 }
 
 
@@ -73,7 +73,11 @@ ul, ol {
 li {
   > ul,
   > ol {
+    margin-top: 0;
     margin-bottom: 0;
+  }
+  > p {
+    margin-top: 0;
   }
 }
 
@@ -83,9 +87,53 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+  font-family: $header-font-family;
+  font-weight: normal;
 }
 
+
+/**
+ * Specify font sizes and spacing-unit
+ */
+p {
+  font-size: 1rem;
+  line-height: 1.675;
+}
+
+h1 {
+  font-size: 2.625rem;
+  line-height: 1.05;
+}
+
+h2 {
+  font-size: 2.25rem;
+  line-height: 1.25;
+  //font-weight: 200;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 1.25;
+  //font-weight: 300;
+}
+
+h4 {
+  font-size: 1.75rem;
+  line-height: 1.2;
+  //font-weight: 500;
+}
+
+h5 {
+  font-size: 1.5rem;
+  line-height: 1.1;
+  //font-weight: 600;
+}
+
+h6 {
+  font-size: 1.25rem;
+  line-height: 1.1;
+  //font-weight: bolder;
+}
 
 
 /**
@@ -119,11 +167,8 @@ a {
  */
 blockquote {
   color: $grey-color;
-  border-left: 4px solid $grey-color-light;
-  padding-left: $spacing-unit / 2;
-  @include relative-font-size(1.125);
-  letter-spacing: -1px;
-  font-style: italic;
+  border-left: 1em solid $grey-color-light;
+  padding-left: 1em;
 
   > :last-child {
     margin-bottom: 0;
