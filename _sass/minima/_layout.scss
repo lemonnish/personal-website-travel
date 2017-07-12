@@ -282,6 +282,9 @@ ul.post-list {
     div.text {
       //text-align: right;
       width: 30%;
+      &:only-child {
+        width: 100%;
+      }
     }
 
     div.image-container {
@@ -294,6 +297,10 @@ ul.post-list {
 
     div.text {
       width: 50%;
+
+      &:only-child {
+        width: 100%;
+      }
     }
 
     div.image-container {
