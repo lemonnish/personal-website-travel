@@ -230,7 +230,6 @@ ul.post-list {
     width: 100%;
 
     div.text {
-      box-sizing: border-box;
       padding: 1.25rem;
       background-color: #e0e0e0; //lightgrey;
 
@@ -245,7 +244,6 @@ ul.post-list {
     }
 
     div.image-container {
-      box-sizing: border-box;
       position: relative;
       overflow: hidden;
       width: 100%;
@@ -284,7 +282,6 @@ ul.post-list {
     div.text {
       //text-align: right;
       width: 30%;
-      box-sizing: border-box;
     }
 
     div.image-container {
