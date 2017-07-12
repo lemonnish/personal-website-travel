@@ -182,6 +182,10 @@ blockquote {
   border-left: 1em solid $grey-color-light;
   padding-left: 1em;
 
+  p {
+    margin: 0.5em 0;
+  }
+
   > :last-child {
     margin-bottom: 0;
   }

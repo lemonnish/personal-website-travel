@@ -177,7 +177,10 @@
  */
 
 .more-link {
-  background-color: darkgrey;
+  //background-color: darkgrey;
+  border-style: solid;
+  border-color: #d0d0d0;
+  border-width: 4px;
   display: block;
   width: 100%;
   text-align: center;
@@ -186,7 +189,6 @@
   padding: 10px 0;
 
   margin-top: $spacing-unit/4;
-  //font-weight: bold;
 }
 
 .pagination {
@@ -222,16 +224,25 @@ ul.post-list {
 
   li {
     margin: 1em 0;
-    background-color: #d5d5d5; //darkgrey;
   }
 
   li a {
     display: block;
     width: 100%;
 
+    margin: 2rem 0;
+
+    border-bottom-style: solid;
+    border-bottom-width: 1.5rem;
+    border-color: #f0f0f0;
+
     div.text {
-      padding: 1.25rem;
-      background-color: #e0e0e0; //lightgrey;
+      width: 100%;
+
+      padding: 0 1.25rem 1.25rem;
+      border-bottom-style: solid;
+      border-bottom-width: 1.5rem;
+      border-color: #f0f0f0;
 
       h1, h2, h3, h4, h5, h6, p.post-excerpt {
         margin: 0.5rem 0;
@@ -260,11 +271,13 @@ ul.post-list {
   &.featured-post-list li:first-child a {  // top post on the home page
     display: inline-block;
     min-height: 0;
+    border-bottom-width: 0.75rem;
 
     div.text {
+      padding: 1.25rem;
       text-align: left;
-      min-height: 6.25rem;
       width: 100%;
+      border-bottom-width: 0.75rem;
     }
 
     img {
@@ -276,12 +289,15 @@ ul.post-list {
 
   &.featured-post-list li a {  // other posts featured on the home page
     display: flex;
-    min-height: 7.75rem;
+    //min-height: 7.75rem;
+
     flex-direction: row-reverse;
+    border-bottom-width: 0.75rem;
 
     div.text {
-      //text-align: right;
       width: 30%;
+      border-bottom-width: 0.75rem;
+
       &:only-child {
         width: 100%;
       }
@@ -289,6 +305,7 @@ ul.post-list {
 
     div.image-container {
       width: 70%;
+      min-height: 7.75rem;
     }
   }
 
