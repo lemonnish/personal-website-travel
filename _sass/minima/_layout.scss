@@ -252,7 +252,6 @@ ul.post-list {
       width: 100%;
 
       padding: 1rem 0;
-      //padding: 0 1.25rem 1.25rem;
       border-bottom-style: solid;
       border-bottom-width: 0.75rem;
       border-color: #f0f0f0;
@@ -268,6 +267,10 @@ ul.post-list {
       &:only-child {
         padding-top: 0;
         width: 100%;
+      }
+
+      @media (min-width: 500px) {
+        padding: 0 1rem 1rem;
       }
 
     }
@@ -288,13 +291,12 @@ ul.post-list {
 
   &.featured-post-list li:first-child a {  // top post on the home page
     display: inherit;
-
     //display: inline-block;
     //min-height: 0;
     //border-bottom-width: 0.75rem;
 
     div.text {
-      //padding: 1.25rem;
+      padding: 1rem;
       //width: 100%;
       //border-bottom-width: 0.75rem;
     }
@@ -310,14 +312,11 @@ ul.post-list {
       display: flex;
       flex-direction: row-reverse;
     }
-    //min-height: 7.75rem;
-
     //border-bottom-width: 0.75rem;
 
     div.text {
       @media (min-width: 500px) {
         width: 30%;
-        padding-top: 0;
       }
       &:only-child {
         width: 100%;
@@ -329,7 +328,7 @@ ul.post-list {
       @media (min-width: 500px) {
         width: 70%;
       }
-      min-height: 7.75rem;
+      min-height: 7.4rem;
     }
   }
 
@@ -343,7 +342,6 @@ ul.post-list {
     div.text {
       @media (min-width: 500px) {
         width: 50%;
-        padding: 0 1em 1em;
         border-bottom-width: 1.5rem;
       }
       &:only-child {
