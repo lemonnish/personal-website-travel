@@ -295,7 +295,7 @@ ul.post-list {
 
     div.text {
       //padding: 1.25rem;
-      width: 100%;
+      //width: 100%;
       //border-bottom-width: 0.75rem;
     }
 
@@ -305,7 +305,7 @@ ul.post-list {
     }
   }
 
-  &.featured-post-list li a {  // other posts featured on the home page
+  &.featured-post-list li:nth-child(1n+2) a {  // other posts featured on the home page
     @media (min-width: 500px) {
       display: flex;
       flex-direction: row-reverse;
@@ -317,6 +317,7 @@ ul.post-list {
     div.text {
       @media (min-width: 500px) {
         width: 30%;
+        padding-top: 0;
       }
       &:only-child {
         width: 100%;
