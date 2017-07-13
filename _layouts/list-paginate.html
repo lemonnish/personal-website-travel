@@ -6,7 +6,7 @@ layout: default
 
   {{ content }}
 
-  {% include pagination-links.html %}
+  {% include pagination-links.html class="top" %}
 
   <!-- This loops through the paginated posts -->
   <ul class="post-list offset-post-list">
@@ -33,7 +33,6 @@ layout: default
     {% endfor %}
   </ul>
 
-  {% include pagination-links.html %}
-
+  {% include pagination-links.html class="bottom" %}
 
 </div>
