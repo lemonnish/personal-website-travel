@@ -12,11 +12,11 @@ layout: default
       <li>
         <a href="{{ post.url | relative_url }}">
 
-          <div class="image-container">
-            {% if post.image-url %}
+          {% if post.image-url %}
+            <div class="image-container">
               <img src="{{ site.baseurl }}/photos/{{ post.slug }}/{{ post.image-url }}" alt="{{ post.image-alt }}" class="post-banner"/>
-            {% endif %}
-          </div>
+            </div>
+          {% endif %}
 
           <div class="text">
             <span class="post-meta">{{ post.date | date: site.date_format }}</span>

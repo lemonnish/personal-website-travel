@@ -314,12 +314,12 @@ ul.post-list {
   }
 
   &.offset-post-list li a {
-    display: flex;
-    border-bottom-width: 1.5rem;
+    //display: flex;
+    //border-bottom-width: 1.5rem;
 
     div.text {
-      width: 50%;
-      border-bottom-width: 1.5rem;
+      //width: 50%;
+      //border-bottom-width: 1.5rem;
 
       &:only-child {
         width: 100%;
@@ -327,14 +327,15 @@ ul.post-list {
     }
 
     div.image-container {
-      width: 50%;
+      //width: 50%;
+      min-height: 7.75rem;
     }
 
   }
 
   &.offset-post-list li:nth-child(odd) a {
     // picture on the right, text on the left
-    flex-direction: row-reverse;
+    //flex-direction: row-reverse;
   }
 }
 
