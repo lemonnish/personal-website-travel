@@ -267,6 +267,7 @@ ul.post-list {
 
       &:only-child {
         padding-top: 0;
+        width: 100%;
       }
 
     }
@@ -312,10 +313,6 @@ ul.post-list {
     div.text {
       //width: 30%;
       //border-bottom-width: 0.75rem;
-
-      &:only-child {
-        width: 100%;
-      }
     }
 
     div.image-container {
@@ -331,10 +328,6 @@ ul.post-list {
     div.text {
       //width: 50%;
       //border-bottom-width: 1.5rem;
-
-      &:only-child {
-        width: 100%;
-      }
     }
 
     div.image-container {
