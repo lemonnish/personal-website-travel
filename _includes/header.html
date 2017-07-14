@@ -6,14 +6,17 @@
 
     {% if (page.layout != "post") and page.title %}
       <span class="site-title">
-        <a href="{{ "/" | relative_url }}">{{ site.title }}</a> > {{ page.title }}
+        <a href="{{ "/" | relative_url }}">{{ site.title }}</a>
       </span>
 <!--
       <span>ADD COUNTRY DROPDOWN</span>
 -->
       <nav class="site-nav-location">
         <input type="checkbox" id="nav-country-trigger" class="nav-trigger" />
-        <label for="nav-country-trigger" class="menu-icon">&#9655;</label>
+        <label for="nav-country-trigger">
+          <span class="site-title"> > {{ page.title }}</span>
+          <span class="menu-icon">&#9655;</span>
+        </label>
 
         <div class="trigger">
           <a class="page-link" href="{{ site.baseurl }}/all-posts">View All Posts</a>
