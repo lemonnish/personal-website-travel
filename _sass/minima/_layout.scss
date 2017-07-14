@@ -31,7 +31,7 @@
 
 
   .nav-trigger {
-      display: none;
+    display: none;
   }
 
   #nav-country-trigger {
@@ -41,22 +41,41 @@
     height: 36px;
     cursor: pointer;
   }
+  .page-link {
+    display: block;
+    padding: 5px 10px;
+
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+    margin-left: 20px;
+  }
 
   .menu-icon {
     display: inline-block;
     transform: rotate(0);
     color: black;
   }
-  
+
+  #nav-country-trigger ~ .trigger {
+    clear: both;
+    display: none;
+  }
+
   #nav-country-trigger:hover ~ .menu-icon {
     color: blue;
   }
 
-  #nav-country-trigger:checked ~ .menu-icon {
-    transform: rotate(90deg);
+  #nav-country-trigger:checked {
+    ~ label .menu-icon {
+      transform: rotate(90deg);
+    }
+    ~ .trigger {
+      display: block;
+      padding-bottom: 5px;
+    }
   }
-
-
+  
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
