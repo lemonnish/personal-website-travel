@@ -8,13 +8,15 @@
 
   // Positioning context for the mobile navigation icon
   position: relative;
+
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .site-title {
-  @include relative-font-size(1.625);
-  font-weight: 300;
-  line-height: $base-line-height * $base-font-size * 2.25;
-  letter-spacing: -1px;
+  font-family: $header-font-family;
+  font-size: 2rem;
+  line-height: 1.2;
   margin-bottom: 0;
   float: left;
 
@@ -27,7 +29,7 @@
 .site-nav-location {
   //float: right;
   //line-height: $base-line-height * $base-font-size * 2.25;
-  z-index: 10;  // make sure this appears on top of all other content
+  //z-index: 10;  // make sure this appears on top of all other content
 
 
   .nav-trigger {
@@ -35,7 +37,7 @@
   }
 
   #nav-country-trigger {
-    display: none;
+    //display: none;
     //float: right;
     width: 36px;
     height: 36px;
@@ -52,6 +54,8 @@
   }
 
   .menu-icon {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
     display: inline-block;
     transform: rotate(0);
     color: black;
@@ -75,7 +79,7 @@
       padding-bottom: 5px;
     }
   }
-  
+
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
