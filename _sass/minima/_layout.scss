@@ -7,22 +7,28 @@
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
-  position: relative;
+  //position: relative;
 
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
 
-.site-title {
-  font-family: $header-font-family;
-  font-size: 2rem;
-  line-height: 1.2;
-  margin-bottom: 0;
-  float: left;
+  h1 {
+    font-size: 2rem;
+    line-height: 1;
+    margin: 0 0 0.5rem;
 
-  &,
-  &:visited {
-    color: $grey-color-dark;
+    &,
+    &:visited {
+      color: black;
+    }
+  }
+
+  // tagline:
+  h2 {
+    font-family: $base-font-family;
+    font-size: 1rem;
+    line-height: 1.2;
+    margin: 0;
   }
 }
 
