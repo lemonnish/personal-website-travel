@@ -8,27 +8,9 @@ layout: default
   <h1 class="page-heading">Newest Posts</h1>
 
   {{ content }}
--->
-  <h1>Locations</h1>
-
-  <ul>
-    <li><a class="page-link" href="{{ site.baseurl }}{% link chile/index.html %}">Chile</a></li>
-    <li><a class="page-link" href="{{ site.baseurl }}{% link china/index.html %}">China</a></li>
-    <li><a class="page-link" href="{{ site.baseurl }}{% link germany/index.html %}">Germany</a></li>
-  </ul>
-
-  <h2>United States:</h2>
-  <ul>
-    <li><a class="page-link" href="{{ site.baseurl }}{% link california/index.html %}">California</a></li>
-    <li><a class="page-link" href="{{ site.baseurl }}{% link massachusetts/index.html %}">Massachusetts</a></li>
-    <li><a class="page-link" href="{{ site.baseurl }}{% link nevada/index.html %}">Nevada</a></li>
-    <li><a class="page-link" href="{{ site.baseurl }}{% link new-york/index.html %}">New&nbsp;York</a></li>
-    <li><a class="page-link" href="{{ site.baseurl }}{% link washington/index.html %}">Washington</a></li>
-    <li><a class="page-link" href="{{ site.baseurl }}{% link vermont/index.html %}">Vermont</a></li>
-  </ul>
 
   <h1>Newest Posts</h1>
-
+-->
   <ul class="post-list featured-post-list">
 
     {% for post in site.posts limit:4 %}
@@ -58,6 +40,24 @@ layout: default
   <a class="more-link" href="{{ site.baseurl }}{% link all-posts/index.html %}">
     View all posts...
   </a>
+
+  <h1>Filter by Location</h1>
+
+  <ul>
+    <li><a class="page-link" href="{{ site.baseurl }}{% link chile/index.html %}">Chile</a></li>
+    <li><a class="page-link" href="{{ site.baseurl }}{% link china/index.html %}">China</a></li>
+    <li><a class="page-link" href="{{ site.baseurl }}{% link germany/index.html %}">Germany</a></li>
+  </ul>
+
+  <h2>United States:</h2>
+  <ul>
+    <li><a class="page-link" href="{{ site.baseurl }}{% link california/index.html %}">California</a></li>
+    <li><a class="page-link" href="{{ site.baseurl }}{% link massachusetts/index.html %}">Massachusetts</a></li>
+    <li><a class="page-link" href="{{ site.baseurl }}{% link nevada/index.html %}">Nevada</a></li>
+    <li><a class="page-link" href="{{ site.baseurl }}{% link new-york/index.html %}">New&nbsp;York</a></li>
+    <li><a class="page-link" href="{{ site.baseurl }}{% link washington/index.html %}">Washington</a></li>
+    <li><a class="page-link" href="{{ site.baseurl }}{% link vermont/index.html %}">Vermont</a></li>
+  </ul>
 
 <!--
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
