@@ -5,9 +5,11 @@ nav.location-group {
   display: flex;
   flex-wrap: wrap;
 
-  margin: 30px 0;
+  margin: 25px 0;
 
   h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
     padding: 0.1em;
     text-align: center;
     justify-content: center;
@@ -22,8 +24,8 @@ nav.location-group {
   & > * {
     flex-grow: 1;
     margin: 2px;
-    width: 150px;
-    height: 300px;
+    width: 120px;
+    height: 140px;
     border: 2px solid lightgrey;
 
     &.placeholder {
@@ -34,12 +36,13 @@ nav.location-group {
 
   .location-tile {
     h3 {
-      font-size: 1.75em;
+      font-size: 1.25rem;
       height: 0;
       margin: 0;
       padding: 0;
       line-height: 1;
-      transform: translate(-10px, 150px) rotate(-55deg);
+      text-align: center;
+      transform: translate(-10px, 65px) rotate(-55deg);
     }
 
     svg {
