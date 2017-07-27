@@ -294,8 +294,11 @@ nav.location-group {
   line-height: 1;
 
   padding: 0.5em 0;
-
   margin: 2rem 0 0;
+
+  &:hover {
+    border-color: #707070;
+  }
 }
 
 .pagination {
@@ -351,16 +354,16 @@ ul.post-list {
     display: block;
     width: 100%;
 
-    border-top: 2px solid transparent;
-    border-bottom: 0.75rem solid #f0f0f0;
+    border-top: 2px solid $border-color;
+    border-bottom: 0.75rem solid $border-color;
 
-    padding-top: 10px;
+    padding-top: 1rem;
 
     &:hover {
-      border-color: #d0d0d0;
+      border-color: $border-color-hover;
 
       div.text {
-        border-color: #d0d0d0;
+        border-color: $border-color-hover;
       }
     }
 
@@ -370,7 +373,7 @@ ul.post-list {
       padding: 1rem 0;
       border-bottom-style: solid;
       border-bottom-width: 0.75rem;
-      border-color: #f0f0f0;
+      border-color: $border-color;
 
       h1, h2, h3, h4, h5, h6, p.post-excerpt {
         margin: 0.5rem 0;
@@ -451,7 +454,7 @@ ul.post-list {
   &.offset-post-list li {
     margin: 30px 0;
   }
-  
+
   &.offset-post-list li a {
     @media (min-width: 500px) {
       display: flex;
