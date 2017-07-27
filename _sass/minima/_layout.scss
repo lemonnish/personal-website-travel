@@ -339,7 +339,7 @@ ul.post-list {
   list-style: none;
 
   li {
-    margin: 1em 0;
+    margin: 20px 0;
 
     &:first-child, &:last-child{
       margin: 0;
@@ -351,11 +351,18 @@ ul.post-list {
     display: block;
     width: 100%;
 
-    //margin: 1rem 0;
+    border-top: 2px solid transparent;
+    border-bottom: 0.75rem solid #f0f0f0;
 
-    border-bottom-style: solid;
-    border-bottom-width: 0.75rem;
-    border-color: #f0f0f0;
+    padding-top: 10px;
+
+    &:hover {
+      border-color: #d0d0d0;
+
+      div.text {
+        border-color: #d0d0d0;
+      }
+    }
 
     div.text {
       width: 100%;
@@ -441,10 +448,13 @@ ul.post-list {
     }
   }
 
+  &.offset-post-list li {
+    margin: 30px 0;
+  }
+  
   &.offset-post-list li a {
     @media (min-width: 500px) {
       display: flex;
-      margin: 2em 0;
       border-bottom-width: 1.5rem;
     }
 
