@@ -7,26 +7,14 @@ nav.location-group {
 
   margin: 25px 0;
 
-  h2 {
-    font-size: 1.25rem;
-    font-weight: bold;
-    padding: 0.1em;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-
-    background-color: #94d31b;
-    padding: 20px;
-  }
-
   & > * {
+    display: block;
     flex-grow: 1;
-    margin: 2px;
+    margin: 4px;
     width: 120px;
-    height: 140px;
-    border: 2px solid lightgrey;
+    //height: 140px;
+    //border: 2px solid lightgrey;
+    border: none;
 
     &.placeholder {
       border: none;
@@ -34,27 +22,33 @@ nav.location-group {
     }
   }
 
-  .location-tile {
-    h3 {
-      font-size: 1.25rem;
-      height: 0;
+  .location-name {
+    background-color: #94d31b;
+    display: flex;
+    align-items: center;
+    padding: 0.1em;
+
+    h2 {
       margin: 0;
-      padding: 0;
-      line-height: 1;
+      font-size: 1.25rem;
+      font-weight: bold;
       text-align: center;
-      transform: translate(-10px, 65px) rotate(-55deg);
+      width: 100%;
     }
 
+  }
+
+  .location-tile {
     svg {
+      display: block;
       margin: 0;
       fill: #94d31b;
       width: 100%;
       height: 100%;
-      padding: 1rem;
     }
 
-    &:hover svg {
-      fill: #b4e32b;
+    &:hover svg rect {
+      fill: darkgrey;
     }
   }
 }
