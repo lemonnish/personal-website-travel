@@ -2,7 +2,7 @@
 layout: post
 title:  "Santa Cruz: Seabright Beach"
 date:   2016-02-27 00:58:00 -0700
-categories: travel
+tag: california
 location: California, USA
 image-url: beach-lighthouse.jpg
 image-alt: lighthouse on the beach

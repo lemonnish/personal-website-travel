@@ -2,7 +2,7 @@
 layout: post
 title:  "Shanghai Food Adventures, part 2"
 date:   2014-08-27 00:37:00 -0700
-categories: travel
+tag: china
 location: China
 image-url: variety-1.jpg
 image-alt: soft tofu with clams

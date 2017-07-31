@@ -2,7 +2,7 @@
 layout: post
 title:  "Hike to Foggy Lake"
 date:   2016-06-20 23:29:00 -0700
-categories: hiking
+tag: washington
 location: Washington, USA
 image-url: vista-top-sunset.jpg
 image-alt: view from the top of the trail at sunset

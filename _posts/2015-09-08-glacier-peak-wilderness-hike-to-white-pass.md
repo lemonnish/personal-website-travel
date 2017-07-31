@@ -2,7 +2,7 @@
 layout: post
 title:  "Glacier Peak Wilderness: Hike to White Pass"
 date:   2015-09-08 00:52:00 -0700
-categories: hiking
+tag: washington
 location: Washington, USA
 image-url: snow-camp.jpg
 image-alt: colorful tents in the snow

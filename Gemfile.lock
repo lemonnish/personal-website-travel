@@ -40,6 +40,10 @@ GEM
       jekyll (~> 3.3)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
+    octopress-hooks (2.6.2)
+      jekyll (>= 2.0)
+    octopress-paginate (1.2.0)
+      octopress-hooks
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
@@ -59,6 +63,7 @@ DEPENDENCIES
   jekyll-import
   jekyll-paginate
   minima (~> 2.0)
+  octopress-paginate
   tzinfo-data
 
 BUNDLED WITH

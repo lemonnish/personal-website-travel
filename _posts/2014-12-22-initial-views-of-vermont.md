@@ -2,7 +2,7 @@
 layout: post
 title:  "Initial Views of Vermont"
 date:   2014-12-22 21:26:00 -0700
-categories: travel
+tag: vermont
 location: Vermont, USA
 image-url: parking-lot-snow.jpg
 image-alt: parking lot covered in snow

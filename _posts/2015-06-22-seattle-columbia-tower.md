@@ -2,7 +2,7 @@
 layout: post
 title:  "Seattle: Columbia Tower"
 date:   2015-06-22 22:50:00 -0700
-categories: travel
+tag: washington
 location: Washington, USA
 image-url: view-downtown-1.jpg
 image-alt: downtown skyscrapers

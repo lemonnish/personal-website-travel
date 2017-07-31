@@ -2,7 +2,7 @@
 layout: post
 title:  "Grand Park Jiayao Hotel and 新金桥路"
 date:   2014-08-23 00:58:00 -0700
-categories: travel
+tag: china
 location: China
 image-url: street.jpg
 image-alt: wide and nearly empty street

@@ -2,7 +2,7 @@
 layout: post
 title:  "Hiking the Enchantments (but not actually all the way!)"
 date:   2016-05-10 02:34:00 -0700
-categories: hiking
+tag: washington
 location: Washington, USA
 image-url: snow-lake-reflection.jpg
 image-alt: reflections of mountains in Upper Snow Lake

@@ -2,7 +2,7 @@
 layout: post
 title:  "Tianzifang"
 date:   2014-08-09 23:30:00 -0700
-categories: travel
+tag: china
 location: China
 image-url: street.jpg
 image-alt: old street

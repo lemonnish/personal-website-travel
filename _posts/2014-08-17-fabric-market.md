@@ -2,7 +2,7 @@
 layout: post
 title:  "Fabric Market"
 date:   2014-08-17 00:56:00 -0700
-categories: travel
+tag: china
 location: China
 image-url: market-interior-1.jpg
 image-alt: silk scarves for sale

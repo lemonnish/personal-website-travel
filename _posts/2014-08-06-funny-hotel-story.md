@@ -2,7 +2,7 @@
 layout: post
 title:  "Funny Hotel Story"
 date:   2014-08-06 22:30:00 -0700
-categories: travel
+tag: china
 location: China
 excerpt: A lack of Chinese language skills leads to some confusion.
 ---

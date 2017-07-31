@@ -2,7 +2,7 @@
 layout: post
 title:  "Berry Picking at Webb Ranch"
 date:   2016-06-26 23:29:00 -0700
-categories:
+tag: california
 location: California, USA
 image-url: bush.jpg
 image-alt: rows of berry bushes

@@ -2,7 +2,7 @@
 layout: post
 title:  "Shanghai Food Adventures, part 3"
 date:   2014-08-30 18:21:00 -0700
-categories: travel
+tag: china
 location: China
 image-url: din-tai-feng-1.jpg
 image-alt: Din Tai Feng soup dumpling

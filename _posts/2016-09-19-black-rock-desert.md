@@ -2,7 +2,7 @@
 layout: post
 title:  "Black Rock Desert"
 date:   2016-09-19 13:35:00 -0700
-categories: travel
+tag: nevada
 location: Nevada, USA
 image-url: jeep.jpg
 image-alt: Jeep in the desert

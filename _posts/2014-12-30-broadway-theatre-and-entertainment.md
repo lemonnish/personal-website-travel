@@ -2,7 +2,7 @@
 layout: post
 title:  "Broadway Theatre and Entertainment"
 date:   2014-12-30 18:13:00 -0700
-categories: travel
+tag: new-york
 location: New York, USA
 image-url: book-of-mormon.jpg
 image-alt: front of the theatre for Book of Mormon

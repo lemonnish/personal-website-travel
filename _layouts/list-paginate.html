@@ -6,7 +6,11 @@ layout: page
 
   {{ content }}
 
-  {% include pagination-links.html class="top" %}
+  {% if page.paginate %}
+    {% include pagination-links-tag.html class="top" %}
+  {% else %}
+    {% include pagination-links.html class="top" %}
+  {% endif %}
 
   <!-- This loops through the paginated posts -->
   <ul class="post-list offset-post-list">
@@ -33,6 +37,10 @@ layout: page
     {% endfor %}
   </ul>
 
-  {% include pagination-links.html class="bottom" %}
+  {% if page.paginate %}
+    {% include pagination-links-tag.html class="bottom" %}
+  {% else %}
+    {% include pagination-links.html class="bottom" %}
+  {% endif %}
 
 </div>

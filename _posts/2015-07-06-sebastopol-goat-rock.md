@@ -2,7 +2,7 @@
 layout: post
 title:  "Sebastopol: Goat Rock"
 date:   2015-07-06 1:37:00 -0700
-categories: travel
+tag: california
 location: California, USA
 image-url: rocks.jpg
 image-alt: craggy rocks on the beach

@@ -2,7 +2,7 @@
 layout: post
 title:  "Weekend Trip to Tokyo"
 date:   2014-08-05 21:44:00 -0700
-categories: travel
+tag: japan
 location: Japan
 image-url: IMG_2609.jpg
 image-alt: rice wine casks

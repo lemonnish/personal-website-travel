@@ -2,7 +2,7 @@
 layout: post
 title:  "Shanghai Food Adventures, part 1"
 date:   2014-07-27 12:00:00 -0700
-categories: travel
+tag: china
 location: China
 image-url: IMG_2342.jpg
 image-alt: egg pudding

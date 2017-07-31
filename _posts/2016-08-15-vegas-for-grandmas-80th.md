@@ -2,7 +2,7 @@
 layout: post
 title:  "Vegas for Grandma's 80th"
 date:   2016-08-15 14:44:00 -0700
-categories: travel
+tag: nevada
 location: Nevada, USA
 image-url: glass-ceiling.jpg
 image-alt: stained glass ceiling at the Venetian

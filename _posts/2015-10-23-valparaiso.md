@@ -2,7 +2,7 @@
 layout: post
 title:  "Valparaíso"
 date:   2015-10-23 00:58:00 -0700
-categories: travel
+tag: chile
 location: Chile
 image-url: city-colorful.jpg
 image-alt: vines in the field

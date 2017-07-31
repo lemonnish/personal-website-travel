@@ -2,7 +2,7 @@
 layout: post
 title:  "Sichuan Adventures"
 date:   2014-07-28 20:30:00 -0700
-categories: travel
+tag: china
 location: China
 image-url: IMG_2484.jpg
 image-alt: colorful fish

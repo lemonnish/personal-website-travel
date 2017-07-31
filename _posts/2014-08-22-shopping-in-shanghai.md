@@ -2,7 +2,7 @@
 layout: post
 title:  "Shopping in Shanghai"
 date:   2014-08-22 00:56:00 -0700
-categories: travel
+tag: china
 location: China
 image-url: apple-store-interior.jpg
 image-alt: inside the Apple store

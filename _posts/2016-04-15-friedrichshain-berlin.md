@@ -2,7 +2,7 @@
 layout: post
 title:  "Friedrichshain, Berlin"
 date:   2016-04-15 01:11:00 -0700
-categories: travel
+tag: germany
 location: Germany
 image-url: graffiti-whale.jpg
 image-alt: whale graffiti

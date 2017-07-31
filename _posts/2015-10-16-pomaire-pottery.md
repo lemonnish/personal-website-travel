@@ -2,7 +2,7 @@
 layout: post
 title:  "Pomaire Pottery"
 date:   2015-10-16 00:33:00 -0700
-categories: travel
+tag: chile
 location: Chile
 image-url: pottery.jpg
 image-alt: piles of pottery in a shop

@@ -2,7 +2,7 @@
 layout: post
 title:  "Boston Dancing"
 date:   2014-12-01 20:16:00 -0700
-categories: travel
+tag: massachusetts
 location: Massachusetts, USA
 image-url:
 image-alt:

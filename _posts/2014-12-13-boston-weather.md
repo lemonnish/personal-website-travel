@@ -2,7 +2,7 @@
 layout: post
 title:  "Boston Weather"
 date:   2014-12-13 21:04:00 -0700
-categories: travel
+tag: massachusetts
 location: Massachusetts, USA
 image-url: field-1.jpg
 image-alt: field surrounded by colorful trees

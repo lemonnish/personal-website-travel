@@ -2,7 +2,7 @@
 layout: post
 title:  "Chilean Wine"
 date:   2015-10-18 01:20:00 -0700
-categories: travel
+tag: chile
 location: Chile
 image-url: vineyard.jpg
 image-alt: vines in the field

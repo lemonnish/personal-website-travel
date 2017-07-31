@@ -2,7 +2,7 @@
 layout: post
 title:  "Last Views of Shanghai"
 date:   2014-08-31 23:00:00 -0700
-categories: travel
+tag: china
 location: China
 image-url: financial-district-night.jpg
 image-alt: Pudong financial district at night

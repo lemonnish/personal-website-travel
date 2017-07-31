@@ -2,7 +2,7 @@
 layout: post
 title:  "East and West Berlin"
 date:   2016-04-23 00:38:00 -0700
-categories: travel
+tag: germany
 location: Germany
 image-url: wall.jpg
 image-alt: whale graffiti

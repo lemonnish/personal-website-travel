@@ -2,7 +2,7 @@
 layout: post
 title:  "Purisima Creek Redwoods"
 date:   2015-06-14 22:00:00 -0700
-categories: travel
+tag: california
 location: California, USA
 image-url: seeds.jpg
 image-alt: sunlit seeds hanging on a grass stalk

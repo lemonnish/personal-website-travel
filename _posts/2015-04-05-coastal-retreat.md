@@ -2,7 +2,7 @@
 layout: post
 title:  "Coastal Retreat"
 date:   2015-04-05 01:54:00 -0700
-categories: travel
+tag: california
 location: California, USA
 image-url: waves.jpg
 image-alt: rocks and waves at the beach

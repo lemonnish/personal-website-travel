@@ -2,7 +2,7 @@
 layout: post
 title:  "Miscellaneous New York City Sightseeing"
 date:   2014-12-30 17:15:00 -0700
-categories: travel
+tag: new-york
 location: New York, USA
 image-url: park-2.jpg
 image-alt: NYC skyline from Central Park

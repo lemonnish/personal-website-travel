@@ -2,7 +2,7 @@
 layout: post
 title:  "Initial Shanghai Sightseeing"
 date:   2014-06-30 20:12:00 -0700
-categories: travel
+tag: china
 location: China
 image-url: puxi-2.jpg
 image-alt: Puxi skyline

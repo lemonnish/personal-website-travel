@@ -2,7 +2,7 @@
 layout: post
 title:  "Snow and Lobster in February"
 date:   2016-02-24 01:20:00 -0700
-categories: travel
+tag: washington
 location: Washington, USA
 image-url: lobster-cooked.jpg
 image-alt: cooked and plated lobster and salad

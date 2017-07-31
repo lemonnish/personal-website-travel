@@ -2,7 +2,7 @@
 layout: post
 title:  "Chile: the Last Picture"
 date:   2015-10-26 01:20:00 -0700
-categories: travel
+tag: chile
 location: Chile
 image-url: last-pic.jpg
 image-alt: The Last Pisco Sour
