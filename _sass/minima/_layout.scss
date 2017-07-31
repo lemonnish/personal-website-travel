@@ -23,15 +23,15 @@ nav.location-group {
   }
 
   .location-name {
-    background-color: #94d31b;
+    background-color: lightgrey;
     display: flex;
     align-items: center;
-    padding: 0.1em;
+    padding: 0.5em;
+    border: none;
 
     h2 {
       margin: 0;
-      font-size: 1.25rem;
-      font-weight: bold;
+      font-size: 1.5rem;
       text-align: center;
       width: 100%;
     }
