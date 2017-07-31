@@ -24,7 +24,8 @@ GEM
       fastercsv
       jekyll (>= 1.4)
       nokogiri
-    jekyll-paginate (1.1.0)
+    jekyll-paginate-v2 (1.8.1)
+      jekyll (~> 3.0)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
     jekyll-watch (1.5.0)
@@ -40,10 +41,6 @@ GEM
       jekyll (~> 3.3)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
-    octopress-hooks (2.6.2)
-      jekyll (>= 2.0)
-    octopress-paginate (1.2.0)
-      octopress-hooks
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
@@ -61,10 +58,9 @@ DEPENDENCIES
   jekyll (= 3.5.0)
   jekyll-feed (~> 0.6)
   jekyll-import
-  jekyll-paginate
+  jekyll-paginate-v2
   minima (~> 2.0)
-  octopress-paginate
   tzinfo-data
 
 BUNDLED WITH
-   1.15.1
+   1.15.3
