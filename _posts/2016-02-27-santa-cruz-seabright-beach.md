@@ -8,14 +8,16 @@ image-url: beach-lighthouse.jpg
 image-alt: lighthouse on the beach
 excerpt: California beaches are pleasant in February.
 ---
-![lighthouse on the beach]({% photo beach-lighthouse.jpg %}){: .large}
-![kite]({% photo kite.jpg %}){: .small}
-![sea bream on the beach]({% photo beach-waves-1.jpg %}){: .small}
-![tar tracks in the sand]({% photo sand.jpg %}){: .small}
-![water receding down the sand]({% photo waves.jpg %}){: .small}
-{: .img-gallery}
+<div class='img-gallery'>
+{% include photo.html url="beach-lighthouse.jpg" alt="lighthouse on the beach" size="large" %}
+{% include photo.html url="kite.jpg" alt="kite" size="small" %}
+{% include photo.html url="beach-waves-1.jpg" alt="sea bream on the beach" size="small" %}
+{% include photo.html url="sand.jpg" alt="tar tracks in the sand" size="small" %}
+{% include photo.html url="waves.jpg" alt="water receding down the sand" size="small" %}
+</div>
 
 The beach in February is pleasant! The ocean may be freezing cold, but the weather is perfect for flying homemade kites, eating peanut butter and nutella sandwiches, and playing a quick game of Hanabi as the sun sets.
 
-![waves on the sand]({% photo beach-waves-2.jpg %}){: .large}
-{: .img-gallery}
+<div class='img-gallery'>
+{% include photo.html url="beach-waves-2.jpg" alt="waves on the sand" size="large" %}
+</div>

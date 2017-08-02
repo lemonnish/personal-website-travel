@@ -8,7 +8,8 @@ image-url: rocks.jpg
 image-alt: craggy rocks on the beach
 excerpt: I spent a day wandering the beach with Jake and his family.
 ---
-![craggy rocks on the beach]({% photo rocks.jpg %}){: .large}
-![submerged railroad rail in the sand]({% photo sand.jpg %}){: .small}
-![seals on the sand]({% photo water.jpg %}){: .small}
-{: .img-gallery}
+<div class='img-gallery'>
+{% include photo.html url="rocks.jpg" alt="craggy rocks on the beach" size="large" %}
+{% include photo.html url="sand.jpg" alt="submerged railroad rail in the sand" size="small" %}
+{% include photo.html url="water.jpg" alt="seals on the sand" size="small" %}
+</div>

@@ -8,19 +8,22 @@ image-url: street.jpg
 image-alt: wide and nearly empty street
 excerpt: I stayed on <i>Xīn Jīn Qiáo Lù</i> in Pudong.
 ---
-![wide and nearly empty street]({% photo street.jpg %}){: .large}
-{: .img-gallery}
+<div class='img-gallery'>
+{% include photo.html url="street.jpg" alt="wide and nearly empty street" size="large" %}
+</div>
 
 新金桥路 / _Xīn Jīn Qiáo Lù_ / New Golden Bridge Street runs in front of the hotel. The intersection on the corner is incredibly large. Cars travel in two or three lanes in either direction and there are also lane-wide paths on either side of the roadway that are reserved for scooters, bicycles, and the occasional parked car. Traffic laws in Shanghai allow cars to make a right turn on a red light without first stopping, and scooters are not limited to driving in only one direction in the side lanes. In summary, streets are very hard to cross, particularly during rush hour.
 
-![hotel exterior]({% photo hotel-outside.jpg %}){: .small}
-{: .img-gallery}
+<div class='img-gallery'>
+{% include photo.html url="hotel-outside.jpg" alt="hotel exterior" size="small" %}
+</div>
 
 The hotel is located right off of this intersection. Although it is not very visible from afar, the large building across the street is both visible and memorable.
 
-![appliance store interior decorations]({% photo store-inside.jpg %}){: .small}
-![illuminated store exterior]({% photo store-outside.jpg %}){: .small}
-{: .img-gallery}
+<div class='img-gallery'>
+{% include photo.html url="store-inside.jpg" alt="appliance store interior decorations" size="small" %}
+{% include photo.html url="store-outside.jpg" alt="illuminated store exterior" size="small" %}
+</div>
 
 The big lit-up building is a home appliances store. The lights on the outside turn on around dusk, and the background continuously changes patterns and colors; the background may depict falling leaves, then spinning wind turbines, then abstract blue movements. The red-orange accents change in intensity.
 

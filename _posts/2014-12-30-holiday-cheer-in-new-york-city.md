@@ -8,9 +8,10 @@ image-url: street-1.jpg
 image-alt: lighted street
 excerpt: New York City is an exciting place to visit during the holidays.
 ---
-![lit-up street, 1]({% photo street-1.jpg %}){: .small}
-![lit-up street, 2]({% photo street-2.jpg %}){: .small}
-{: .img-gallery}
+<div class='img-gallery'>
+{% include photo.html url="street-1.jpg" alt="lit-up street, 1" size="small" %}
+{% include photo.html url="street-2.jpg" alt="lit-up street, 2" size="small" %}
+</div>
 
 ## Holiday Markets
 
@@ -29,16 +30,18 @@ Tiffany's had small dioramas featuring holiday scenes, such as a rollicking taxi
 
 Van Cleef & Arpels, a jewelry designer, featured a series of windows telling a fairy tale story (and illustrated with the assistance of their fabulously elaborate jewels).
 
-![Tiffany's display]({% photo display-1.jpg %}){: .small}
-![display at Van Cleef & Arpels]({% photo display-2.jpg %}){: .small}
-{: .img-gallery}
+<div class='img-gallery'>
+{% include photo.html url="display-1.jpg" alt="Tiffany's display" size="small" %}
+{% include photo.html url="display-2.jpg" alt="display at Van Cleef & Arpels" size="small" %}
+</div>
 
 Bergdorf Goodman had a series of windows based on the theme "[Inspired](http://blog.bergdorfgoodman.com/windows/holiday-windows-2014-inspired)": literature, architecture, sculpture, music, and theater.
 
-![red display: literature]({% photo inspired-1.jpg %}){: .small}
-![blue display: architecture]({% photo inspired-2.jpg %}){: .small}
-![colored display: theater]({% photo inspired-3.jpg %}){: .small}
-{: .img-gallery}
+<div class='img-gallery'>
+{% include photo.html url="inspired-1.jpg" alt="red display: literature" size="small" %}
+{% include photo.html url="inspired-2.jpg" alt="blue display: architecture" size="small" %}
+{% include photo.html url="inspired-3.jpg" alt="colored display: theater" size="small" %}
+</div>
 
 Barney's had a party to celebrate the revealing of the holiday windows; Pentatonix performed live. When we went to see the windows, Pentatonix Christmas music was playing through the speakers. A skater was performing in one of the windows and elaborate moving metal sculptures were displayed in others.
 
@@ -46,11 +49,12 @@ Barney's had a party to celebrate the revealing of the holiday windows; Pentaton
 
 The Le Parker Meridien New York Hotel had an exhibit of spectacular [gingerbread houses](https://giving.cityharvest.org/gingerbread-voting) - although some were more like sugary sculptures, the base of which just happened to be gingerbread.
 
-![front of a movie theater]({% photo gingerbread-movie.jpg %}){: .small}
-![Cookie Monster in NYC]({% photo gingerbread-cookie-monster.jpg %}){: .small}
-![candy pigeons on top of a gingerbread truck]({% photo gingerbread-truck-top.jpg %}){: .small}
-![side view of the gingerbread truck]({% photo gingerbread-truck.jpg %}){: .small}
-![gingerbread person standing in front of a truck]({% photo gingerbread-person.jpg %}){: .small}
-![gingerbread people in the street, 1]({% photo gingerbread-street-1.jpg %}){: .small}
-![gingerbread people in the street, 2]({% photo gingerbread-street-2.jpg %}){: .small}
-{: .img-gallery}
+<div class='img-gallery'>
+{% include photo.html url="gingerbread-movie.jpg" alt="front of a movie theater" size="small" %}
+{% include photo.html url="gingerbread-cookie-monster.jpg" alt="Cookie Monster in NYC" size="small" %}
+{% include photo.html url="gingerbread-truck-top.jpg" alt="candy pigeons on top of a gingerbread truck" size="small" %}
+{% include photo.html url="gingerbread-truck.jpg" alt="side view of the gingerbread truck" size="small" %}
+{% include photo.html url="gingerbread-person.jpg" alt="gingerbread person standing in front of a truck" size="small" %}
+{% include photo.html url="gingerbread-street-1.jpg" alt="gingerbread people in the street, 1" size="small" %}
+{% include photo.html url="gingerbread-street-2.jpg" alt="gingerbread people in the street, 2" size="small" %}
+</div>

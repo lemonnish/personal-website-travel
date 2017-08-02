@@ -8,20 +8,22 @@ image-url: graffiti-whale.jpg
 image-alt: whale graffiti
 excerpt: Friedrichshain is a neighborhood that is undergoing gentrification. It was an interesting place to stay and explore.
 ---
-![outdoor playground]({% photo playground.jpg %}){: .small}
-![metal frame for a building]({% photo frame.jpg %}){: .small}
-![Sconto warehouse]({% photo sconto.jpg %}){: .small}
-![Friedrichshain street]({% photo street.jpg %}){: .small}
-{: .img-gallery}
+<div class='img-gallery'>
+{% include photo.html url="playground.jpg" alt="outdoor playground" size="small" %}
+{% include photo.html url="frame.jpg" alt="metal frame for a building" size="small" %}
+{% include photo.html url="sconto.jpg" alt="Sconto warehouse" size="small" %}
+{% include photo.html url="street.jpg" alt="Friedrichshain street" size="small" %}
+</div>
 
 Our first Airbnb was located in the Berlin neighborhood of Friedrichshain, conveniently located a couple blocks from an U-Bahn station.
 
 During our first full day in Berlin, Silver and I wandered our neighborhood and saw an unexpectedly large amount of anarchist material, including several apartment buildings covered in anti-police and anti-government banners. _Gentrifickt dich_ was also scrawled across the top of a building; this play on words roughly translates to "Fuck you, gentrification."
 
-![anarchist apartment facade]({% photo apartment.jpg %}){: .large}
-![graffitied woman, accompanied by random scrawls]({% photo graffiti-woman.jpg %}){: .small}
-![whale graffiti]({% photo graffiti-whale.jpg %}){: .small}
-{: .img-gallery}
+<div class='img-gallery'>
+{% include photo.html url="apartment.jpg" alt="anarchist apartment facade" size="large" %}
+{% include photo.html url="graffiti-woman.jpg" alt="graffitied woman, accompanied by random scrawls" size="small" %}
+{% include photo.html url="graffiti-whale.jpg" alt="whale graffiti" size="small" %}
+</div>
 
 In addition to graffiti, there were a large number of paper advertisements posted on billboards and walls:
 
@@ -31,14 +33,16 @@ In addition to graffiti, there were a large number of paper advertisements poste
 - Ritterfest (Knight festival), featuring acrobatics, a fire show, jousting, and music.
 - A wanted poster for the talk show host of a radio broadcast: _Haben Sie diesen Mann gehört?_ (Have you heard this man?)
 
-![bird graffiti outside the hospital]({% photo graffiti-bird.jpg %}){: .small}
-![posters for Der leere Himmel]({% photo posters-2.jpg %}){: .small}
-![porta-potty]({% photo toi-toi.jpg %}){: .small}
-![misc posters]({% photo posters-1.jpg %}){: .small}
-{: .img-gallery}
+<div class='img-gallery'>
+{% include photo.html url="graffiti-bird.jpg" alt="bird graffiti outside the hospital" size="small" %}
+{% include photo.html url="posters-2.jpg" alt="posters for Der leere Himmel" size="small" %}
+{% include photo.html url="toi-toi.jpg" alt="porta-potty" size="small" %}
+{% include photo.html url="posters-1.jpg" alt="misc posters" size="small" %}
+</div>
 
 I lost all directional credibility this first day, as I led us in the wrong direction during our grocery store search. We did eventually make it to Lidl, and even got to see some cool building art along the way.
 
-![bugs painted on the side of a building]({% photo graffiti-bugs.jpg %}){: .small}
-![large image of a girl with wings plastered on a building]({% photo graffiti-girl.jpg %}){: .small}
-{: .img-gallery}
+<div class='img-gallery'>
+{% include photo.html url="graffiti-bugs.jpg" alt="bugs painted on the side of a building" size="small" %}
+{% include photo.html url="graffiti-girl.jpg" alt="large image of a girl with wings plastered on a building" size="small" %}
+</div>

@@ -14,31 +14,35 @@ I don't know if this is the actual name of the restaurant, or if it's just the n
 
 Egg custard with clams, and pastries with radish and ham:
 
-![soft tofu on a plate]({% photo variety-1.jpg %}){: .small}
-![pastries]({% photo variety-2.jpg %}){: .small}
-{: .img-gallery}
+<div class='img-gallery'>
+{% include photo.html url="variety-1.jpg" alt="soft tofu on a plate" size="small" %}
+{% include photo.html url="variety-2.jpg" alt="pastries" size="small" %}
+</div>
 
 The _jielan_ (Chinese kale) here is really really tasty, and we've ordered it nearly every time we've come here. Also pictured: pork cooked in a Shanghai style with a type of vegetable (plum vegetable) that is eaten inside steamed buns, mochi (_nyangao_) with dates, and sweet shaved ice topped with peanuts.
 
-![jielan and nyangao]({% photo variety-4.jpg %}){: .small}
-![pork and shaved ice]({% photo variety-3.jpg %}){: .small}
-{: .img-gallery}
+<div class='img-gallery'>
+{% include photo.html url="variety-4.jpg" alt="jielan and nyangao" size="small" %}
+{% include photo.html url="variety-3.jpg" alt="pork and shaved ice" size="small" %}
+</div>
 
 The mall near Jinqiao Metro Station has a very tasty restaurant, and we've eaten dinner there twice. The food here is from the same region that Chairman Mao is from. We had soup that had been cooked for 5 hours in a large earthenware pot, extremely soft tofu served with a variety of seasonings, sticky rice (ground up so that the rice is finer than couscous) with pork that falls apart in your mouth, a vegetable dish that's a mixture of carrots, mushrooms, and peas, and rice donuts that reminded me of the chips my family would get with chicken when we ordered Chinese food from Daniel's Place.
 
-![pot of soup]({% photo soup-1.jpg %}){: .small}
-![pork sticky rice and donuts]({% photo soup-3.jpg %}){: .small}
-![tofu]({% photo soup-4.jpg %}){: .small}
-![single bowl of soup]({% photo soup-2.jpg %}){: .small}
-{: .img-gallery}
+<div class='img-gallery'>
+{% include photo.html url="soup-1.jpg" alt="pot of soup" size="small" %}
+{% include photo.html url="soup-3.jpg" alt="pork sticky rice and donuts" size="small" %}
+{% include photo.html url="soup-4.jpg" alt="tofu" size="small" %}
+{% include photo.html url="soup-2.jpg" alt="single bowl of soup" size="small" %}
+</div>
 
 ## Pizza Hut
 
 Pizza Hut is much fancier here than in the US, or at least that's my impression given that I've never been to a Pizza Hut in the US. The menu here has wines and steaks, as well as very asian drinks, such as a matcha slushie. I had a corn drink with boba that was surprisingly very tasty.
 
-![Pizza Hut menu with steak and wine]({% photo pizza-hut-1.jpg %}){: .small}
-![appetizer]({% photo pizza-hut-2.jpg %}){: .small}
-{: .img-gallery}
+<div class='img-gallery'>
+{% include photo.html url="pizza-hut-1.jpg" alt="Pizza Hut menu with steak and wine" size="small" %}
+{% include photo.html url="pizza-hut-2.jpg" alt="appetizer" size="small" %}
+</div>
 
 ## Carrefour Supermarket
 
@@ -46,7 +50,8 @@ Carrefour is a chain establishment. The one on Biyun Road is two stories tall. T
 
 There is a very different selection of fruits and vegetables than in the US, and there's also a selection of live sea food... and some live other things, like frogs, crawfish, and eels. Wenrui told me that the frogs are a more Southern Chinese thing. Carrefour also has a very large selection of bulk dry goods, including beans, seasonings, rice, and teas (visible in the background of the first photo below).
 
-![liquid yogurt packs]({% photo yogurt.jpg %}){: .small}
-![fish tank]({% photo carrefour-1.jpg %}){: .small}
-![store interior]({% photo carrefour-2.jpg %}){: .large}
-{: .img-gallery}
+<div class='img-gallery'>
+{% include photo.html url="yogurt.jpg" alt="liquid yogurt packs" size="small" %}
+{% include photo.html url="carrefour-1.jpg" alt="fish tank" size="small" %}
+{% include photo.html url="carrefour-2.jpg" alt="store interior" size="large" %}
+</div>
