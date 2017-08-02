@@ -64,6 +64,10 @@ nav.location-group {
   padding-top: 2rem;
   padding-bottom: 2rem;
 
+  a {
+    text-decoration: none;
+  }
+
   h1 {
     font-size: 2rem;
     line-height: 1;
@@ -276,22 +280,26 @@ nav.location-group {
  * Page content
  */
 
-.more-link h1 {
-  //background-color: darkgrey;
-  border-style: solid;
-  border-color: darkgrey;
-  border-width: 2px;
-  display: block;
-  width: 100%;
-  text-align: center;
-  font-size: 1.25rem;
-  line-height: 1;
+.more-link {
+  text-decoration: none;
 
-  padding: 0.5em 0;
-  margin: 2rem 0 0;
+  h1 {
+    //background-color: darkgrey;
+    border-style: solid;
+    border-color: darkgrey;
+    border-width: 2px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1;
 
-  &:hover {
-    border-color: #707070;
+    padding: 0.5em 0;
+    margin: 2rem 0 0;
+
+    &:hover {
+      border-color: #707070;
+    }
   }
 }
 
@@ -311,6 +319,9 @@ nav.location-group {
   }
   > span.hidden {
     visibility: hidden;
+  }
+  a {
+    text-decoration: none;
   }
 }
 
@@ -348,6 +359,7 @@ ul.post-list {
 
 
   li a {
+    text-decoration: none;
     display: block;
     width: 100%;
 
