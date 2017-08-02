@@ -325,6 +325,9 @@ iframe.youtube {
   .post-content :first-child {
     margin-top: 0;
   }
+  .post-content :last-child {
+    margin-bottom: 0;
+  }
 }
 
 .page-heading {
