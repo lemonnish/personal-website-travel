@@ -21,4 +21,15 @@
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}
   {% endif %}
+
+  <script
+    data-no-instant
+    src='https://code.jquery.com/jquery-3.1.0.js'
+    integrity='sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk='
+    crossorigin='anonymous'>
+  </script>
+
+  <link rel="stylesheet" href="{{ "/assets/justifiedGallery/justifiedGallery.css" | relative_url }}" />
+  <script src="{{ "/assets/justifiedGallery/justifiedGallery.js" | relative_url }}"></script>
+
 </head>
