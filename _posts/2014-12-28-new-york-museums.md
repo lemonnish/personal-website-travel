@@ -71,9 +71,9 @@ Excerpt from the USS Intrepid Plan of the Day (Wednesday, 6 Dec 1961):
 > MAIL SERVICE. In case you don't realize it, there are only 18 more days before Santa Claus comes sliding down the stacks. But YOU have only five more days left to get your Christmas gifts AIRMAILED. Soooo, don't wait until the last day - MAIL IT NOW! MONDAY, 11 DECEMBER 1961 (this coming Monday), is the deadline day for AIRMAIL Christmas packages. See you in the package line at the Post Office tomorrow!
 
 <div class='img-gallery'>
-{% include photo.html url="space-sky.JPG" alt="sky and harbor" size="small" %}
-{% include photo.html url="space-carrier-deck.JPG" alt="USS Intrepid deck" size="small" %}
-{% include photo.html url="space-enterprise.JPG" alt="space shuttle Enterprise" size="large" %}
+{% include photo.html url="space-sky.jpg" alt="sky and harbor" size="small" %}
+{% include photo.html url="space-carrier-deck.jpg" alt="USS Intrepid deck" size="small" %}
+{% include photo.html url="space-enterprise.jpg" alt="space shuttle Enterprise" size="large" %}
 </div>
 
 ## Cooper Hewitt Smithsonian Design Museum
@@ -84,8 +84,8 @@ The Cooper Hewitt Smithsonian Design Museum features historic and contemporary d
 {% include photo.html url="design-birdcage.jpg" alt="glass birdcage" size="small" %}
 {% include photo.html url="design-fabric.jpg" alt="printed fabric" size="small" %}
 {% include photo.html url="design-light.jpg" alt="overhead light composed of broken dishes" size="small" %}
-{% include photo.html url="design-teapot.JPG" alt="2 teapots" size="small" %}
-{% include photo.html url="design-placeset.JPG" alt="red and white place-setting" size="small" %}
+{% include photo.html url="design-teapot.jpg" alt="2 teapots" size="small" %}
+{% include photo.html url="design-placeset.jpg" alt="red and white place-setting" size="small" %}
 {% include photo.html url="design-stair.jpg" alt="model wooden staircase" size="small" %}
 {% include photo.html url="design-chair.jpg" alt="pieced plastic chair" size="small" %}
 {% include photo.html url="design-ladder.jpg" alt="ladder" size="small" %}
@@ -95,7 +95,7 @@ The Cooper Hewitt Smithsonian Design Museum features historic and contemporary d
 {% include photo.html url="design-bertha.jpg" alt="placard for Big Bertha" size="small" %}
 {% include photo.html url="design-candle.jpg" alt="LED candlestick" size="small" %}
 {% include photo.html url="design-knife.jpg" alt="chef's knife" size="small" %}
-{% include photo.html url="design-paper.JPG" alt="paper cutout" size="small" %}
-{% include photo.html url="design-paper-closeup.JPG" alt="paper cutout detail" size="small" %}
-{% include photo.html url="design-phone.JPG" alt="audio teleconferencing system" size="small" %}
+{% include photo.html url="design-paper.jpg" alt="paper cutout" size="small" %}
+{% include photo.html url="design-paper-closeup.jpg" alt="paper cutout detail" size="small" %}
+{% include photo.html url="design-phone.jpg" alt="audio teleconferencing system" size="small" %}
 </div>
