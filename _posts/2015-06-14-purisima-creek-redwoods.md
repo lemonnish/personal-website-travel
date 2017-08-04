@@ -9,10 +9,10 @@ image-alt: sunlit seeds hanging on a grass stalk
 excerpt: I joined Joshua and Sasha on a hike through the redwoods.
 ---
 <div class='img-gallery'>
-{% include photo.html url="trees.jpg" alt="fog in the trees" size="small" %}
-{% include photo.html url="creek.jpg" alt="creek-bed" size="small" %}
-{% include photo.html url="seeds.jpg" alt="sunlit seeds hanging on a grass stalk" size="small" %}
-{% include photo.html url="fog.jpg" alt="fog in the valley" size="small" %}
+{% include photo.html url="trees.jpg" alt="fog in the trees" size="large" %}
+{% include photo.html url="creek.jpg" alt="creek-bed" size="large" %}
+{% include photo.html url="seeds.jpg" alt="sunlit seeds hanging on a grass stalk" size="med" %}
+{% include photo.html url="fog.jpg" alt="fog in the valley" size="med" %}
 {% include photo.html url="green-grass.jpg" alt="airy green grasses" size="small" %}
 {% include photo.html url="bark.jpg" alt="textured tree bark" size="small" %}
 </div>

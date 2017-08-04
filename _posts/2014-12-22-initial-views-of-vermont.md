@@ -9,7 +9,7 @@ image-alt: parking lot covered in snow
 excerpt: In the first week before Christmas, I experienced the novelty of snow.
 ---
 <div class='img-gallery'>
-{% include photo.html url="parking-lot-snow.jpg" alt="parking lot covered in snow" size="large" %}
+{% include photo.html url="parking-lot-snow.jpg" alt="parking lot covered in snow" size="xlarge" %}
 </div>
 
 There are several things to note in the following picture:
@@ -19,12 +19,12 @@ There are several things to note in the following picture:
 - My coworker swears that the sky is normally beautiful and clear, and that there are mountains. I'll believe him when I see it.
 
 <div class='img-gallery'>
-{% include photo.html url="parking-lot.jpg" alt="parking lot with gas sign in background" size="large" %}
+{% include photo.html url="parking-lot.jpg" alt="parking lot with gas sign in background" size="xlarge" %}
 </div>
 
 Flying out of Burlington International Airport. The mountains finally make their appearance!
 
 <div class='img-gallery'>
-{% include photo.html url="wing-tip-flying.jpg" alt="airplane wing tip against the snowy runway" size="small" %}
-{% include photo.html url="wing-tip-ground.jpg" alt="airplane wing tip in the air" size="small" %}
+{% include photo.html url="wing-tip-flying.jpg" alt="airplane wing tip against the snowy runway" size="large" %}
+{% include photo.html url="wing-tip-ground.jpg" alt="airplane wing tip in the air" size="large" %}
 </div>

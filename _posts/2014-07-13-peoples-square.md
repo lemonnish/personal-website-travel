@@ -28,7 +28,7 @@ Down a couple of tree-lined walkways, two musicians performed around a large lot
 Walking around, I found a very random and seemingly deserted roller coaster. However, the lack of attendants and riders may have been because of the slight drizzle.
 
 <div class='img-gallery'>
-{% include photo.html url="IMG_1702.jpg" alt="abandoned roller coaster" size="small" %}
-{% include photo.html url="IMG_1691.jpg" alt="lotus blossoms" size="small" %}
-{% include photo.html url="IMG_1700.jpg" alt="musicians" size="large" %}
+{% include photo.html url="IMG_1702.jpg" alt="abandoned roller coaster" size="med" %}
+{% include photo.html url="IMG_1691.jpg" alt="lotus blossoms" size="med" %}
+{% include photo.html url="IMG_1700.jpg" alt="musicians" size="xlarge" %}
 </div>

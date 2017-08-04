@@ -9,7 +9,7 @@ image-alt: craggy rocks on the beach
 excerpt: I spent a day wandering the beach with Jake and his family.
 ---
 <div class='img-gallery'>
-{% include photo.html url="rocks.jpg" alt="craggy rocks on the beach" size="large" %}
-{% include photo.html url="sand.jpg" alt="submerged railroad rail in the sand" size="small" %}
-{% include photo.html url="water.jpg" alt="seals on the sand" size="small" %}
+{% include photo.html url="rocks.jpg" alt="craggy rocks on the beach" size="xlarge" %}
+{% include photo.html url="sand.jpg" alt="submerged railroad rail in the sand" size="med" %}
+{% include photo.html url="water.jpg" alt="seals on the sand" size="med" %}
 </div>

@@ -9,7 +9,7 @@ image-alt: trees covered in snow
 excerpt: Vermont winters are cold and snowy.
 ---
 <div class='img-gallery'>
-{% include photo.html url="snow-cars.jpg" alt="cars covered in snow" size="large" %}
+{% include photo.html url="snow-cars.jpg" alt="cars covered in snow" size="xlarge" %}
 </div>
 
 Winter in Burlington is cold! Although I don't know why that would be a surprise to anyone. I was very glad to have my long down coat - the only things I then had to worry about were my hands (problem solved by wearing gloves and being shoved into pockets), my feet (my "waterproof" shoes had toes that were not quite as waterproof as advertised, so I switched them out with L.L. Bean shearling lined boots), and my head (hat, hood, and jacket zipped all the way up to protect ears and minimize the amount of ice forming in my nose).
@@ -24,8 +24,8 @@ The following screenshots show a pretty typical weekly weather pattern. The wind
 The sunny days are usually the coldest because there's no cloud cover to keep the warmth in. It's often deceiving to stand by a window on a really sunny day. The sun reflects brightly off of the snow and produces a greenhouse effect inside by the windows. When standing by the window and looking out at the blue sky, the heat from the sun makes the temperature appear to be about 60 or 70°F. In reality, it might be -7°F with the wind chill dropping the perceived temperature down to -15°F.
 
 <div class='img-gallery'>
-{% include photo.html url="snow-trees.jpg" alt="trees covered in snow" size="small" %}
-{% include photo.html url="parking-lot.jpg" alt="sun-lit parking lot" size="small" %}
+{% include photo.html url="snow-trees.jpg" alt="trees covered in snow" size="med" %}
+{% include photo.html url="parking-lot.jpg" alt="sun-lit parking lot" size="med" %}
 </div>
 
 On one of the coldest evenings later in my stay, the weather report stated that the temperature was -11°F with a -24°F windchill. I decided to brave the cold and check out a restaurant near Church Street. I parked in the usual parking lot and walked a measly three blocks to the restaurant. By the time I arrived, I could barely feel my toes and what I could feel was a tad painful and cold. Thankfully, my gloved hands (stuffed into pockets) stayed warm, although my face stung from the biting wind. And of course, at the end of my walk I passed another parking structure right next door to the restaurant.

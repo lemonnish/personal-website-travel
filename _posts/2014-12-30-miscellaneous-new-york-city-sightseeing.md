@@ -9,8 +9,8 @@ image-alt: NYC skyline from Central Park
 excerpt: A collection of (mostly) unrelated sites.
 ---
 <div class='img-gallery'>
-{% include photo.html url="ice-bar.jpg" alt="Minus 5* Ice Bar" size="small" %}
-{% include photo.html url="dry-bar.jpg" alt="DryBar storefront" size="small" %}
+{% include photo.html url="ice-bar.jpg" alt="Minus 5* Ice Bar" size="med" %}
+{% include photo.html url="dry-bar.jpg" alt="DryBar storefront" size="med" %}
 </div>
 
 One of the above serves drinks. The other blow-dries hair.
@@ -41,5 +41,5 @@ The two stone lions outside, Patience and Fortitude, were inspired by the lions 
 The area surrounding the memorial is full of construction and renovation, even 13 years after the tragedy. The memorial itself consists of two gigantic craters where the Twin Towers used to stand. Bronze plates on the edge memorialize all those who lost their lives, and the water cascades down into a seeming bottomless pit in the center.
 
 <div class='img-gallery'>
-{% include photo.html url="memorial.jpg" alt="9/11 memorial" size="large" %}
+{% include photo.html url="memorial.jpg" alt="9/11 memorial" size="xlarge" %}
 </div>

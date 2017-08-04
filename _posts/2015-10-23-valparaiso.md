@@ -9,7 +9,7 @@ image-alt: vines in the field
 excerpt: Valparaíso is Chile's port city. It is a city of colors and hills.
 ---
 <div class='img-gallery'>
-{% include photo.html url="skyline.jpg" alt="city skyline" size="large" %}
+{% include photo.html url="skyline.jpg" alt="city skyline" size="xlarge" %}
 </div>
 
 Valparaíso is the port city of Chile, located north-west of Santiago. The city is known for its hills and the _ascensores_ (funiculars) that climb them. It is also home to one of Pablo Neruda's houses (La Sebastiana). Valparaíso is full of color and charm; murals and street art decorate many of the building facades, and those that aren't covered in artwork are painted bright colors.
@@ -17,12 +17,12 @@ Valparaíso is the port city of Chile, located north-west of Santiago. The city 
 The city is a Unesco World Heritage Site, and is a common destination for tourists. In addition to a large number of European backpackers, Jake and I saw several large groups of schoolchildren from Santiago. Valparaíso has several central hills that have a large concentration of touristy restaurants and hostels. The flat area by the port extends for about 4 blocks inland, and then the hills start.
 
 <div class='img-gallery'>
-{% include photo.html url="street-graffiti.jpg" alt="colorful graffiti on the street" size="small" %}
-{% include photo.html url="graffiti-stairs-man.jpg" alt="colorful stairs" size="small" %}
-{% include photo.html url="street-colors.jpg" alt="yellow buildings and overhead streamers" size="small" %}
-{% include photo.html url="street-dog.jpg" alt="dogs sleeping in the street" size="small" %}
-{% include photo.html url="city-trees.jpg" alt="trees and houses in a valley" size="small" %}
-{% include photo.html url="city-colorful.jpg" alt="colorful trees in a valley" size="small" %}
+{% include photo.html url="street-graffiti.jpg" alt="colorful graffiti on the street" size="med" %}
+{% include photo.html url="graffiti-stairs-man.jpg" alt="colorful stairs" size="med" %}
+{% include photo.html url="street-colors.jpg" alt="yellow buildings and overhead streamers" size="med" %}
+{% include photo.html url="street-dog.jpg" alt="dogs sleeping in the street" size="med" %}
+{% include photo.html url="city-trees.jpg" alt="trees and houses in a valley" size="large" %}
+{% include photo.html url="city-colorful.jpg" alt="colorful trees in a valley" size="large" %}
 </div>
 
 Jake and I traversed the city primarily on foot, although there were some notable times where we partook of the local transportation:
@@ -61,25 +61,25 @@ Jake and I arrived in Valparaíso on Tuesday and returned to Santiago on Thursda
 <div class='img-gallery'>
 {% include photo.html url="graffiti-driveway.jpg" alt="graffiti on a driveway entrance" size="small" %}
 {% include photo.html url="street-vw.jpg" alt="Volkswagon parked on the street" size="small" %}
-{% include photo.html url="street-jake.jpg" alt="Jake standing in the street" size="large" %}
+{% include photo.html url="street-jake.jpg" alt="Jake standing in the street" size="xlarge" %}
 {% include photo.html url="graffiti-leopard.jpg" alt="leopard graffiti above a staircase" size="small" %}
 {% include photo.html url="graffiti-stairs-plants.jpg" alt="stairs next to a green hill" size="small" %}
-{% include photo.html url="graffiti-dog.jpg" alt="dog sitting in front of a graffitied wall" size="small" %}
-{% include photo.html url="graffiti-peacock-giraffe.jpg" alt="peacock and giraffe graffiti" size="small" %}
+{% include photo.html url="graffiti-dog.jpg" alt="dog sitting in front of a graffitied wall" size="med" %}
+{% include photo.html url="graffiti-peacock-giraffe.jpg" alt="peacock and giraffe graffiti" size="med" %}
 {% include photo.html url="jake-seagulls.jpg" alt="Jake walking in front of a wall of seagulls" size="small" %}
 {% include photo.html url="graffiti-skeletons.jpg" alt="graffiti skeletons" size="small" %}
-{% include photo.html url="graffiti-bw.jpg" alt="black and white graffiti on a yellow wall" size="small" %}
-{% include photo.html url="street-stairs.jpg" alt="staircase" size="small" %}
+{% include photo.html url="graffiti-bw.jpg" alt="black and white graffiti on a yellow wall" size="med" %}
+{% include photo.html url="street-stairs.jpg" alt="staircase" size="med" %}
 </div>
 
 On our last day in Valparaíso, we travelled further away from the touristy parts of town in search of the vertical ascensor. Although we found it, the operator may have been out for lunch. We opted to climb the hill on foot and were rewarded with fantastic views of all of Valparaíso.
 
 <div class='img-gallery'>
-{% include photo.html url="ascensor-vertical.jpg" alt="vertical ascensor" size="small" %}
-{% include photo.html url="street-residential-2.jpg" alt="residential street,1 " size="small" %}
-{% include photo.html url="house-foundation.jpg" alt="house foundation under construction" size="large" %}
-{% include photo.html url="graffiti-fish.jpg" alt="fish graffiti" size="small" %}
-{% include photo.html url="street-residential-1.jpg" alt="residential street, 2" size="small" %}
+{% include photo.html url="ascensor-vertical.jpg" alt="vertical ascensor" size="med" %}
+{% include photo.html url="street-residential-2.jpg" alt="residential street,1 " size="med" %}
+{% include photo.html url="house-foundation.jpg" alt="house foundation under construction" size="xlarge" %}
+{% include photo.html url="graffiti-fish.jpg" alt="fish graffiti" size="med" %}
+{% include photo.html url="street-residential-1.jpg" alt="residential street, 2" size="med" %}
 {% include photo.html url="house-pink.jpg" alt="pink house" size="small" %}
 {% include photo.html url="graffiti-cat-mouse.jpg" alt="cat and mouse graffiti" size="small" %}
 </div>

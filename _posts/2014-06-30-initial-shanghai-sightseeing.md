@@ -9,7 +9,7 @@ image-alt: Puxi skyline
 excerpt: Jake and I explored Shanghai for a couple days before I started work.
 ---
 <div class='img-gallery'>
-{% include photo.html url="jake.jpg" alt="Jake" size="big" %}
+{% include photo.html url="jake.jpg" alt="Jake" size="xlarge" %}
 </div>
 
 Jake and I explored Shanghai together for a couple of days before work began for me. We saw several of the big tourist destinations:
@@ -60,5 +60,5 @@ This Buddhist temple houses a gigantic silver Buddha. It is a fairly large compl
 We only spent a small amount of time in this area, although I returned some weeks later to see Tianzifang. After walking around and attempting to see some of the old European architecture through the trees, we found Xujiahui Park and relaxed there for a bit. Some young boys were disrupting the peace by shooting water at the black swans and carp.
 
 <div class='img-gallery'>
-{% include photo.html url="french-concession.jpg" alt="boys playing in the French Concession" size="small" %}
+{% include photo.html url="french-concession.jpg" alt="boys playing in the French Concession" size="xlarge" %}
 </div>

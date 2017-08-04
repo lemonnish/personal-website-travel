@@ -9,10 +9,10 @@ image-alt: rice wine casks
 excerpt: During an extended weekend, I flew from Shanghai to Tokyo. Jake and I spent several days exploring the city.
 ---
 <div class='img-gallery'>
-{% include photo.html url="2014-08-03 14.25.55.jpg" alt="wooden temple gate" size="small" %}
-{% include photo.html url="2014-08-03 18.28.49.jpg" alt="buildings at a street corner" size="small" %}
-{% include photo.html url="2014-08-02 20.42.45.jpg" alt="Lamborghini" size="small" %}
-{% include photo.html url="2014-08-03 17.13.26.jpg" alt="Shibuya crossing, filled with people" size="small" %}
+{% include photo.html url="2014-08-03 14.25.55.jpg" alt="wooden temple gate" size="med" %}
+{% include photo.html url="2014-08-03 18.28.49.jpg" alt="buildings at a street corner" size="med" %}
+{% include photo.html url="2014-08-02 20.42.45.jpg" alt="Lamborghini" size="med" %}
+{% include photo.html url="2014-08-03 17.13.26.jpg" alt="Shibuya crossing, filled with people" size="med" %}
 </div>
 
 Schedules coincided in such a way that I was able to fly to Tokyo for a couple of days and meet up with Jake. Here are some of the major highlights:
@@ -30,8 +30,8 @@ This is a major area for electronics and manga culture. There are lots of large 
 Here are some more pictures of Akihabara as the sun was setting, taken outside of the metro station:
 
 <div class='img-gallery'>
-{% include photo.html url="IMG_2580.jpg" alt="street at night" size="small" %}
-{% include photo.html url="IMG_2581.jpg" alt="electronics store front at night" size="small" %}
+{% include photo.html url="IMG_2580.jpg" alt="street at night" size="med" %}
+{% include photo.html url="IMG_2581.jpg" alt="electronics store front at night" size="med" %}
 </div>
 
 ## Ginza Hotel
@@ -55,10 +55,10 @@ This area is known for having edgy or experimental fashions, especially along Ta
 On the other side of Harajuku station from Takeshita Street is a large park containing Meiji Jingu, a shrine to the Meiji Emperor and his Empress. The area surrounding the shrine is very wooded, with lots of trees that have been sculpted to make the canopy appear artificially high. The shrine itself is a fairly large complex with a wide open courtyard.
 
 <div class='img-gallery'>
-{% include photo.html url="IMG_2597.jpg" alt="tree-covered walkway" size="small" %}
-{% include photo.html url="IMG_2599.jpg" alt="shrine courtyard" size="small" %}
-{% include photo.html url="IMG_2602.jpg" alt="tree with wishes" size="small" %}
-{% include photo.html url="IMG_2603.jpg" alt="main shrine building" size="small" %}
+{% include photo.html url="IMG_2597.jpg" alt="tree-covered walkway" size="med" %}
+{% include photo.html url="IMG_2599.jpg" alt="shrine courtyard" size="med" %}
+{% include photo.html url="IMG_2602.jpg" alt="tree with wishes" size="large" %}
+{% include photo.html url="IMG_2603.jpg" alt="main shrine building" size="large" %}
 </div>
 
 On the path leading to the shrine (we originally approached it from the back side, so missed the first time), there are wine barrels and rice wine caskets that were donated to the shrine.
@@ -72,22 +72,19 @@ On the path leading to the shrine (we originally approached it from the back sid
 
 The statue dedicated to Hachiko, the loyal dog, is located outside of Shibuya Eki (Shibuya Station).
 
-<div class='img-gallery'>
-{% include photo.html url="IMG_2619.jpg" alt="me standing next to Hachiko" size="small" %}
-</div>
-
 There's lots of shopping in this area, including a chain store called Loft (the "rival" store that carries a similar selection is Tokyu Hands). This store sells a wide range of things, including arts and crafts, stationary, and kitchen goods.
 
 <div class='img-gallery'>
-{% include photo.html url="IMG_2623.jpg" alt="Tokyu Hands store front" size="small" %}
-{% include photo.html url="IMG_2625.jpg" alt="Loft store front" size="small" %}
+{% include photo.html url="IMG_2619.jpg" alt="me standing next to Hachiko" size="large" %}
+{% include photo.html url="IMG_2623.jpg" alt="Tokyu Hands store front" size="large" %}
+{% include photo.html url="IMG_2625.jpg" alt="Loft store front" size="xlarge" %}
 </div>
 
 Transformers are incredibly popular in Japan, and there were advertisements for the new movie all over the place. Around Shibuya Eki, a lot of trucks are paid to just drive around with billboards for various things plastered on the side. The cabin of one truck I saw was painted like Optimus Prime and advertised the new move.
 
 <div class='img-gallery'>
-{% include photo.html url="IMG_2632.jpg" alt="Shibuya crossing, with cars and a Transformer ad" size="small" %}
-{% include photo.html url="IMG_2640.jpg" alt="Transformers ad on the side of a building" size="small" %}
+{% include photo.html url="IMG_2632.jpg" alt="Shibuya crossing, with cars and a Transformer ad" size="med" %}
+{% include photo.html url="IMG_2640.jpg" alt="Transformers ad on the side of a building" size="med" %}
 </div>
 
 {% include youtube-player.html id="HsgYFMmKaeg" %}
@@ -97,10 +94,10 @@ Transformers are incredibly popular in Japan, and there were advertisements for 
 Shinjuku has the busiest train station in the world, although it doesn't feel that way because the 15 tracks are spread out. The area is very lively at night, and has many streets lined with lights. We also passed two mecha-girl statues while walking back towards the station; they might have been props for a restaurant.
 
 <div class='img-gallery'>
-{% include photo.html url="2014-08-03 21.13.20.jpg" alt="robots on the back of a truck" size="small" %}
-{% include photo.html url="2014-08-03 19.00.02.jpg" alt="pedestrian street" size="small" %}
-{% include photo.html url="2014-08-03 19.07.49.jpg" alt="another pedestrian street" size="small" %}
-{% include photo.html url="2014-08-03 19.14.05.jpg" alt="large video display on a street corner" size="small" %}
+{% include photo.html url="2014-08-03 21.13.20.jpg" alt="robots on the back of a truck" size="med" %}
+{% include photo.html url="2014-08-03 19.00.02.jpg" alt="pedestrian street" size="med" %}
+{% include photo.html url="2014-08-03 19.07.49.jpg" alt="another pedestrian street" size="med" %}
+{% include photo.html url="2014-08-03 19.14.05.jpg" alt="large video display on a street corner" size="med" %}
 </div>
 
 Shinjuku is also home to many large department stores such as Odakyu, shown in a series of three pictures below (one whole floor contained nothing but shoes - I don't think I've ever seen that many shoes on display in one place before).
@@ -126,15 +123,15 @@ This is the fish market where the famous tuna auction happens. The fish market i
 <div class='img-gallery'>
 {% include photo.html url="IMG_2685.jpg" alt="tamago chef at the front counter" size="small" %}
 {% include photo.html url="IMG_2686.jpg" alt="tamago chef at work" size="small" %}
-{% include photo.html url="IMG_2687.jpg" alt="people walking around the market" size="small" %}
-{% include photo.html url="IMG_2689.jpg" alt="dried fish display" size="small" %}
+{% include photo.html url="IMG_2687.jpg" alt="people walking around the market" size="med" %}
+{% include photo.html url="IMG_2689.jpg" alt="dried fish display" size="med" %}
 </div>
 
 Inside the (deserted) fish market:
 
 <div class='img-gallery'>
-{% include photo.html url="IMG_2693.jpg" alt="empty walkway" size="small" %}
-{% include photo.html url="IMG_2694.jpg" alt="deserted eel stand" size="small" %}
+{% include photo.html url="IMG_2693.jpg" alt="empty walkway" size="med" %}
+{% include photo.html url="IMG_2694.jpg" alt="deserted eel stand" size="med" %}
 </div>
 
 ## Asakusa
@@ -142,9 +139,9 @@ Inside the (deserted) fish market:
 This area contains Senso-ji, a Buddhist temple that is the oldest temple in Tokyo.
 
 <div class='img-gallery'>
-{% include photo.html url="2014-08-04 15.00.46.jpg" alt="temple roofline" size="large" %}
-{% include photo.html url="2014-08-04 15.14.18.jpg" alt="temple lantern" size="small" %}
-{% include photo.html url="2014-08-04 14.59.14.jpg" alt="temple gate" size="small" %}
+{% include photo.html url="2014-08-04 15.00.46.jpg" alt="temple roofline" size="xlarge" %}
+{% include photo.html url="2014-08-04 15.14.18.jpg" alt="temple lantern" size="med" %}
+{% include photo.html url="2014-08-04 14.59.14.jpg" alt="temple gate" size="med" %}
 </div>
 
 There was also a variety of smaller architectural styles, very different from the skyscrapers and neon lights in other areas of Tokyo.
@@ -159,10 +156,10 @@ There was also a variety of smaller architectural styles, very different from th
 This street is also known as "Kitchen Town", and is located in Asakusa. Stores on this street carry a wide range of things that might be purchased by restaurants, including knives of all kinds, ceramic dishes, plastic takeout containers, fake food (a single crepe will cost about 5000 yen or $50), pots and pans (including square frying pans for cooking eggs), and red paper lanterns for hanging outside.
 
 <div class='img-gallery'>
-{% include photo.html url="IMG_2716.jpg" alt="store full of dishes" size="small" %}
-{% include photo.html url="IMG_2712.jpg" alt="architectural cups on the side of a building" size="small" %}
-{% include photo.html url="IMG_2718.jpg" alt="knife store" size="small" %}
-{% include photo.html url="IMG_2717.jpg" alt="kitchen utensils" size="small" %}
-{% include photo.html url="IMG_2713.jpg" alt="wax crepes" size="small" %}
-{% include photo.html url="IMG_2714.jpg" alt="wax ice cream and fruit" size="small" %}
+{% include photo.html url="IMG_2716.jpg" alt="store full of dishes" size="med" %}
+{% include photo.html url="IMG_2712.jpg" alt="architectural cups on the side of a building" size="med" %}
+{% include photo.html url="IMG_2718.jpg" alt="knife store" size="med" %}
+{% include photo.html url="IMG_2717.jpg" alt="kitchen utensils" size="med" %}
+{% include photo.html url="IMG_2713.jpg" alt="wax crepes" size="med" %}
+{% include photo.html url="IMG_2714.jpg" alt="wax ice cream and fruit" size="med" %}
 </div>

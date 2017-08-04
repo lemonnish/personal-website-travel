@@ -9,7 +9,7 @@ image-alt: silk scarves for sale
 excerpt: Visiting the fabric market is a dangerous activity for me. It is highly likely that I will spend too much money and stay there for far too long.
 ---
 <div class='img-gallery'>
-{% include photo.html url="market-outside.jpg" alt="street view of the market" size="large" %}
+{% include photo.html url="market-outside.jpg" alt="street view of the market" size="xlarge" %}
 </div>
 
 The English name on the outside of this three story building is the South Bund Soft Spinning Material Market. The three story talk building consists of aisles of stalls, each manned by a different shopkeeper and specializing in different types of clothes. Tailored clothes such as jackets, coats, button up shirts, and suits are very popular, as well as dresses: everyday casual, business, evening, and qipao, traditional Chinese dresses. The shopkeepers sell goods, make measurements, and perform any required fittings. They contract work with outside tailors. There are some pre-made items being sold, including scarves, belts, skirts, and bags. One of the scarf sellers that we returned to had a wide range of silk and wool scarves, including silk-merino blends, pashmina, and varying qualities and weaves of silk.
@@ -28,7 +28,7 @@ The fabric market is located about a ten minute walk from the Nanpu Bridge metro
 There is a cafe across from the fabric market that I ate at a total of three or four times because of its convenient location.
 
 <div class='img-gallery'>
-{% include photo.html url="freeway.jpg" alt="freeway" size="small" %}
-{% include photo.html url="fancy-coffee.jpg" alt="fancy coffee" size="small" %}
-{% include photo.html url="cafe.jpg" alt="T-One cafe front" size="large" %}
+{% include photo.html url="freeway.jpg" alt="freeway" size="med" %}
+{% include photo.html url="fancy-coffee.jpg" alt="fancy coffee" size="med" %}
+{% include photo.html url="cafe.jpg" alt="T-One cafe front" size="xlarge" %}
 </div>

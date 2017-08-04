@@ -9,10 +9,10 @@ image-alt: inside the Apple store
 excerpt: Shanghai is full of upscale malls and many shiny stores.
 ---
 <div class='img-gallery'>
-{% include photo.html url="mall-interior-1.jpg" alt="escalators inside the mall" size="small" %}
-{% include photo.html url="mall-interior-2.jpg" alt="Jean Paul Gautier store front" size="small" %}
-{% include photo.html url="mall-interior-3.jpg" alt="curved mall interior balconies" size="small" %}
-{% include photo.html url="mall-interior-4.jpg" alt="mall sign" size="small" %}
+{% include photo.html url="mall-interior-1.jpg" alt="escalators inside the mall" size="med" %}
+{% include photo.html url="mall-interior-2.jpg" alt="Jean Paul Gautier store front" size="med" %}
+{% include photo.html url="mall-interior-3.jpg" alt="curved mall interior balconies" size="med" %}
+{% include photo.html url="mall-interior-4.jpg" alt="mall sign" size="med" %}
 </div>
 
 There are many shopping malls scattered throughout Shanghai that are full of extremely pricey brands. Several of them are located within the financial district of Pudong. When walking around these malls, it is easy to forget that they are in China, as the vast majority of brands have English names. One of the fanciest malls I walked into had brands like Salvatore Ferragamo, Gucci, Luis Vuitton, Prada, Tiffany's, Cartier. In other words, there were a lot of brands in one location that I've read about in magazines, but have never seen let alone walked into a store that only carried that designer.
@@ -20,8 +20,8 @@ There are many shopping malls scattered throughout Shanghai that are full of ext
 And of course, there was also an Apple store in the middle of the Lujiazui financial area.
 
 <div class='img-gallery'>
-{% include photo.html url="apple-store.jpg" alt="cylindrical Apple store exterior" size="small" %}
-{% include photo.html url="apple-store-interior.jpg" alt="Apple store, interior" size="small" %}
+{% include photo.html url="apple-store.jpg" alt="cylindrical Apple store exterior" size="med" %}
+{% include photo.html url="apple-store-interior.jpg" alt="Apple store, interior" size="med" %}
 </div>
 
 At the end of the season, most companies will have sales to make way for the new season's styles. I was able to do some shopping when the big sales occurred in July. It was a very common thing to walk around a big mall seeing big red and yellow signs saying  "6 折","5 折", "3 折" in every window (40%, 50%, and 70% off the original price, respectively).

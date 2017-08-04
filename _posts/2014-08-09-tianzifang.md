@@ -9,8 +9,8 @@ image-alt: old street
 excerpt: Tianzifang is a neighborhood in Shanghai that is full of old style Shikumen houses.
 ---
 <div class='img-gallery'>
-{% include photo.html url="street.jpg" alt="old street" size="small" %}
-{% include photo.html url="fried-potato.jpg" alt="fried potato spiral on a stick" size="small" %}
+{% include photo.html url="street.jpg" alt="old street" size="large" %}
+{% include photo.html url="fried-potato.jpg" alt="fried potato spiral on a stick" size="large" %}
 </div>
 
 Tianzifang is an area in Shanghai that consists of a block of Shikumen houses, which are an older style of Shanghai architecture. These houses are typically two stories tall with narrow and steep staircases.the pedestrian walkways are narrow and paved with cobblestones, and lots of electrical wires stretch between buildings.

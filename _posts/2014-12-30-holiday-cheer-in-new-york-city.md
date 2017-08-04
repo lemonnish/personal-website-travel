@@ -9,8 +9,8 @@ image-alt: lighted street
 excerpt: New York City is an exciting place to visit during the holidays.
 ---
 <div class='img-gallery'>
-{% include photo.html url="street-1.jpg" alt="lit-up street, 1" size="small" %}
-{% include photo.html url="street-2.jpg" alt="lit-up street, 2" size="small" %}
+{% include photo.html url="street-1.jpg" alt="lit-up street, 1" size="med" %}
+{% include photo.html url="street-2.jpg" alt="lit-up street, 2" size="med" %}
 </div>
 
 ## Holiday Markets
@@ -53,8 +53,8 @@ The Le Parker Meridien New York Hotel had an exhibit of spectacular [gingerbread
 {% include photo.html url="gingerbread-movie.jpg" alt="front of a movie theater" size="small" %}
 {% include photo.html url="gingerbread-cookie-monster.jpg" alt="Cookie Monster in NYC" size="small" %}
 {% include photo.html url="gingerbread-truck-top.jpg" alt="candy pigeons on top of a gingerbread truck" size="small" %}
-{% include photo.html url="gingerbread-truck.jpg" alt="side view of the gingerbread truck" size="small" %}
-{% include photo.html url="gingerbread-person.jpg" alt="gingerbread person standing in front of a truck" size="small" %}
+{% include photo.html url="gingerbread-truck.jpg" alt="side view of the gingerbread truck" size="med" %}
+{% include photo.html url="gingerbread-person.jpg" alt="gingerbread person standing in front of a truck" size="med" %}
 {% include photo.html url="gingerbread-street-1.jpg" alt="gingerbread people in the street, 1" size="small" %}
 {% include photo.html url="gingerbread-street-2.jpg" alt="gingerbread people in the street, 2" size="small" %}
 </div>

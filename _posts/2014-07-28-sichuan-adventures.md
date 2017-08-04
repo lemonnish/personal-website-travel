@@ -9,7 +9,7 @@ image-alt: colorful fish
 excerpt: Wenrui and I made last minute plans to fly to Chengdu in Sichuan Province. I've never been this spontaneous before!
 ---
 <div class='img-gallery'>
-{% include photo.html url="view-2.jpg" alt="the river seen from the top of the mountain" size="small" %}
+{% include photo.html url="view-2.jpg" alt="the river seen from the top of the mountain" size="xlarge" %}
 </div>
 
 Wenrui and I made last minute plans to visit Chengdu in Sichuan Province. A visiting scholar from her lab at UCLA lives there and offered to host us for the weekend. Wenrui purchased airline tickets after lunch on Friday and we left for the airport later that afternoon. I've never been this spontaneous before!
@@ -50,21 +50,18 @@ We then headed up the hill in order to see the buildings that dotted the hillsid
 We rode a long escalator up to the top of the mountain to see the shrine there. The escalator is hidden under an ornate wooden covering. It was quite a long ride.
 
 <div class='img-gallery'>
-{% include photo.html url="escalator-exterior.jpg" alt="covered escalator ascending the hill" size="small" %}
-{% include photo.html url="escalator.jpg" alt="escalator" size="small" %}
+{% include photo.html url="escalator-exterior.jpg" alt="covered escalator ascending the hill" size="large" %}
+{% include photo.html url="escalator.jpg" alt="escalator" size="large" %}
 </div>
 
 The view from the top of the mountain, particularly from the top of the shrine, is spectacular. One side of the mountain showed the modern development of Dujiayang, and the other showed the relatively undeveloped area by the river.
 
-<div class='img-gallery'>
-{% include photo.html url="view-1.jpg" alt="aerial view of Dujiayang" size="small" %}
-{% include photo.html url="view-3.jpg" alt="aerial view of river" size="small" %}
-</div>
-
 We descended the mountain at a good speed, and passed through many old gates. This picture is of the last gate before reentering "civilization".
 
 <div class='img-gallery'>
-{% include photo.html url="mountain-gate.jpg" alt="gate near the exit" size="small" %}
+{% include photo.html url="mountain-gate.jpg" alt="gate near the exit" size="med" %}
+{% include photo.html url="view-1.jpg" alt="aerial view of Dujiayang" size="med" %}
+{% include photo.html url="view-3.jpg" alt="aerial view of river" size="xlarge" %}
 </div>
 
 ## Dinner
@@ -85,7 +82,7 @@ This area has many examples of older architecture. At night, the area turns into
 ## Chengdu Research Base of Giant Panda Breeding
 
 <div class='img-gallery'>
-{% include photo.html url="panda-sign.jpg" alt="kids playing in front of the entrance sign" size="large" %}
+{% include photo.html url="panda-sign.jpg" alt="kids playing in front of the entrance sign" size="xlarge" %}
 </div>
 
 There are many many pandas here, ranging in age from infants to adults. However, because we got here in the middle of the day when it was warmer, all of the pandas had been moved indoors to avoid the heat. Here are some of the empty panda enclosures - quite spacious!
@@ -124,5 +121,5 @@ We got to the airport around 4pm and were scheduled to board at 5:50pm. However,
 While we were still at the Chengdu airport, I saw a really good example of Chinese fashion and the tendency of women to wear really tall heels and clothes that don't quite seem practical given the context. It's also an example of how friends and significant others often dress similarly or in matching outfits when they go out.
 
 <div class='img-gallery'>
-{% include photo.html url="airport-women.jpg" alt="women at the airport" size="large" %}
+{% include photo.html url="airport-women.jpg" alt="women at the airport" size="xlarge" %}
 </div>

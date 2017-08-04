@@ -9,10 +9,10 @@ image-alt: stained glass ceiling at the Venetian
 excerpt: "Summary: Vegas is Disneyland for adults."
 ---
 <div class='img-gallery'>
-{% include photo.html url="eiffel-tower.jpg" alt="the Eiffel Tower at the Paris" size="small" %}
-{% include photo.html url="luxor.jpg" alt="pools in front of the Luxor and the Bellagio" size="small" %}
-{% include photo.html url="canal.jpg" alt="canals inside the Venetian" size="small" %}
-{% include photo.html url="glass-ceiling.jpg" alt="stained glass ceiling at the Venetian" size="small" %}
+{% include photo.html url="eiffel-tower.jpg" alt="the Eiffel Tower at the Paris" size="med" %}
+{% include photo.html url="luxor.jpg" alt="pools in front of the Luxor and the Bellagio" size="med" %}
+{% include photo.html url="canal.jpg" alt="canals inside the Venetian" size="large" %}
+{% include photo.html url="glass-ceiling.jpg" alt="stained glass ceiling at the Venetian" size="large" %}
 </div>
 
 Summary: Vegas is Disneyland for adults.
@@ -26,7 +26,7 @@ It felt like Italy was disproportionately represented on the strip; the Venetian
 We rented a house a ways from the strip that had 8 bedrooms (for 19 of us relatives), a swimming pool, an 8-person card table, a pool table, and more room than we knew what to do with us. The house was perfect for us: enough room to spread out, but also the perfect size for mingling and hanging out.
 
 <div class='img-gallery'>
-{% include photo.html url="strip-day.jpg" alt="the Vegas Strip during the day" size="large" %}
+{% include photo.html url="strip-day.jpg" alt="the Vegas Strip during the day" size="small" %}
 {% include photo.html url="old-strip.jpg" alt="the old casinos in Vegas" size="small" %}
 {% include photo.html url="strip-night.jpg" alt="the Vegas Strip at night" size="small" %}
 </div>

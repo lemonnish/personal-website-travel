@@ -9,7 +9,7 @@ image-alt: vines in the field
 excerpt: I visited my first-ever winery while we were in Chile.
 ---
 <div class='img-gallery'>
-{% include photo.html url="vineyard.jpg" alt="vines in the field" size="large" %}
+{% include photo.html url="vineyard.jpg" alt="vines in the field" size="xlarge" %}
 </div>
 
 On a sunny day halfway through our trip, Jake and I decided that, as we were in Chile and Chile is known for its wine, we were obligated to tour at least one winery (despite having little to no experience drinking wine). We chose Viña Cousiño Macul, a vineyard located not too far from the hustle and bustle of Santiago's city center. We were able to take the metro to the Quilín station, then a short taxi ride to the vineyard. Our tour of the winery was paired with wine tasting and an in-depth discussion of the wine-making process.
@@ -21,8 +21,8 @@ One of the notable vines grown at this vineyard is Carménère, a vine brought f
 According to our guide, the underground cellars are made with _cal y canto_ which enables a waterproof seal and consistently cold temperature. However, the 2010 earthquake damaged the cellars which led to water damage and eventual mold growth in the aging chambers. Consequently, after harvesting, the grapes are now trucked south to undergo the fermentation and aging processes at a separate facility.
 
 <div class='img-gallery'>
-{% include photo.html url="wine.jpg" alt="tasting wines" size="small" %}
-{% include photo.html url="cellar.jpg" alt="casks in the underground cellar" size="small" %}
-{% include photo.html url="aging-barrels.jpg" alt="huge aging barrels" size="small" %}
-{% include photo.html url="front-bench.jpg" alt="bench at the entrance" size="small" %}
+{% include photo.html url="wine.jpg" alt="tasting wines" size="med" %}
+{% include photo.html url="cellar.jpg" alt="casks in the underground cellar" size="med" %}
+{% include photo.html url="aging-barrels.jpg" alt="huge aging barrels" size="med" %}
+{% include photo.html url="front-bench.jpg" alt="bench at the entrance" size="med" %}
 </div>
