@@ -1,6 +1,7 @@
 /**
  * Site header
  */
+
 nav.location-group {
   display: flex;
   flex-wrap: wrap;
@@ -147,68 +148,13 @@ nav.location-group {
     }
   }
 
-/*
-  @include media-query($on-palm) {
-    position: absolute;
-    top: 9px;
-    right: $spacing-unit / 2;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
-    text-align: right;
-
-    label[for="nav-trigger"] {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 36px;
-      z-index: 2;
-      cursor: pointer;
-    }
-
-    .menu-icon {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center;
-
-      > svg path {
-        fill: $grey-color-dark;
-      }
-    }
-
-    input ~ .trigger {
-      clear: both;
-      display: none;
-    }
-
-    input:checked ~ .trigger {
-      display: block;
-      padding-bottom: 5px;
-    }
-
-    .page-link {
-      display: block;
-      padding: 5px 10px;
-
-      &:not(:last-child) {
-        margin-right: 0;
-      }
-      margin-left: 20px;
-    }
-  }
-*/
-
 }
-
 
 
 /**
  * Site footer
  */
+
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
@@ -275,7 +221,6 @@ nav.location-group {
 }
 
 
-
 /**
  * Page content
  */
@@ -325,6 +270,25 @@ nav.location-group {
   }
 }
 
+.img-gallery {
+   font-size: 0;
+   //margin: 2rem 0;
+
+   & > * {
+     position: relative;
+     display: inline-block;
+
+     &::before {
+       content: "";
+       position: absolute;
+       top: -1px;
+       bottom: -1px;
+       left: -1px;
+       right: -1px;
+       box-shadow: inset 0 0 0 2px white;
+    }
+  }
+}
 
 iframe.youtube {
   width: 640px; //100%;
@@ -517,10 +481,10 @@ ul.post-list {
 }
 
 
-
 /**
  * Posts
  */
+
 .post-header {
   margin-bottom: $spacing-unit;
 
@@ -531,42 +495,10 @@ ul.post-list {
 }
 
 .post-title {
-  //@include relative-font-size(2.625);
-  //letter-spacing: -1px;
-  //line-height: 1;
   margin-top: 0;
 
-  //@include media-query($on-laptop) {
-  //  @include relative-font-size(2.25);
-  //}
 }
 
 .post-content {
-/*
-  margin-bottom: $spacing-unit;
 
-  h2 {
-    @include relative-font-size(2);
-
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.75);
-    }
-  }
-
-  h3 {
-    @include relative-font-size(1.625);
-
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.375);
-    }
-  }
-
-  h4 {
-    @include relative-font-size(1.25);
-
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.125);
-    }
-  }
-*/
 }
