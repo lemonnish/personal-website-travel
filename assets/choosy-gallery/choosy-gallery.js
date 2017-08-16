@@ -345,12 +345,11 @@ var Gallery = function () {
       // as soon as the DOM is ready, hide the gallery. this prevents images
       // from showing on the screen before we've had time to set their sizes
       _this4.unmount();
-      console.log("document ready, unmount");
+
       setTimeout(function () {
         // in case onload never fires, set a timer to mount the component.
         // FIXME this is a hack; ideally we'd detect whether images were loaded
         // some other way.
-        console.log("timeout");
         _this4.render();
         _this4.mount();
       }, 2000);
@@ -362,7 +361,6 @@ var Gallery = function () {
       _this4.render();
       // once the render is complete, unhide the gallery.
       _this4.mount();
-      console.log("on Load");
     });
 
     $(window).on('resize', function () {
