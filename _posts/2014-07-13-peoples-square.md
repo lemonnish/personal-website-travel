@@ -23,9 +23,7 @@ On the weekend, large numbers of parents gather in one area of the park in an ef
 {% include photo.html url="2014-07-05 17.11.29.jpg" alt="personal ads hanging between trees" size="small" %}
 </div>
 
-Down a couple of tree-lined walkways, two musicians performed around a large lotus pond in bloom.
-
-Walking around, I found a very random and seemingly deserted roller coaster. However, the lack of attendants and riders may have been because of the slight drizzle.
+Down a couple of tree-lined walkways, two musicians performed around a large lotus pond in bloom. Walking around, I found a very random and seemingly deserted roller coaster. However, the lack of attendants and riders may have been because of the slight drizzle.
 
 <div class='img-gallery'>
 {% include photo.html url="IMG_1702.jpg" alt="abandoned roller coaster" size="med" %}

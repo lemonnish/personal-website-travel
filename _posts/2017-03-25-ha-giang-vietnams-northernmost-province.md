@@ -152,12 +152,12 @@ People travelled from miles away to buy and sell goods, and we passed some of th
 
 When we stopped to take pictures on the drive from Mèo Vạc to Bảo Lạc, the silence was interrupted by a clear voice shouting "Hello!" Jake and I looked around, but the road was deserted. When the call was repeated, we looked down into the valley far far below, and saw two boys sitting in a field (each only a couple pixels tall in the below image). The ensuing conversation went a bit as follows:
 
-> \- "Hello!"  
-> \- "Hello!"  
-> \- "What's your name?"  
-> \- "Jake!"  
-> \- "Where you from?"  
-> \- "America!"  
+> Them: "Hello!"  
+> Us: "Hello!"  
+> Them: "What's your name?"  
+> Jake: "Jake!"  
+> Them: "Where you from?"  
+> Us: "America!"  
 > giggling and further unintelligible shouted things  
 
 <div class='img-gallery'>

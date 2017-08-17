@@ -44,7 +44,7 @@ When the food was ready, we all gathered around the low table in the center of t
 - sautéed vegetables with beef
 - raw weedy vegetables (after tearing off a small bit from the connected root stock, I was told to roll it into a small bundle and dip it in sauce)
 - steamed rice
-- lots of home-brewed rice alcohol - _Rượu!_
+- lots of home-brewed rice alcohol — _Rượu!_
 
 <div class='img-gallery'>
 {% include photo.html url="homestay-hosts.jpg" alt="homestay hosts cooking dinner" size="small" %}
@@ -55,7 +55,7 @@ When the food was ready, we all gathered around the low table in the center of t
 
 After dinner, we relaxed with Sử on the porch and sipped steaming cups of hot water. We had an enlightening discussion about a wide range of topics, ranging from weddings to home construction materials to some H'mong words and phrases. After Sử went to bed, we went inside and chatted with two of our hosts. The talkative guy translated for his taciturn (and non-English-speaking) older brother. We were very impressed by the talkative man's near-fluent English, which he had picked up over the past 5 years by talking with tourists. After the usual questions (What are your names? How old are you? Where are you traveling?), we got some new ones: What is your opinion on China? What do you think of President Trump? Our exaggerated shudders at Trump's name were met with smiles of agreement, as they were also concerned with the effect of Trump on global politics.
 
-After a good night's sleep in the upstairs area of the house (the family slept in their rooms on the ground floor), we ate a breakfast of crepe-like pancakes. We also observed the family's two very young children attempting to use knives to help peel cassava and then trying to grate the roots using a rotary grater mounted to a stool. Both of us cringed and prepared for someone to cut their finger, but the only problem arose because both wanted to use the grater - there was only room for one person at a time to sit on the stool.
+After a good night's sleep in the upstairs area of the house (the family slept in their rooms on the ground floor), we ate a breakfast of crepe-like pancakes. We also observed the family's two very young children attempting to use knives to help peel cassava and then trying to grate the roots using a rotary grater mounted to a stool. Both of us cringed and prepared for someone to cut their finger, but the only problem arose because both wanted to use the grater — there was only room for one person at a time to sit on the stool.
 
 During our second day, we rode further into the valley, stopping to admire the villages of Thanh Phú, Nậm Sài, and Nậm Cang. The Red Dao village of Nậm Cang was recognized by the government for having hardworking people and being very beautiful; we stopped at an herbal spa here and Sử showed us some of the very fine embroidery created by Red Dao women. Because we were making good time, on our way back to Sa Pa, Sử offered to take us to see Suổi Thầu. We grabbed a very late lunch of _phở lợn_ in Bản Dền and admired the speed with which workers across the street were dismantling the wooden frame of a house. After eating our fill, we hopped back on our bikes and returning to Sa Pa.
 

@@ -47,7 +47,7 @@ Barney's had a party to celebrate the revealing of the holiday windows; Pentaton
 
 ## Gingerbread Houses
 
-The Le Parker Meridien New York Hotel had an exhibit of spectacular [gingerbread houses](https://giving.cityharvest.org/gingerbread-voting) - although some were more like sugary sculptures, the base of which just happened to be gingerbread.
+The Le Parker Meridien New York Hotel had an exhibit of spectacular [gingerbread houses](https://giving.cityharvest.org/gingerbread-voting) — although some were more like sugary sculptures, the base of which just happened to be gingerbread.
 
 <div class='img-gallery'>
 {% include photo.html url="gingerbread-movie.jpg" alt="front of a movie theater" size="small" %}

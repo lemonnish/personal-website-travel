@@ -66,7 +66,7 @@ On our second full day, we ventured north for an overnight trip near Fly Canyon.
 
 The Jeep's spectacular suspension was put to work throughout the trip, although my opinions are biased by limited exposure to robust suspension systems. It's hard to imagine how immigrants of the 19th century were able to travel these same roads by wagon. As we made our way north from Black Rock Desert, through Fly Rock Canyon, and on to High Rock Canyon, we traveled along the Applegate Trail. This trail was originally created as an easier alternative to the Oregon trail, but gained more popularity during the California Gold Rush. We passed several interpretive signs along the way, including this one marking Fly Canyon (trail marker A-17):
 
-> "Had some verry stony rodes &emsp;One hill we locked both wheels & put on ropes to let our wagons down &emsp;All got down safe. &emsp;Saw some handsum sights along the rocks holes maid buy the wind"
+> "Had some verry stony rodes &emsp; One hill we locked both wheels & put on ropes to let our wagons down &emsp; All got down safe. &emsp; Saw some handsum sights along the rocks holes maid buy the wind"
 >
 > -- Abram Minges, Aug 17, 1849
 
@@ -76,6 +76,8 @@ Once through Fly Canyon (the present-day road bypasses the need to lower vehicle
 {% include photo.html url="fly-canyon-horse.jpg" alt="horse in a field" size="xlarge" %}
 {% include photo.html url="fly-canyon-road.jpg" alt="road through Fly Canyon" size="med" %}
 {% include photo.html url="fly-canyon-hill-striped-colors.jpg" alt="striped exposed rock in Fly Canyon" size="med" %}
+</div>
+<div class='img-gallery'>
 {% include photo.html url="dry-lakebed-road.jpg" alt="road next to the dry lakebed" size="small" %}
 {% include photo.html url="high-rock-canyon-3-bluffs.jpg" alt="3 bluffs in High Rock Canyon" size="small" %}
 {% include photo.html url="high-rock-canyon-tree.jpg" alt="dead tree" size="large" %}

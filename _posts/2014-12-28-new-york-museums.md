@@ -83,20 +83,22 @@ The Cooper Hewitt Smithsonian Design Museum features historic and contemporary d
 
 <div class='img-gallery'>
 {% include photo.html url="design-birdcage.jpg" alt="glass birdcage" size="small" %}
+{% include photo.html url="design-knife.jpg" alt="chef's knife" size="small" %}
 {% include photo.html url="design-fabric.jpg" alt="printed fabric" size="small" %}
 {% include photo.html url="design-typewriter.jpg" alt="writing ball, one of the first commercially successful typewriters" size="small" %}
 {% include photo.html url="design-light.jpg" alt="overhead light composed of broken dishes" size="med" %}
 {% include photo.html url="design-teapot.jpg" alt="2 teapots" size="med" %}
-{% include photo.html url="design-placeset.jpg" alt="red and white place-setting" size="small" %}
-{% include photo.html url="design-stair.jpg" alt="model wooden staircase" size="small" %}
-{% include photo.html url="design-chair.jpg" alt="pieced plastic chair" size="small" %}
-{% include photo.html url="design-ladder.jpg" alt="ladder" size="small" %}
-{% include photo.html url="design-dress.jpg" alt="origami-inspired fold up dress, on manikin" size="small" %}
-{% include photo.html url="design-dress-folded.jpg" alt="origami-inspired fold up dress, folded" size="small" %}
-{% include photo.html url="design-knife.jpg" alt="chef's knife" size="small" %}
+</div>
+<div class='img-gallery'>
 {% include photo.html url="design-bertha.jpg" alt="placard for Big Bertha" size="small" %}
 {% include photo.html url="design-phone.jpg" alt="audio teleconferencing system" size="small" %}
 {% include photo.html url="design-candle.jpg" alt="LED candlestick" size="small" %}
 {% include photo.html url="design-paper.jpg" alt="paper cutout" size="small" %}
 {% include photo.html url="design-paper-closeup.jpg" alt="paper cutout detail" size="small" %}
+{% include photo.html url="design-placeset.jpg" alt="red and white place-setting" size="small" %}
+{% include photo.html url="design-stair.jpg" alt="model wooden staircase" size="small" %}
+{% include photo.html url="design-chair.jpg" alt="pieced plastic chair" size="small" %}
+{% include photo.html url="design-ladder.jpg" alt="ladder" size="med" %}
+{% include photo.html url="design-dress.jpg" alt="origami-inspired fold up dress, on manikin" size="med" %}
+{% include photo.html url="design-dress-folded.jpg" alt="origami-inspired fold up dress, folded" size="med" %}
 </div>

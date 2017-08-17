@@ -57,7 +57,7 @@ __Things to Do__
 {% include photo.html url="mueseum-outfit.jpg" alt="ethnic minority outfit" size="small" %}
 </div>
 
-We didn't accomplish everything we originally set out to, and we ended up staying three days instead of the originally planned two. However, we enjoyed relaxing in a familiar city; Hanoi, even the touristy Old Town, as an incredibly warm and friendly place. We visited the night market for window shopping and trying a multitude of tasty snacks (we ended up with _chè_ for dinner at least one night). We joined the throngs of people wandering the streets surrounding Hoan Kiem Lake, as those streets are closed to all cars and motorcycles on weekend evenings. Before we left, we took a trip down (not-so-distant) memory lane; we revisited the corner restaurant that served us our first ever lunch in Vietnam (_mỳ vằn thắn_ - wonton noodle soup).
+We didn't accomplish everything we originally set out to, and we ended up staying three days instead of the originally planned two. However, we enjoyed relaxing in a familiar city; Hanoi, even the touristy Old Town, as an incredibly warm and friendly place. We visited the night market for window shopping and trying a multitude of tasty snacks (we ended up with _chè_ for dinner at least one night). We joined the throngs of people wandering the streets surrounding Hoan Kiem Lake, as those streets are closed to all cars and motorcycles on weekend evenings. Before we left, we took a trip down (not-so-distant) memory lane; we revisited the corner restaurant that served us our first ever lunch in Vietnam (_mỳ vằn thắn_ — wonton noodle soup).
 
 <div class='img-gallery'>
 {% include photo.html url="wedding.jpg" alt="wedding photographer" size="large" %}
@@ -65,11 +65,10 @@ We didn't accomplish everything we originally set out to, and we ended up stayin
 {% include photo.html url="ambulance.jpg" alt="ambulance" size="small" %}
 {% include photo.html url="che.jpg" alt="chè stand" size="small" %}
 {% include photo.html url="balloons-kids.jpg" alt="kids looking at balloons" size="small" %}
+</div>
+<div class='img-gallery'>
 {% include photo.html url="xoi.jpg" alt="bowl of xoi" size="small" %}
 {% include photo.html url="bamboo-stick-game.jpg" alt="people playing a game with bamboo poles" size="small" %}
-</div>
-
-<div class='img-gallery'>
 {% include photo.html url="roof-line.jpg" alt="roof line" size="small" %}
 {% include photo.html url="lake-bench.jpg" alt="people sitting on a bench on the lake" size="small" %}
 {% include photo.html url="apple-store.jpg" alt="motorcycle traffic" size="large" %}

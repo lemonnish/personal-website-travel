@@ -24,7 +24,7 @@ We saw tourist boats lined up on both sides of the river. The ones on the Chines
 
 I've heard it said that Bản Giốc Waterfall, at 100m, is the widest waterfall in Vietnam. However, I'm not sure whether this assumes that the separate falls we observed are instead one continuous fall (perhaps during the rainy season), or whether the shape of the waterfall has changed over time. Because we weren't there during the rainy season, it wasn't as full as we've seen in pictures, but it was still pretty spectacular.
 
-After visiting the waterfall, we spent the night in the nearby town of Trùng Khánh. We tried _phở vịt_ (duck phở) for the first time, and it was fatty and savory and oh so delicious. For lunch the next day, we found another restaurant that served it. This time, the bowl of _phở vịt_ contained not only chunks of duck meat, but also slices of amazingly delicious sausage (of an unidentified variety) - this bowl of phở ranks among my top five favorite meals in Vietnam.
+After visiting the waterfall, we spent the night in the nearby town of Trùng Khánh. We tried _phở vịt_ (duck phở) for the first time, and it was fatty and savory and oh so delicious. For lunch the next day, we found another restaurant that served it. This time, the bowl of _phở vịt_ contained not only chunks of duck meat, but also slices of amazingly delicious sausage (of an unidentified variety) — this bowl of phở ranks among my top five favorite meals in Vietnam.
 
 <div class='img-gallery'>
 {% include photo.html url="pho-vit-restaurant-night.jpg" alt="Trùng Khánh restaurant" size="small" %}

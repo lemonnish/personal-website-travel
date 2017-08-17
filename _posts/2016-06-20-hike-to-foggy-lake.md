@@ -14,10 +14,11 @@ excerpt: Foggy Lake is normally a day-hike destination, but Jake and I decided t
 
 Jake and I took an overnight backpacking trip to Foggy Lake in the Northern Cascades. The trailhead was on Mountain Loop Highway, not too far from the turn-off to White Pass.
 
-Trailhead: Barlow Pass Trailhead  
-Overnight campsite: Foggy Lake  
-Roundtrip distance: 10 miles  
-Total elevation gain: 2800 ft
+Trailhead | Barlow Pass Trailhead  
+Overnight campsite | Foggy Lake  
+Roundtrip distance | 10 miles  
+Total elevation gain | 2800 ft
+{: .mid-align-2-col }
 
 <div class='img-gallery'>
 {% include photo.html url="trail-trees.jpg" alt="trees near the trail" size="med" %}

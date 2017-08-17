@@ -18,7 +18,7 @@ Wenrui and I made last minute plans to visit Chengdu in Sichuan Province. A visi
 
 The Shanghai maglev train reaches top speeds of 300kph and traveled from Longyang Station to the Pudong international airport in about 7 minutes. The interior is incredibly nice (in terms of train interiors), and was very clean. The platform is separated from the tracks by a chest high glass partition, and the openings through which people board are closed by a red velvet rope. Round trip tickets cost 80 yuan, which is much cheaper (and faster) than the hour long taxi covering the same distance. The taxi will cost between 120 and 160 yuan.
 
-I didn't really notice the acceleration; the only indication of speed was the scenery outside that zips past (the train runs above ground).  It was interesting to see how quickly the modern development and urban sprawl gave way to smaller family compounds, trees, rivers/canals, and farmland. The ride was very smooth with only occasional jostles and ran silently. If only the ride wasn't so short, it would be a perfect place to nap.
+I didn't really notice the acceleration; the only indication of speed was the scenery outside that zips past (the train runs above ground). It was interesting to see how quickly the modern development and urban sprawl gave way to smaller family compounds, trees, rivers/canals, and farmland. The ride was very smooth with only occasional jostles and ran silently. If only the ride wasn't so short, it would be a perfect place to nap.
 
 <div class='img-gallery'>
 {% include photo.html url="train-station.jpg" alt="train station" size="small" %}
@@ -45,7 +45,7 @@ The Dujiangyan irrigation system was built in 256 BC during the Qin dynasty. Thi
 {% include photo.html url="river-bridge-afar.jpg" alt="wooden bridge over the river" size="small" %}
 </div>
 
-We then headed up the hill in order to see the buildings that dotted the hillside/mountainside. We passed through a Daoist temple, and got to observe the plants growing on the roof of the buildings - it was really steep!
+We then headed up the hill in order to see the buildings that dotted the hillside/mountainside. We passed through a Daoist temple, and got to observe the plants growing on the roof of the buildings — it was really steep!
 
 We rode a long escalator up to the top of the mountain to see the shrine there. The escalator is hidden under an ornate wooden covering. It was quite a long ride.
 
@@ -66,11 +66,11 @@ We descended the mountain at a good speed, and passed through many old gates. Th
 
 ## Dinner
 
-We had dinner with our host's family at a restaurant on one of Chengdu's streets famous for its food. The restaurant is five stories tall, and is packed during every meal. Our hosts ordered many tasty non-spicy foods, although I did get to experience some Sichuan spices. One pepper looks like dried capers and is typically dark green - this pepper makes your mouth go numb.
+We had dinner with our host's family at a restaurant on one of Chengdu's streets famous for its food. The restaurant is five stories tall, and is packed during every meal. Our hosts ordered many tasty non-spicy foods, although I did get to experience some Sichuan spices. One pepper looks like dried capers and is typically dark green — this pepper makes your mouth go numb.
 
 ## Chengdu Wuhou Shrine
 
-This area has many examples of older architecture. At night, the area turns into a bustling place filled with lots of locals, and there are lots of small shops selling things. There was also several theaters with different shows, and a restaurant we passed had a bian lian or "changing faces" performer - someone who is able to change their mask in the blink of a fan swipe.
+This area has many examples of older architecture. At night, the area turns into a bustling place filled with lots of locals, and there are lots of small shops selling things. There was also several theaters with different shows, and a restaurant we passed had a bian lian or "changing faces" performer — someone who is able to change their mask in the blink of a fan swipe.
 
 <div class='img-gallery'>
 {% include photo.html url="market-1.jpg" alt="night market" size="small" %}
@@ -85,7 +85,7 @@ This area has many examples of older architecture. At night, the area turns into
 {% include photo.html url="panda-sign.jpg" alt="kids playing in front of the entrance sign" size="xlarge" %}
 </div>
 
-There are many many pandas here, ranging in age from infants to adults. However, because we got here in the middle of the day when it was warmer, all of the pandas had been moved indoors to avoid the heat. Here are some of the empty panda enclosures - quite spacious!
+There are many many pandas here, ranging in age from infants to adults. However, because we got here in the middle of the day when it was warmer, all of the pandas had been moved indoors to avoid the heat. Here are some of the empty panda enclosures — quite spacious!
 
 <div class='img-gallery'>
 {% include photo.html url="panda-enclosure-1.jpg" alt="empty enclosure" size="small" %}

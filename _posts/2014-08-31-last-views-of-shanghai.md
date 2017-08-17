@@ -13,8 +13,8 @@ Here are a couple last images that I wanted to share:
 The financial area of Pudong forms the distinctive Shanghai skyline that is visible from across the river. From the middle of the financial district, there are tall skyscrapers in every single direction.
 
 <div class='img-gallery'>
-{% include photo.html url="financial-district-day.jpg" alt="panoramic view of the financial district during the day" size="small" %}
-{% include photo.html url="financial-district-night.jpg" alt="panoramic view of the financial district at night" size="small" %}
+{% include photo.html url="financial-district-day.jpg" alt="panoramic view of the financial district during the day" size="xsmall" %}
+{% include photo.html url="financial-district-night.jpg" alt="panoramic view of the financial district at night" size="xsmall" %}
 </div>
 
 At night, all the buildings are lit up in an ever-changing light show.

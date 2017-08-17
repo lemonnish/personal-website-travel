@@ -19,7 +19,7 @@ Schedules coincided in such a way that I was able to fly to Tokyo for a couple o
 
 ## Akihabara
 
-This is a major area for electronics and manga culture. There are lots of large stores right near the station. Labi is a large electronics store that sells laptops, tablets, USBs, cables, etc. Don Quijote is a tall store selling a wide variety of things, including toys, electronics, clothes, bags, etc. The one in Akihabara also sold AKB47 merchandise (a box set of performance DVDs for about $80), and had a maid cafe. Later research revealed that the first AKB47 theatre is located in or near the Akihabara Don Quijote. There were also two floors devoted to arcades. Jeez, I didn't know that people's hands could move so fast, and I have no idea why someone would willingly stay in such a loud place for an extended period of time. There was also a maid cafe, which I remember from many of the Japanese dramas I used to watch. Just around the corner is is a six-story tall sex store called Pop Life Department M's with a wide range of toys, costumes, etc. Use your imagination - it was probably there.
+This is a major area for electronics and manga culture. There are lots of large stores right near the station. Labi is a large electronics store that sells laptops, tablets, USBs, cables, etc. Don Quijote is a tall store selling a wide variety of things, including toys, electronics, clothes, bags, etc. The one in Akihabara also sold AKB47 merchandise (a box set of performance DVDs for about $80), and had a maid cafe. Later research revealed that the first AKB47 theatre is located in or near the Akihabara Don Quijote. There were also two floors devoted to arcades. Jeez, I didn't know that people's hands could move so fast, and I have no idea why someone would willingly stay in such a loud place for an extended period of time. There was also a maid cafe, which I remember from many of the Japanese dramas I used to watch. Just around the corner is is a six-story tall sex store called Pop Life Department M's with a wide range of toys, costumes, etc. Use your imagination — it was probably there.
 
 <div class='img-gallery'>
 {% include photo.html url="IMG_2572.jpg" alt="electronics store front" size="small" %}
@@ -36,7 +36,7 @@ Here are some more pictures of Akihabara as the sun was setting, taken outside o
 
 ## Ginza Hotel
 
-We stayed at the Remm Hibiya hotel in Ginza, right near several theaters. One of the theaters featured an all-female cast, and they were currently advertising a dance performance. Some of the costumes were also on display. After the performances, a large silent all-female fan club would orderly line up on the street outside the theatre and wait for the performers to come out. The actress would then gather a paper envelope or some other fan-appreciation note from everyone. It was a bit unnerving how quite the whole event was - there was no talking and only occasional camera flashes.
+We stayed at the Remm Hibiya hotel in Ginza, right near several theaters. One of the theaters featured an all-female cast, and they were currently advertising a dance performance. Some of the costumes were also on display. After the performances, a large silent all-female fan club would orderly line up on the street outside the theatre and wait for the performers to come out. The actress would then gather a paper envelope or some other fan-appreciation note from everyone. It was a bit unnerving how quite the whole event was — there was no talking and only occasional camera flashes.
 
 <div class='img-gallery'>
 {% include photo.html url="IMG_2593.jpg" alt="cast poster" size="small" %}
@@ -100,7 +100,7 @@ Shinjuku has the busiest train station in the world, although it doesn't feel th
 {% include photo.html url="2014-08-03 19.14.05.jpg" alt="large video display on a street corner" size="med" %}
 </div>
 
-Shinjuku is also home to many large department stores such as Odakyu, shown in a series of three pictures below (one whole floor contained nothing but shoes - I don't think I've ever seen that many shoes on display in one place before).
+Shinjuku is also home to many large department stores such as Odakyu, shown in a series of three pictures below (one whole floor contained nothing but shoes — I don't think I've ever seen that many shoes on display in one place before).
 
 <div class='img-gallery'>
 {% include photo.html url="2014-08-03 20.00.10.jpg" alt="Odakyu entrance" size="small" %}

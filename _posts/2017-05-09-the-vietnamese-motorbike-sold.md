@@ -41,7 +41,7 @@ Later that day, we stopped for food in the tiny village of Điền Lộc. We ord
 {% include photo.html url="food.jpg" alt="plates of food: 3 types of bird life" size="large" %}
 </div>
 
-Over the course of two months, we made our way via train and motorbike from Vietnam's mountainous north to the Mekong Delta in the far south. We rode 3,713 km on the bike. I'd be lying if I said that each kilometer was wonderful -- the seat got uncomfortable after sitting for a couple hours (even with occasional stops) and we drove through some unavoidable cold and wet weather. However, the time spent on the motorbike was unforgettable. Both Jake and I agree that the best way to truly see Vietnam is on the back of a motorbike.
+Over the course of two months, we made our way via train and motorbike from Vietnam's mountainous north to the Mekong Delta in the far south. We rode 3,713 km on the bike. I'd be lying if I said that each kilometer was wonderful — the seat got uncomfortable after sitting for a couple hours (even with occasional stops) and we drove through some unavoidable cold and wet weather. However, the time spent on the motorbike was unforgettable. Both Jake and I agree that the best way to truly see Vietnam is on the back of a motorbike.
 
 Alas, all adventures must come to an end. We sold the motorbike in Ho Chi Minh City. A French guy replied to our Craigslist and bought the bike; he and two buddies are now riding through Cambodia, Laos, and Vietnam. And Jake and I are continuing our Southeast Asia adventure via bus, taxi, and plane.
 

@@ -12,7 +12,7 @@ excerpt: Jake and I stayed in Hanoi over Tet, the Vietnamese New Year.
 {% include photo.html url="tet-market.jpg" alt="people shopping in the colorful Tet market" size="xlarge" %}
 </div>
 
-Tết is Vietnamese New Year, which coincides with Chinese Lunar New Year. This year, Tết fell on January 28, and all of Hanoi was covered with banners proclaiming _Chúc Mừng Năm Mới!_ - "Happy New Year!"
+Tết is Vietnamese New Year, which coincides with Chinese Lunar New Year. This year, Tết fell on January 28, and all of Hanoi was covered with banners proclaiming _Chúc Mừng Năm Mới!_ — "Happy New Year!"
 
 In the days leading up to Tết, Hanoi was a flurry of activity. Whole streets were turned into Tết markets, where each storefront sold a different selection of lanterns, sparkly flowers, red hanging decorations, firecrackers, candy, and red envelopes. The streets were packed with people and motorbikes, and parked motorcycles turned the normally single lane roads into two narrow corridors of people and vehicles trying not to run each other over as they looked at all the things for sale.
 

@@ -27,7 +27,7 @@ The odometer read approximately 7750 km when we purchased the bike, which makes 
 {% include photo.html url="style-motorbikes.jpg" alt="Style Motorbikes shop" size="large" %}
 </div>
 
-We've had a couple of run-ins with hairy roads, but have come out mostly unscathed. Somewhat relatedly, we've found good mechanics in many cities, and have gotten good at scanning signs for "_sửa chũa xe máy_" - motorcycle repair. This routine (and not so routine) maintenance will hopefully keep us going for many more miles of stunning scenery and fantastic food.
+We've had a couple of run-ins with hairy roads, but have come out mostly unscathed. Somewhat relatedly, we've found good mechanics in many cities, and have gotten good at scanning signs for "_sửa chũa xe máy_" — motorcycle repair. This routine (and not so routine) maintenance will hopefully keep us going for many more miles of stunning scenery and fantastic food.
 
 <div class='img-gallery'>
 {% include photo.html url="jake-lauren.jpg" alt="us, standing on a hillside with our helmets" size="xlarge" %}

@@ -42,7 +42,7 @@ body {
  */
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
-ul, ol, dl, figure,
+ul, ol, dl, figure, table,
 %vertical-rhythm {
   margin: 2rem 0;
 }
@@ -159,7 +159,7 @@ p a {
     color: darken($text-color-link, 15%);
   }
   &:hover {
-    color: lighten($text-color-link,10%);
+    //color: lighten($text-color-link,10%);
     text-decoration: underline;
   }
 }
@@ -195,9 +195,8 @@ blockquote {
 table {
   table-layout: fixed;
   border-collapse: collapse;
-  min-width: 50%;
-  text-align: center;
-  margin: $spacing-unit auto;
+  margin-left: auto;
+  margin-right: auto;
   column-fill: balance;
 
   th, td {
@@ -207,8 +206,8 @@ table {
     border-bottom: 2px solid darkgrey;
   }
   tbody > tr {
-    border-top: 1px solid $grey-color-light;
-    border-bottom: 1px solid $grey-color-light;
+    border-top: 1px solid #ccc;//$grey-color-light;
+    border-bottom: 1px solid #ccc;//$grey-color-light;
   }
 }
 

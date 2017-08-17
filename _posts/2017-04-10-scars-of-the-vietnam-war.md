@@ -20,7 +20,7 @@ Quảng Trị Province is located in the middle of Vietnam, and is divided into 
 
 Jake and I decided that the best way to learn the history of the DMZ was to hire a guide. We organized a one-day tour at Tam's Cafe, and met our guide there the following morning. Our guide, Hoa, was extremely knowledgeable and he was able to provide invaluable insight into the events of the war and how it impacted the people living in the area. He was a young boy during the war, and his family evacuated south from Đông Hà to avoid the fighting. Hoa has been giving tours of the DMZ for many many years, ever since Vietnam opened its doors to foreign tourism.
 
-We started our tour by visiting a cemetery in Đông Hà for North Vietnamese soldiers. The Vietnamese government considers these fallen soldiers to be heroes and martyrs. During the war, North Vietnamese troops were usually buried near where they died; after the war, the bodies were reinterred in state cemeteries. However, many of the headstones are labeled _chưa biết tên_ - unknown soldier.
+We started our tour by visiting a cemetery in Đông Hà for North Vietnamese soldiers. The Vietnamese government considers these fallen soldiers to be heroes and martyrs. During the war, North Vietnamese troops were usually buried near where they died; after the war, the bodies were reinterred in state cemeteries. However, many of the headstones are labeled _chưa biết tên_ — unknown soldier.
 
 <div class='img-gallery'>
 {% include photo.html url="cemetery.jpg" alt="cemetery for North Vietnamese troops" size="small" %}

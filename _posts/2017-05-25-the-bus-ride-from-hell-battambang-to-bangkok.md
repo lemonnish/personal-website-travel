@@ -12,17 +12,19 @@ Jake and I approached our Battambang hotel for recommendations on getting to Ban
 
 Our experience was so unexpectedly bad that it warrants its own post. Hopefully this post will help future travelers know what they're getting themselves into before undergoing the same ordeal.
 
-## Travel Time:
+## Travel Time
 
-> Quoted: 8 / 9 hours  
-> Actual: 15 hours
+Quoted | 8 / 9 hours
+Actual | 15 hours
+{: .mid-align-2-col }
 
 Representatives from Capitol Bus picked us up from our hotel at 7:45AM, and we were dropped off at our final destination 14 hours later, at 9:45PM. It then took us an additional hour to get to our hotel in Bangkok. Significant time sinks occurred at the line for arrival stamps at the Thai border (3+ hours), and at the border bus terminal immediately after crossing into Thailand (2+ hours).
 
-## Number of Transfers:
+## Number of Transfers
 
-> Quoted: 0  
-> Actual: many
+Quoted | 0
+Actual | many
+{: .mid-align-2-col }
 
 1. Battambang hotel to Battambang Capitol Bus Terminal: mini bus
 2. Capitol Bus Terminal to Serey Sophorn: large tour bus
@@ -37,16 +39,17 @@ Once we arrived at the border bus terminal, a different man flagged us down, and
 
 Presumably, few people book transit through Capitol Bus. As a result, the company doesn't have incentive to reserve a private bus for the Thai leg of the journey.
 
-## Final Destination in Bangkok:
+## Final Destination in Bangkok
 
-> Quoted: Khao San Road  
-> Actual: Ekkamai Bus Terminal
+Quoted | Khao San Road
+Actual | Ekkamai Bus Terminal
+{: .mid-align-2-col }
 
 The actual destination ended up being better for us, since we didn't want to stay in the party-hard backpacker district on Khao San Road. Ekkamai Bus Terminal is located next to the BTS Skytrain, which is Bangkok's elevated public transit. However, we were only told of the actual destination ("Ekkamai") while waiting at the border bus terminal, and no-one was able to show us where Ekkamai was on a map. We had no idea whether Ekkamai was a small village on the outskirts of Bangkok, a neighborhood within Bangkok, or the name of some town between the border and Bangkok. Luckily, the mini-bus to Bangkok happened to have wifi. We were able to identify Ekkamai before the wifi cut out, only one hour into our 5-hour trip.
 
 Ekkamai is the Eastern Bus Terminal, one of four large bus terminals in Bangkok. Jake and I were relieved to learn that it was right next to a BTS Skytrain station, a therefore a short trip away from our pre-booked Bangkok hotel. Despite the presence of public transit, we decided to cut transportation times and take a taxi. However, the only taxi driver we approached at Ekkamai waved us towards the BTS line. He helpfully told us how to get onto the station and how to get to our final destination.
 
-## Next Time:
+## Next Time
 
 Get a bus from Battambang to Siem Reap, and then pay about $100 per person to fly from Siem Reap to Bangkok. This would minimize the hassle of transferring baggage multiple times, waiting around for unknown amounts of time, and carrying bags long distances. The added knowledge of how things will go and the minimal number of transfers offsets the benefit of the cheap bus ticket ($13 per person).
 

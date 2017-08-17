@@ -18,14 +18,14 @@ Jake and I explored Shanghai together for a couple of days before work began for
 
 This area, known as Wàitān, is the area on the west bank of the Huangpu River. A wide pedestrian walkway separates the river from many upscale buildings. This is a fantastic area to see the lit up Shanghai skyline at night.
 
-### Views of Puxi:
+### Views of Puxi
 
 <div class='img-gallery'>
 {% include photo.html url="puxi-1.jpg" alt="Puxi waterfront" size="small" %}
 {% include photo.html url="puxi-2.jpg" alt="Puxi waterfront buildings" size="small" %}
 </div>
 
-### Views of the Pudong skyline:
+### Views of the Pudong skyline
 
 <div class='img-gallery'>
 {% include photo.html url="pudong-skyline-1.jpg" alt="Pudong skyline" size="small" %}

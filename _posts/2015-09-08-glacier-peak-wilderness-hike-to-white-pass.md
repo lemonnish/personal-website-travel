@@ -16,10 +16,11 @@ On Labor Day weekend, Jake and I went on our first backpacking/camping trip toge
 
 We were probably the least experienced people to camp at the pass that weekend. The trail is popular among people attempting to summit Glacier Peak; we passed many groups carrying ice picks, ice climbing boots, and helmets. Although we didn't talk to him personally, there was a guy camping near us who had started at the Mexican border and was one week from finishing the PCT.
 
-Trailhead: Sloan Creek Campgrounds  
-Campgrounds: White Pass  
-Total distance: 9.15 miles per day (18.3 miles total)  
-Total elevation gain: 3600 ft
+Trailhead | Sloan Creek Campgrounds
+Campground | White Pass
+Total distance | 9.15 miles per day (18.3 miles total)
+Total elevation gain | 3600 ft
+{: .mid-align-2-col }
 
 <div class='img-gallery'>
 {% include photo.html url="rocky-stream.jpg" alt="water tumbling down small boulders" size="large" %}
@@ -90,6 +91,6 @@ The last couple of miles were arduous, as our muscles were complaining non-stop.
 {% include photo.html url="moss-on-rocks.jpg" alt="moss covering an old rock slide" size="large" %}
 </div>
 
-After reaching the car, we resolved to try car camping as our next outdoor excursion (we were just so tired by that point). We also resolved to eat takeout Thai food for dinner, have a long soak in the tub, and sit around and watch TV - anything that minimized movement. On my part at least, there was a lot of staggering and groaning once we got back to Seattle and had to walk the single block from the car to Jake's apartment. I gingerly crossed the street and even had to let a taxi go in front of me because I was walking so slowly.
+After reaching the car, we resolved to try car camping as our next outdoor excursion (we were just so tired by that point). We also resolved to eat takeout Thai food for dinner, have a long soak in the tub, and sit around and watch TV — anything that minimized movement. On my part at least, there was a lot of staggering and groaning once we got back to Seattle and had to walk the single block from the car to Jake's apartment. I gingerly crossed the street and even had to let a taxi go in front of me because I was walking so slowly.
 
 Although the entire trip was a bit stressful and painful (after the fact), the whole thing was absolutely amazing. The views were spectacular (including the derpy field mice) and I couldn't believe the amount of gratification I got when I stood at the top of the trail and looked out over the mountainside we'd scaled. I'm hooked on this whole camping/backpacking thing.

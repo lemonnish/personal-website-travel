@@ -161,10 +161,10 @@ Pre Rup was the last temple we visited. It was a towering temple mountain with m
 
 Jake overheard an intriguing conversation between a woman selling souvenirs and an interested buyer:
 
-> \- Do you want to buy a scarf? Just one dollar!  
-> \- I only have Riel. Is Riel okay?  
-> \- Okay. One dollar, 60 thousand Riel.  
-> \- Okay.
+> Her: Do you want to buy a scarf? Just one dollar!  
+> Him: I only have Riel. Is Riel okay?  
+> Her: Okay. One dollar, 60 thousand Riel.  
+> Him: Okay.
 
 And then the guy bought the scarf at the stated asking price of 60,000 Cambodian Riel. Note: 60,000 Riel = $15. I don't even know what that much Riel looks like. In Cambodia, all prices are given in US dollars. Anything less than $1 is paid for in Cambodian Riel, and it's universally understood that $1 = 4,000 Riel. As a result, most Cambodian money only circulates in very small denominations. US bills are used for everything else.
 

@@ -125,7 +125,7 @@ When paying for water and snacks at a convenience store, the storekeeper stopped
 ## Day 7: Tú Lệ to Than Uyên (83 km)
 
 
-On our way out of town, we stopped to get the motorbike chain tightened and to get sweet pastries from a bakery. I've gotten good at pointing to tasty things and saying "_mọt cái_" -  one piece. We rode out through a H'mong village and stopped amongst the rice paddies to eat the pastries.
+On our way out of town, we stopped to get the motorbike chain tightened and to get sweet pastries from a bakery. I've gotten good at pointing to tasty things and saying "_mọt cái_" — one piece. We rode out through a H'mong village and stopped amongst the rice paddies to eat the pastries.
 
 During our journey, we wound our way up the mountains to a pass. Next to a building in the pass, we saw a sign labelling a parachute jump point, and a corresponding billboard advertising parasailing. We decided that we'd rather keep our feet planted on the ground (or the motorbike foot pegs) for now.
 
