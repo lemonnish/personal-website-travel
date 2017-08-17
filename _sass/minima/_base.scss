@@ -21,7 +21,6 @@ dl, dd, ol, ul, figure {
 }
 
 
-
 /**
  * Basic styling
  */
@@ -38,7 +37,6 @@ body {
 }
 
 
-
 /**
  * Set 'margin-top' and `margin-bottom` to maintain vertical rhythm
  */
@@ -50,7 +48,6 @@ ul, ol, dl, figure,
 }
 
 
-
 /**
  * Images
  */
@@ -59,7 +56,6 @@ img {
   vertical-align: middle;
   align-content: center;
 }
-
 
 
 /**
@@ -74,12 +70,14 @@ figcaption {
 }
 
 
-
 /**
  * Lists
  */
 ul, ol {
-  margin-left: 2em;
+  margin-left: $spacing-unit * 2;
+  ul, ol {
+    margin-left: $spacing-unit;
+  }
 }
 
 li {
@@ -92,7 +90,6 @@ li {
     margin-top: 0;
   }
 }
-
 
 
 /**
@@ -120,31 +117,26 @@ h1 {
 h2 {
   font-size: 2.25rem;
   line-height: 1.25;
-  //font-weight: 200;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.875rem;
   line-height: 1.25;
-  //font-weight: 300;
 }
 
 h4 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   line-height: 1.2;
-  //font-weight: 500;
 }
 
 h5 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 1.1;
-  //font-weight: 600;
 }
 
 h6 {
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.1;
-  //font-weight: bolder;
 }
 
 
@@ -152,17 +144,26 @@ h6 {
  * Links
  */
 a {
-  color: $text-color; //$brand-color;
-  text-decoration: underline dotted;
-
+  color: black;
+  text-decoration: none;
   &:visited {
-    color: $text-color; //darken($brand-color, 15%);
+    color: black;
   }
-
   &:hover {
-    color: $text-color-hover;
+    color: $text-color-link;
   }
 }
+p a {
+  color: $text-color-link;
+  &:visited {
+    color: darken($text-color-link, 15%);
+  }
+  &:hover {
+    color: lighten($text-color-link,10%);
+    text-decoration: underline;
+  }
+}
+
 .social-media-list, .contact-list {
   a {
     text-decoration: none;
@@ -179,19 +180,37 @@ a {
  */
 blockquote {
   color: $grey-color;
-  border-left: 1em solid $grey-color-light;
-  padding-left: 1em;
+  border-left: $spacing-unit/2 solid $grey-color-light;
+  padding-left: $spacing-unit/2;
 
   p {
-    margin: 0.5em 0;
-  }
-
-  > :last-child {
-    margin-bottom: 0;
+    margin: $spacing-unit/4 0;
   }
 }
 
 
+/**
+ * Tables
+ */
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  min-width: 50%;
+  text-align: center;
+  margin: $spacing-unit auto;
+  column-fill: balance;
+
+  th, td {
+     padding: .4em $spacing-unit;
+   }
+  thead > tr {
+    border-bottom: 2px solid darkgrey;
+  }
+  tbody > tr {
+    border-top: 1px solid $grey-color-light;
+    border-bottom: 1px solid $grey-color-light;
+  }
+}
 
 /**
  * Code formatting
@@ -199,9 +218,9 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
+  //border: 1px solid $grey-color-light;
   border-radius: 3px;
-  background-color: #eef;
+  background-color: $grey-color-light;
 }
 
 code {
@@ -220,7 +239,6 @@ pre {
 }
 
 
-
 /**
  * Wrapper
  */
@@ -234,7 +252,6 @@ pre {
 }
 
 
-
 /**
  * Clearfix
  */
@@ -243,7 +260,6 @@ pre {
   display: table;
   clear: both;
 }
-
 
 
 /**
