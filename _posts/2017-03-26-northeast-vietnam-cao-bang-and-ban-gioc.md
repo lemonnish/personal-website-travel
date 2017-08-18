@@ -6,7 +6,7 @@ tag: vietnam
 location: Vietnam
 image-url: ban-gioc-pano.jpg
 image-alt: Bản Giốc Waterfall
-excerpt: We ate the best phở vịt in a little town called Trùng Khánh.
+excerpt: We ate the best <i>phở vịt</i> in a little town called Trùng Khánh.
 ---
 <div class='img-gallery'>
 {% include photo.html url="ban-gioc-pano.jpg" alt="Bản Giốc Waterfall" size="small" %}
