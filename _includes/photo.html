@@ -1,9 +1,4 @@
 {% comment %}
-<figure id="{{ include.url }}">
-  <a class='close-button' href='#'>X</a>
-{% endcomment %}
-
-{% comment %}
   ideal use case:
     xsmall: multiple side-by-side images
     small: 2 landscapes
@@ -27,15 +22,14 @@
   {% assign height = 100 %}
 {% endif %}
 
-<a href="#{{ include.url }}" data-desired-height="{{ height }}">
+<figure data-desired-height="{{ height }}" id="{{ include.url }}">
+
   <img
     src="{{ site.baseurl }}/photos/{{ page.slug }}/{{ include.url }}"
     alt="{{ include.alt }}" />
-</a>
 
-{% comment %}
   {% if include.caption %}
-  <figcaption>{{ include.caption }}</figcaption>
+    <figcaption>{{ include.caption }}</figcaption>
   {% endif %}
+
 </figure>
-{% endcomment %}
