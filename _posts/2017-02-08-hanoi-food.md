@@ -63,11 +63,7 @@ The one time I ordered this, I got a whole small chicken that had been cooked in
 
 These are rice noodles filled with pork, chicken, egg, or some other delicious thing we have yet to try. The cook will slap some of the rice batter onto the flat cooking surface, cover it with whatever innards you requested, then roll it up into a long tube. The end result is served cut up on a small plate, and is paired with a dipping sauce and fried shallots.
 
----
-
-[[ insert image here ]]
-
----
+{% include photo.html url="banh-cuon.jpg" alt="bánh cuốn and gà tằn" size="xlarge" %}
 
 ## Mỳ Vằn Thắn
 

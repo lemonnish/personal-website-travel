@@ -54,11 +54,9 @@ We got to talk to many interesting people in the midst of their travels. One Ita
 
 Sung Sot Cave, or the Amazing Cave, is a series of vast and dramatically-lit caverns that hide behind an unassuming dark slash in the rocky face of a large island. As we meandered down the paved walkways past sections of collapsed floor, I was reminded of the Indiana Jones ride at Disneyland; the cave was surreal in its scale and impressive formations.
 
----
-
-[[ insert image here ]]
-
----
+<div class='img-gallery'>
+{% include photo.html url="amazing-cave.jpg" alt="inside the Amazing Cave" size="xlarge" %}
+</div>
 
 On the first night, most of the boat worked themselves into an alcohol-induced karaoke frenzy. Jake and I had been talking to Viraj and Anand on the top deck, and we descended to the dining room to find the tables covered in beer bottles and the out-of-tune singing still going strong. The main instigator, Patrick, had booked a 2 day, 1 night cruise on a whim as he returned one night from a bar. He kept exclaiming, "92 bucks! Can you believe it?!? I'm having the time of my life and I only paid 92 bucks!" He also kept ordering rounds of drinks for everyone doing karaoke, and shortly after we arrived, he ordered about four bottles of red wine for everyone to share.
 

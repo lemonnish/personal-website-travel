@@ -16,11 +16,9 @@ excerpt: We went on a 2 day, 1 night motorcycle tour through the Muong Hoa Valle
 
 Jake and I went on a 2 day, 1 night motorcycle tour through the Muong Hoa Valley, the area that surrounds Sa Pa. We booked our tour through Sapa O'Chau, a local Sa Pa organization. Sapa O'Chau is a socially conscious trekking/homestay/cafe/handicraft organization, founded and run by Shu Tan, a H'mong woman. The organization primarily employs people from various ethnic minorities and funnels money back into disadvantaged minority villages. Our excellent tour guide for the trip, Sử, is part of the Black H'mong ethnic group. During our tour, Sử led us past spectacular views and through many remote villages, and taught us so much about the culture and livelihood of the people who live near Sa Pa.
 
----
-
-[[ insert picture here ]]
-
----
+<div class='img-gallery'>
+{% include photo.html url="sapa-ochau-map.png" alt="map of the Muong Hoa Valley, produced by Sapa O'Chau" size="large" %}
+</div>
 
 We spent a full day riding from Sa Pa northeast to Sa Seng and Hàng Đá, then heading south to Lao Chải and Tả Van. In Tả Van, we visited a H'mong house and learned about the process used to create traditional indigo-dyed hemp garments. Our final stop for the day involved a very fun and acrobatic (I have very short legs) clamber over boulders to see the picturesque La Ve Waterfall in Bản Hồ, and then we headed to our homestay for the evening.
 
