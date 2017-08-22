@@ -153,7 +153,8 @@ a {
     color: $text-color-link;
   }
 }
-p a {
+
+p a, .site-footer a {
   color: $text-color-link;
   &:visited {
     color: darken($text-color-link, 15%);
@@ -210,6 +211,7 @@ table {
     border-bottom: 1px solid #ccc;//$grey-color-light;
   }
 }
+
 
 /**
  * Code formatting
