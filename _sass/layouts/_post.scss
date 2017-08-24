@@ -22,6 +22,37 @@ article.post {
     margin-top: 0;
   }
 
+  .loading {
+    font-family: $font-family-header;
+    width: 1em;
+    height: 0.5em;
+    line-height: 1em;
+    font-size: 100px;
+    margin: 0 auto;
+    color: $color-divider;
+
+    &:after {
+      overflow: hidden;
+      display: inline-block;
+      vertical-align: top;
+      animation: ellipsis steps(4,end) 1s infinite;
+      -webkit-animation: ellipsis steps(4,end) 1s infinite;
+      content: "\2026";
+      width: 0px;
+      transform: translateY(-50%);
+    }
+    @keyframes ellipsis {
+      to {
+        width: 1.2em;
+      }
+    }
+    @-webkit-keyframes ellipsis {
+      to {
+        width: 1.2em;
+      }
+    }
+  }
+
   .img-gallery {
     font-size: 0;
     line-height: 0;
