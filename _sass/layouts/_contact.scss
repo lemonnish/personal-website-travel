@@ -1,9 +1,10 @@
 main.contact-page {
+  margin: 0 0 $base-unit * 3;
 
   form {
     label {
       display: block;
-      margin: 0; // $base-unit 0 0;
+      margin: 0;
       line-height: $base-unit-small * 2;
       padding: $base-unit / 2;
     }
@@ -16,14 +17,16 @@ main.contact-page {
       border: 1px solid $color-border-hover;
       border-radius: 3px;
     }
+    textarea {
+      margin-bottom: $base-unit * 2;
+    }
     input:last-child {
       font-family: $font-family-header;
-      line-height: 4 * $base-unit-small;
+      line-height: 3 * $base-unit;
       font-size: 1.4em;
-      width: 100%;
       text-align: center;
       padding: 0;
-      margin: 2 * $base-unit 0;
+      margin: 0;
       background-color: $color-divider;
       border: none;
       &:hover {

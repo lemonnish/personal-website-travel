@@ -1,9 +1,11 @@
 @import 'util/unstyled-list';
 
 main.list-page {
+  margin: 0 0 $base-unit * 2;
+
   & > ul {
     @extend %unstyled-list;
-    margin: 0;
+    margin: $base-unit 0;
 
     li a {
       @extend %header-link;
@@ -19,7 +21,7 @@ main.list-page {
   }
 
   header > nav, footer > nav {
-    margin: $base-unit 0;
+    margin: 0;
 
     display: grid;
     grid-template-columns: repeat(5, 1fr);
