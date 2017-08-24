@@ -1,4 +1,6 @@
 article.post {
+  padding: 0 0 $base-unit * 3;
+
   header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -20,6 +22,9 @@ article.post {
 
   & :nth-child(0n+2) {
     margin-top: 0;
+  }
+  & :nth-last-child(1) {
+    margin-bottom: 0;
   }
 
   .loading {
