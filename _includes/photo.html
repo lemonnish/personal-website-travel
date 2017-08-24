@@ -1,0 +1,35 @@
+{% comment %}
+  ideal use case:
+    xsmall: multiple side-by-side images
+    small: 2 landscapes
+    med: 1 landscape + 1 portrait
+    large: 2 portraits
+    xlarge: 1 landscape
+  panorama: varies
+{% endcomment %}
+
+{% if include.size=='xsmall' %}
+  {% assign height = 218 %}
+{% elsif include.size=='small' %}
+  {% assign height = 250 %}
+{% elsif include.size=='med' %}
+  {% assign height = 350 %}
+{% elsif include.size=='large' %}
+  {% assign height = 500 %}
+{% elsif include.size=='xlarge' %}
+  {% assign height = 600 %}
+{% else %}
+  {% assign height = 100 %}
+{% endif %}
+
+<figure data-desired-height="{{ height }}" id="{{ include.url }}">
+
+  <img
+    src="{{ site.baseurl }}/photos/{{ page.slug }}/{{ include.url }}"
+    alt="{{ include.alt }}" />
+
+  {% if include.caption %}
+    <figcaption>{{ include.caption }}</figcaption>
+  {% endif %}
+
+</figure>

@@ -1,0 +1,87 @@
+---
+layout: default
+description: default
+---
+
+<main class='homepage'>
+  <ul>
+    {% for post in site.posts limit:3 %}
+    <li>
+      <a href='{{ site.baseurl }}{{ post.url }}'>
+        <article class='post-preview'>
+          {% if post.image-url %}
+            <figure>
+              <img
+                src='{{ site.baseurl }}/photos/{{ post.slug}}/{{ post.image-url }}'
+                alt='{{ post.image-alt }}'/>
+            </figure>
+          {% endif %}
+
+          <section>
+            <h2>{{ post.title }}</h2>
+            <p><time datetime='{{ post.date | date: "%Y-%m-%d" }}'>
+              {{ post.date | date: "%Y.%m.%d" }}
+            </time></p>
+          </section>
+
+        </article>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <a href='{{ site.baseurl }}/all-posts/'>View all posts...</a>
+
+  <h2>Filter by location</h2>
+
+  <nav class='location'>
+    <section>
+      <div><h3>Asia</h3></div>
+      {% include country-link.html name='cambodia' %}
+      {% include country-link.html name='china' %}
+      {% include country-link.html name='japan' %}
+      {% include country-link.html name='thailand' %}
+      {% include country-link.html name='vietnam' %}
+      <div class='placeholder'></div>
+      <div class='placeholder'></div>
+      <div class='placeholder'></div>
+      <div class='placeholder'></div>
+      <div class='placeholder'></div>
+    </section>
+
+    <section>
+      <div><h3>Europe</h3></div>
+      {% include country-link.html name='germany' %}
+      <div class='placeholder'></div>
+      <div class='placeholder'></div>
+      <div class='placeholder'></div>
+      <div class='placeholder'></div>
+      <div class='placeholder'></div>
+    </section>
+
+    <section>
+      <div><h3>North America: USA</h3></div>
+      {% include country-link.html name='california' %}
+      {% include country-link.html name='massachusetts' %}
+      {% include country-link.html name='nevada' %}
+      {% include country-link.html name='new-york' %}
+      {% include country-link.html name='vermont' %}
+      {% include country-link.html name='washington' %}
+      <div class='placeholder'></div>
+      <div class='placeholder'></div>
+      <div class='placeholder'></div>
+      <div class='placeholder'></div>
+      <div class='placeholder'></div>
+    </section>
+
+    <section>
+      <div><h3>South America</h3></div>
+      {% include country-link.html name='chile' %}
+      <div class='placeholder'></div>
+      <div class='placeholder'></div>
+      <div class='placeholder'></div>
+      <div class='placeholder'></div>
+      <div class='placeholder'></div>
+    </section>
+  </nav>
+</main>

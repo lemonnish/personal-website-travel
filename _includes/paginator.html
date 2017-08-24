@@ -1,0 +1,13 @@
+<nav>
+  {% if paginator.previous_page %}
+    <a class='first' href='{{ site.baseurl }}{{ paginator.first_page_path }}'>&laquo; First</a>
+    <a class='prev' href='{{ site.baseurl }}{{ paginator.previous_page_path }}'>&lsaquo; Prev</span></a>
+  {% endif %}
+
+  <span class='pager'>{{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+  {% if paginator.next_page %}
+    <a class='next' href='{{ site.baseurl }}{{ paginator.next_page_path }}'>Next &rsaquo;</a>
+    <a class='last' href='{{ site.baseurl }}{{ paginator.last_page_path }}'>Last &raquo;</a>
+  {% endif %}
+</nav>

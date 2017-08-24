@@ -1,0 +1,51 @@
+@import 'util/unstyled-list';
+
+main.list-page {
+  & > ul {
+    @extend %unstyled-list;
+    margin: 0;
+
+    li a {
+      @extend %header-link;
+    }
+
+    li:nth-child(odd) article.post-preview {
+      flex-direction: row-reverse;
+    }
+
+    li:last-child article.post-preview {
+      margin-bottom: 0;
+    }
+  }
+
+  header > nav, footer > nav {
+    margin: $base-unit 0;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    & > * {
+      align-self: center;
+    }
+    & > span.pager {
+      grid-column-start: 3;
+      grid-column-end: 4;
+      justify-self: center;
+    }
+    a.first, a.prev {
+      justify-self: left;
+    }
+    a.next, a.last {
+      justify-self: right;
+    }
+
+    @media (min-width: $media-div) {
+      a.prev::after {
+        content: 'ious';
+      }
+      span.pager::before {
+        content: 'Page ';
+      }
+    }
+
+  }
+}

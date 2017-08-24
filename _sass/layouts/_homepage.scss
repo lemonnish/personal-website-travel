@@ -1,0 +1,116 @@
+@import 'util/unstyled-list';
+@import 'util/header-link';
+
+main.homepage {
+  margin: 2 * $base-unit-small 0;
+  & > ul {
+    @extend %unstyled-list;
+    margin: 2 * $base-unit-small 0;
+
+    li a {
+      @extend %header-link;
+    }
+
+    figure {
+      min-height: 9 * $base-unit-small;
+    }
+
+    article.post-preview {
+      margin-bottom: $base-unit-small * 2;
+      border-bottom-width: $base-unit-small;
+      section {
+        border-bottom-width: $base-unit-small;
+      }
+    }
+
+    li:last-child article.post-preview {
+      margin-bottom: 0;
+    }
+
+    @media (min-width: $media-div) {
+      li:first-child article.post-preview {
+        display: block;
+
+        figure {
+          width: 100%;
+          min-height: 20em;
+        }
+        section {
+          width: 100%;
+        }
+      }
+
+      li:not(:first-child) article.post-preview {
+        flex-direction: row-reverse;
+
+        figure {
+          width: 70%;
+        }
+        section {
+          width: 30%;
+        }
+      }
+    }
+  }
+
+  & > a {
+    display: block;
+    font-family: $font-family-header;
+    line-height: 4 * $base-unit-small;
+    font-size: 1.4em;
+    width: 100%;
+    text-align: center;
+    border: 2px solid $color-divider;
+    @extend %header-link;
+    &:hover {
+      border-color: $color-divider-dark;
+    }
+  }
+
+  & > h2 {
+    margin: 4 * $base-unit-small 0 2 * $base-unit-small;
+  }
+
+  nav.location {
+    section {
+      display: flex;
+      flex-wrap: wrap;
+      margin: $base-unit-small * 2 0;
+      & > * {
+        display: block;
+        flex-grow: 1;
+        margin: 4px;
+        width: 120px;
+        border: none;
+      }
+
+      a.location-tile {
+        svg {
+          display: block;
+          margin: 0;
+          width: 100%;
+          height: 100%;
+        }
+        &:hover svg rect {
+          fill: $color-divider-dark;
+        }
+      }
+      div.placeholder {
+        height: 0;
+      }
+      div:first-of-type {
+        display: flex;
+        align-items: center;
+        background: $color-border;
+        padding: $base-unit-small / 2;
+        h3 {
+          text-align: center;
+          font-size: 1.5em;
+          margin: 0;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+}

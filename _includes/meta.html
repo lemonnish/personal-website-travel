@@ -1,0 +1,20 @@
+<meta charset='utf-8'>
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i|Roboto+Slab&amp;subset=vietnamese" rel="stylesheet">
+<link rel='stylesheet' href='{{ site.baseurl }}/assets/styles.css'/>
+<title>
+  {% if page.title %}{{ page.title }}
+  {% else %}{{ site.name }}{% endif %}
+</title>
+
+{% if page.description=='default' or page.layout=='list-paginate' %}
+  <meta name='description' content='{{ site.description }}'>
+{% elseif page.description %}
+  <meta name='description' content='{{ page.description }}'>
+{% endif %}
+
+<script data-no-instant=""
+  src="https://code.jquery.com/jquery-3.1.0.js"
+  integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="
+  crossorigin="anonymous"></script>
+<script src="/making-trails/assets/choosy-gallery/choosy-gallery.js"></script>

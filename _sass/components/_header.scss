@@ -1,0 +1,27 @@
+body > header {
+  border-top: 5px solid #333;
+  border-bottom: 1px solid $color-divider;
+  padding: $base-unit * 2 0;
+
+  grid-column: full;
+
+  display: grid;
+  grid-template-columns: inherit;
+  grid-column-gap: inherit;
+
+  & > * {
+    grid-column: main;
+  }
+
+  h1 {
+    font-size: 2em;
+    margin: 0;
+    a {
+      @extend %header-link;
+    }
+  }
+  
+  p {
+    margin: 0;
+  }
+}

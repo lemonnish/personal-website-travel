@@ -1,0 +1,34 @@
+body > footer {
+  font-size: small;
+  border-top: 1px solid $color-divider;
+  padding: $base-unit * 2 0;
+
+  display: grid;
+  grid-template-columns: inherit;
+  grid-column-gap: inherit;
+  grid-column: full;
+
+  & > * {
+    grid-column: main;
+  }
+
+  nav {
+    display: flex;
+    margin: 0 auto;
+    a {
+      padding: 0 $base-unit * 2;
+      border-right: 1px solid $color-divider;
+    }
+    a:last-child {
+      border-right: none;
+    }
+  }
+
+  p {
+    margin: 0 auto;
+    span {
+      font-family: $font-family-header;
+    }
+  }
+
+}
