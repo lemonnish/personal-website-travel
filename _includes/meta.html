@@ -9,7 +9,7 @@
 
 {% if page.description=='default' or page.layout=='list-paginate' %}
   <meta name='description' content='{{ site.description }}'>
-{% elseif page.description %}
+{% elsif page.description %}
   <meta name='description' content='{{ page.description }}'>
 {% endif %}
 
