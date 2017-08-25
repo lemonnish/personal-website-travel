@@ -14,9 +14,9 @@ body > footer {
 
   nav {
     display: flex;
-    margin: 0 auto;
+    margin: 0 auto $base-unit / 2;
     a {
-      padding: 0 $base-unit * 2;
+      padding: 0 $base-unit-small * 2;
       border-right: 1px solid $color-divider;
     }
     a:last-child {
@@ -25,7 +25,9 @@ body > footer {
   }
 
   p {
-    margin: 0 auto;
+    margin: 0;
+    text-align: center;
+    line-height: $base-unit * 1.5;
     span {
       font-family: $font-family-header;
     }
