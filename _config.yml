@@ -21,3 +21,5 @@ autopages:
   enabled: false
 
 permalink: /:year/:title/
+
+exclude: [".DS_Store", "Dockerfile", "Caddyfile", "Gemfile", "Gemfile.lock", "README.md"]
