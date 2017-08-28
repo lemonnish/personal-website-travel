@@ -17,8 +17,8 @@ Winter in Burlington is cold! Although I don't know why that would be a surprise
 The following screenshots show a pretty typical weekly weather pattern. The wind chill would typically drop the perceived temperature by 10 degrees. Snow was scattered and unless there was a large storm, didn't fall heavily on successive days. Typically, the weather would fall between 0 and 20°F. If it ever rose to around 32°F (0°C), I would rejoice: "It's warm!!" Unfortunately, that didn't happen very often.
 
 <div class='img-gallery'>
-{% include photo.html url="screenshot-1.png" alt="weather app displaying: 16°F" size="small" %}
-{% include photo.html url="screenshot-2.png" alt="weather app displaying: Feels like: 7°F" size="small" %}
+{% include photo.html url="screenshot-1.jpg" alt="weather app displaying: 16°F" size="small" %}
+{% include photo.html url="screenshot-2.jpg" alt="weather app displaying: Feels like: 7°F" size="small" %}
 </div>
 
 The sunny days are usually the coldest because there's no cloud cover to keep the warmth in. It's often deceiving to stand by a window on a really sunny day. The sun reflects brightly off of the snow and produces a greenhouse effect inside by the windows. When standing by the window and looking out at the blue sky, the heat from the sun makes the temperature appear to be about 60 or 70°F. In reality, it might be -7°F with the wind chill dropping the perceived temperature down to -15°F.
