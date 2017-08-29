@@ -22,4 +22,4 @@ autopages:
 
 permalink: /:title/
 
-exclude: [".DS_Store", "Dockerfile", "Caddyfile", "Gemfile", "Gemfile.lock", "README.md"]
+exclude: [".DS_Store", "Dockerfile", "Caddyfile", "Gemfile", "Gemfile.lock", "README.md", "build-and-deploy"]
