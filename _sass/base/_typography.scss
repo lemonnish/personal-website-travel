@@ -20,7 +20,7 @@ table {
   border-collapse: collapse;
 }
 
-p, h1, h2, h3, h4, h5, h6, aside, blockquote, ul, ol, pre {
+p, h1, h2, h3, h4, h5, h6, aside, blockquote, ul, ol, pre, table {
   margin-top: $base-unit * 2;
   margin-bottom: $base-unit * 2;
 }
@@ -39,6 +39,10 @@ blockquote {
   padding-left: $base-unit;
   border-left: $base-unit * 2 solid $color-border;
   color: $color-quote-text;
+  p {
+    margin-top: $base-unit;
+    margin-bottom: $base-unit;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
