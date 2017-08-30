@@ -4,7 +4,7 @@ title:  "Miscellaneous New York City Sightseeing"
 date:   2014-12-30 17:15:00 -0700
 tag: new-york
 location: New York, USA
-image-url: park-2.jpg
+image-url: park-2-copy.jpg
 image-alt: NYC skyline from Central Park
 excerpt: A collection of (mostly) unrelated sites.
 ---

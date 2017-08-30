@@ -4,7 +4,7 @@ title:  "Pomaire Pottery"
 date:   2015-10-16 00:33:00 -0700
 tag: chile
 location: Chile
-image-url: pottery.jpg
+image-url: pottery-copy.jpg
 image-alt: piles of pottery in a shop
 excerpt: Pomaire is located a short hop from Santiago. The village overflows with pottery.
 ---

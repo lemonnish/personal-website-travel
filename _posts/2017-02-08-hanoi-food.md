@@ -4,7 +4,7 @@ title: "Hanoi Food"
 date:   2017-02-08 06:40:00 -0700
 tag: vietnam
 location: Vietnam
-image-url: bun-cha.jpg
+image-url: bun-cha-copy.jpg
 image-alt: plates of bún chả
 excerpt: Our adventurous eating habits eliminated the need for a food tour of Hanoi.
 ---

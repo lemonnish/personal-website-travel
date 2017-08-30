@@ -4,7 +4,7 @@ title: "Back in Hanoi for Housekeeping"
 date:   2017-04-02 22:39:00 -0700
 tag: vietnam
 location: Vietnam
-image-url: balloons-intersection.jpg
+image-url: balloons-intersection-copy.jpg
 image-alt: woman selling balloon in the intersection
 excerpt: We returned to the familiar territory of Hanoi for a couple of days.
 ---

@@ -4,7 +4,7 @@ title:  "Glacier Peak Wilderness: Hike to White Pass"
 date:   2015-09-08 00:52:00 -0700
 tag: washington
 location: Washington, USA
-image-url: snow-camp.jpg
+image-url: snow-camp-copy.jpg
 image-alt: colorful tents in the snow
 excerpt: Jake and I went on our first overnight backpacking trip together, and were treated to surprise overnight snow.
 ---

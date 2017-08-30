@@ -4,7 +4,7 @@ title:  "Snow and Lobster in February"
 date:   2016-02-24 01:20:00 -0700
 tag: washington
 location: Washington, USA
-image-url: lobster-cooked.jpg
+image-url: lobster-cooked-copy.jpg
 image-alt: cooked and plated lobster and salad
 excerpt: Valentine's Day weekend is the time for skiing and cooking lobster.
 ---

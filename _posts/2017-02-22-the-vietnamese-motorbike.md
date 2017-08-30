@@ -4,7 +4,7 @@ title: "The Vietnamese Motorbike"
 date:   2017-02-22 07:24:00 -0700
 tag: vietnam
 location: Vietnam
-image-url: rice-paddies-crop.jpg
+image-url: rice-paddies-copy.jpg
 image-alt: motorbike in front of rice paddies
 excerpt: We bought a motorbike! Here's how we did it.
 ---

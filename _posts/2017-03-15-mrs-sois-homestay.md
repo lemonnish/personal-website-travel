@@ -4,7 +4,7 @@ title: "Mrs. Soi's Homestay"
 date:   2017-03-15 08:02:00 -0700
 tag: vietnam
 location: Vietnam
-image-url: water-buffalo-car.jpg
+image-url: water-buffalo-car-copy.jpg
 image-alt: water buffalo near a car
 excerpt: Mrs. Soi runs a fantastic homestay in Ta Van, near Sa Pa.
 ---

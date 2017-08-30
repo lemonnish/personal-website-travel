@@ -4,7 +4,7 @@ title: "Hà Giang, Vietnam's Northernmost Province"
 date:   2017-03-25 11:08:00 -0700
 tag: vietnam
 location: Vietnam
-image-url: karst-plateau-rocks.jpg
+image-url: karst-plateau-rocks-copy.jpg
 image-alt: rocks in the Đống Văn Karst Plateau
 excerpt: This area is home to the Đống Văn Karst Plateau, a huge flagpole, and inquisitive cows.
 ---

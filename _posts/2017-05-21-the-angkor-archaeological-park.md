@@ -4,7 +4,7 @@ title: "The Angkor Archaeological Park"
 date:   2017-05-21 23:26:00 -0700
 tag: cambodia
 location: Cambodia
-image-url: preah-khan-rubble.jpg
+image-url: preah-khan-rubble-copy.jpg
 image-alt: rubble in front of a wall at Preah Khan
 excerpt: We spent three days exploring Angkor Wat and the surrounding temples.
 ---

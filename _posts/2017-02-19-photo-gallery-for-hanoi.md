@@ -4,7 +4,7 @@ title: "A Photo Gallery for Hanoi (Hà Nội)"
 date:   2017-02-19 02:44:00 -0700
 tag: vietnam
 location: Vietnam
-image-url: traffic-light-trails.jpg
+image-url: traffic-light-trails-copy.jpg
 image-alt: long exposure picture of Hanoi traffic
 excerpt: I took many pictures in Hanoi as Jake and I explored the city.
 ---

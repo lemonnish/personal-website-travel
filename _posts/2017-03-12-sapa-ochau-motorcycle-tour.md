@@ -4,7 +4,7 @@ title: "Sapa O'Chau and the Excellent Motorcycle Tour"
 date:   2017-03-12 06:20:00 -0700
 tag: vietnam
 location: Vietnam
-image-url: su.jpg
+image-url: su-copy.jpg
 image-alt: our guide, Sử
 excerpt: We went on a 2 day, 1 night motorcycle tour through the Muong Hoa Valley.
 ---

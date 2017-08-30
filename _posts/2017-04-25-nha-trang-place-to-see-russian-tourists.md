@@ -4,7 +4,7 @@ title: "Nha Trang, the place to see Russian tourists"
 date:   2017-04-25 23:07:00 -0700
 tag: vietnam
 location: Vietnam
-image-url: street-corner.jpg
+image-url: street-corner-copy.jpg
 image-alt: street corner with Russian signs
 excerpt: Nha Trang is a beach town with an unexpectedly large number of Russians.
 ---

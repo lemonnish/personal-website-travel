@@ -4,7 +4,7 @@ title:  "Weekend Trip to Tokyo"
 date:   2014-08-05 21:44:00 -0700
 tag: japan
 location: Japan
-image-url: IMG_2609.jpg
+image-url: meiji-sake-copy.jpg
 image-alt: rice wine casks
 excerpt: During an extended weekend, I flew from Shanghai to Tokyo. Jake and I spent several days exploring the city.
 ---

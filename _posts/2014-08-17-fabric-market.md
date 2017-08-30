@@ -4,7 +4,7 @@ title:  "Fabric Market"
 date:   2014-08-17 00:56:00 -0700
 tag: china
 location: China
-image-url: market-interior-1.jpg
+image-url: market-interior-1-copy.jpg
 image-alt: silk scarves for sale
 excerpt: Visiting the fabric market is a dangerous activity for me. It is highly likely that I will spend too much money and stay there for far too long.
 ---

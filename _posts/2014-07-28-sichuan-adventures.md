@@ -4,7 +4,7 @@ title:  "Sichuan Adventures"
 date:   2014-07-28 20:30:00 -0700
 tag: china
 location: China
-image-url: fish.jpg
+image-url: fish-copy.jpg
 image-alt: colorful fish
 excerpt: Wenrui and I made last minute plans to fly to Chengdu in Sichuan Province. I've never been this spontaneous before!
 ---

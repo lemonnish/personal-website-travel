@@ -4,7 +4,7 @@ title:  "Boston Weather"
 date:   2014-12-13 21:04:00 -0700
 tag: massachusetts
 location: Massachusetts, USA
-image-url: field-1.jpg
+image-url: field-1-copy.jpg
 image-alt: field surrounded by colorful trees
 excerpt: Boston was clear and crisp with occasion patches of rain, and then later, there was snow.
 ---

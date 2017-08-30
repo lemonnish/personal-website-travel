@@ -4,7 +4,7 @@ title:  "Shanghai Food Adventures, part 3"
 date:   2014-08-30 18:21:00 -0700
 tag: china
 location: China
-image-url: din-tai-feng-1.jpg
+image-url: din-tai-feng-1-copy.jpg
 image-alt: Din Tai Feng soup dumpling
 excerpt: This post features international cuisines, specifically Muslim-Chinese food, the restaurant Din Tai Feng, and Thai food.
 ---

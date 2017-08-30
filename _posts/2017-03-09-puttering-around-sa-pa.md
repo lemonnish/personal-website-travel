@@ -4,7 +4,7 @@ title: "Puttering Around Sa Pa"
 date:   2017-03-09 05:32:00 -0700
 tag: vietnam
 location: Vietnam
-image-url: foggy-sapa-intersection.jpg
+image-url: foggy-sapa-intersection-copy.jpg
 image-alt:
 excerpt: While in Sa Pa, we visited local minority villages, ate lots of food, visited Tram Ton Pass, and had a motorcycle spill.
 ---

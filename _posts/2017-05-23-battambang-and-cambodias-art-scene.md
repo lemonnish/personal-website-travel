@@ -4,7 +4,7 @@ title: "Battambang and Cambodia's Art Scene"
 date:   2017-05-23 19:07:00 -0700
 tag: cambodia
 location: Cambodia
-image-url: meal-prep-basket.jpg
+image-url: meal-prep-basket-copy.jpg
 image-alt: basket of raw ingredients
 excerpt: In which we learn to cook, visit with local artists, go to the circus, and ride a bamboo train.
 ---

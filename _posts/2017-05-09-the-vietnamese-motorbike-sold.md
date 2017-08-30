@@ -4,7 +4,7 @@ title: "The Vietnamese Motorbike: Sold!"
 date:   2017-05-09 06:24:00 -0700
 tag: vietnam
 location: Vietnam
-image-url: motorbike-sand.jpg
+image-url: motorbike-sand-copy.jpg
 image-alt: riding the motorbike on the beach
 excerpt: After many amazing experiences, we sold the bike in Ho Chi Minh City.
 ---

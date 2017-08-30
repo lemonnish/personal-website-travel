@@ -4,7 +4,7 @@ title: "The Mekong Delta: Bến Tre and Cần Thơ"
 date:   2017-05-01 04:19:00 -0700
 tag: vietnam
 location: Vietnam
-image-url: market-watermelons.jpg
+image-url: market-watermelons-copy.jpg
 image-alt: watermelons for sale in the floating market
 excerpt: In which we explore floating markets and accidentally order half a barbequed duck.
 ---

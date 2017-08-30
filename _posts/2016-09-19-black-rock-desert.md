@@ -4,7 +4,7 @@ title:  "Black Rock Desert"
 date:   2016-09-19 13:35:00 -0700
 tag: nevada
 location: Nevada, USA
-image-url: jeep.jpg
+image-url: jeep-copy.jpg
 image-alt: Jeep in the desert
 excerpt: We visited the Black Rock Desert playa to watch rocket enthusiasts, hike through canyons, and look at hot springs.
 ---

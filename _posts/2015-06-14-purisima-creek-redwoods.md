@@ -4,7 +4,7 @@ title:  "Purisima Creek Redwoods"
 date:   2015-06-14 22:00:00 -0700
 tag: california
 location: California, USA
-image-url: seeds.jpg
+image-url: seeds-copy.jpg
 image-alt: sunlit seeds hanging on a grass stalk
 excerpt: I joined Joshua and Sasha on a hike through the redwoods.
 ---

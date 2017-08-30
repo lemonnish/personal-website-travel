@@ -4,7 +4,7 @@ title:  "Seattle: Columbia Tower"
 date:   2015-06-22 22:50:00 -0700
 tag: washington
 location: Washington, USA
-image-url: view-downtown-1.jpg
+image-url: view-downtown-1-copy.jpg
 image-alt: downtown skyscrapers
 excerpt: The observation deck of Columbia Tower offers fantastic views of all Seattle.
 ---

@@ -4,7 +4,7 @@ title: "Unwinding in Chiang Mai"
 date:   2017-05-31 19:46:00 -0700
 tag: thailand
 location: Thailand
-image-url: wall-graffiti.jpg
+image-url: wall-graffiti-copy.jpg
 image-alt: graffiti on the alley wall
 excerpt: Our time here featured good food and coffee, as well as interesting discussions about Thai culture.
 ---

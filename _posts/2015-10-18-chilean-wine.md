@@ -4,7 +4,7 @@ title:  "Chilean Wine"
 date:   2015-10-18 01:20:00 -0700
 tag: chile
 location: Chile
-image-url: vineyard.jpg
+image-url: vineyard-copy.jpg
 image-alt: vines in the field
 excerpt: I visited my first-ever winery while we were in Chile.
 ---

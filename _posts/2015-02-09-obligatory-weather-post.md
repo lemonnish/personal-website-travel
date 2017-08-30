@@ -4,7 +4,7 @@ title:  "Obligatory Weather Post"
 date:   2015-02-09 18:51:00 -0700
 tag: vermont
 location: Vermont, USA
-image-url: snow-trees.jpg
+image-url: snow-trees-copy.jpg
 image-alt: trees covered in snow
 excerpt: Vermont winters are cold and snowy.
 ---

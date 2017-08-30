@@ -4,7 +4,7 @@ title: "Chúc Mừng Năm Mới!"
 date:   2017-02-05 08:15:00 -0700
 tag: vietnam
 location: Vietnam
-image-url: tet-market.jpg
+image-url: tet-market-copy.jpg
 image-alt: people shopping in the colorful Tet market
 excerpt: Jake and I stayed in Hanoi over Tet, the Vietnamese New Year.
 ---

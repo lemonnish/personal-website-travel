@@ -4,7 +4,7 @@ title:  "Friedrichshain, Berlin"
 date:   2016-04-15 01:11:00 -0700
 tag: germany
 location: Germany
-image-url: graffiti-whale.jpg
+image-url: graffiti-whale-copy.jpg
 image-alt: whale graffiti
 excerpt: Friedrichshain is a neighborhood that is undergoing gentrification. It was an interesting place to stay and explore.
 ---

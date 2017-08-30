@@ -4,7 +4,7 @@ title:  "Tianzifang"
 date:   2014-08-09 23:30:00 -0700
 tag: china
 location: China
-image-url: street.jpg
+image-url: tianzifang-street-copy.jpg
 image-alt: old street
 excerpt: Tianzifang is a neighborhood in Shanghai that is full of old style Shikumen houses.
 ---

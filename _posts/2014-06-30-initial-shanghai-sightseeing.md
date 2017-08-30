@@ -4,7 +4,7 @@ title:  "Initial Shanghai Sightseeing"
 date:   2014-06-30 20:12:00 -0700
 tag: china
 location: China
-image-url: puxi-2.jpg
+image-url: puxi-2-copy.jpg
 image-alt: Puxi skyline
 excerpt: Jake and I explored Shanghai for a couple days before I started work.
 ---

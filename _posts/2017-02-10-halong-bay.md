@@ -4,7 +4,7 @@ title: "Hạ Long Bay"
 date:   2017-02-10 01:11:00 -0700
 tag: vietnam
 location: Vietnam
-image-url: fishing-village.jpg
+image-url: fishing-village-copy.jpg
 image-alt: floating fishing village
 excerpt: Halong Bay is full of impressive limestone karsts.
 ---

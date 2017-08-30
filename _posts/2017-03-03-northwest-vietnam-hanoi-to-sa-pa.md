@@ -4,7 +4,7 @@ title: "Northwest Vietnam: Hanoi to Sa Pa"
 date:   2017-03-03 01:53:00 -0700
 tag: vietnam
 location: Vietnam
-image-url: terraced-valley-1.jpg
+image-url: terraced-valley-1-copy.jpg
 image-alt: motorbike in front of rice paddies
 excerpt: To get from Hanoi to Sa Pa, we went on a 8-day journey through Vietnam's backroads.
 ---

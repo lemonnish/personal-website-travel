@@ -4,7 +4,7 @@ title:  "Church Street"
 date:   2015-02-09 17:56:00 -0700
 tag: vermont
 location: Vermont, USA
-image-url: ben-jerrys.jpg
+image-url: ben-jerrys-copy.jpg
 image-alt: Ben & Jerry's storefront
 excerpt: Church Street is Burlington's walking street.
 ---

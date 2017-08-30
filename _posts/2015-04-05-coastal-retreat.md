@@ -4,7 +4,7 @@ title:  "Coastal Retreat"
 date:   2015-04-05 01:54:00 -0700
 tag: california
 location: California, USA
-image-url: waves.jpg
+image-url: waves-copy.jpg
 image-alt: rocks and waves at the beach
 excerpt: Jake and I spent a weekend in Half Moon Bay and Pacifica.
 ---

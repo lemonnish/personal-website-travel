@@ -4,7 +4,7 @@ title:  "Last Views of Shanghai"
 date:   2014-08-31 23:00:00 -0700
 tag: china
 location: China
-image-url: financial-district-night.jpg
+image-url: financial-district-night-copy.jpg
 image-alt: Pudong financial district at night
 excerpt: Some of the panoramas that I took of Shanghai didn't make it into any previous posts. Here they are.
 ---

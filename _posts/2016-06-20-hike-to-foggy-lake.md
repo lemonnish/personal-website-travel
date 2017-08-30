@@ -4,7 +4,7 @@ title:  "Hike to Foggy Lake"
 date:   2016-06-20 23:29:00 -0700
 tag: washington
 location: Washington, USA
-image-url: vista-top-sunset.jpg
+image-url: vista-top-sunset-copy.jpg
 image-alt: view from the top of the trail at sunset
 excerpt: Foggy Lake is normally a day-hike destination, but Jake and I decided to camp there overnight.
 ---

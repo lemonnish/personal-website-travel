@@ -4,7 +4,7 @@ title:  "Shanghai Food Adventures, part 1"
 date:   2014-07-27 12:00:00 -0700
 tag: china
 location: China
-image-url: IMG_2342.jpg
+image-url: egg-box-copy.jpg
 image-alt: egg pudding
 excerpt: Wenrui and I sampled a wide range of snacks.
 ---

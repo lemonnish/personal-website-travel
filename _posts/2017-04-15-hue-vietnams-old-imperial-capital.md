@@ -4,7 +4,7 @@ title: "Huế, Vietnam's Old Imperial Capital"
 date:   2017-04-15 06:14:00 -0700
 tag: vietnam
 location: Vietnam
-image-url: palace-front.jpg
+image-url: palace-front-copy.jpg
 image-alt: front of the Imperial Palace
 excerpt: Huế contains the palace of the Nguyễn dynasty, and the countryside is full of the emperors' tombs.
 ---

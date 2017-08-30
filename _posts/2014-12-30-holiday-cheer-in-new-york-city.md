@@ -4,7 +4,7 @@ title:  "Holiday Cheer in New York City"
 date:   2014-12-30 00:48:00 -0700
 tag: new-york
 location: New York, USA
-image-url: street-1.jpg
+image-url: street-1-copy.jpg
 image-alt: lighted street
 excerpt: New York City is an exciting place to visit during the holidays.
 ---

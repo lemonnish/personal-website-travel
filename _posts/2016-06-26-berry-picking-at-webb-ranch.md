@@ -4,7 +4,7 @@ title:  "Berry Picking at Webb Ranch"
 date:   2016-06-26 23:29:00 -0700
 tag: california
 location: California, USA
-image-url: bush.jpg
+image-url: bush-copy.jpg
 image-alt: rows of berry bushes
 excerpt: Webb Ranch in Portola Valley has fantastic fields of blackberry varieties.
 ---

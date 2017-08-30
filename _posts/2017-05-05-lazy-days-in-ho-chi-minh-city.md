@@ -4,7 +4,7 @@ title: "Lazy Days in Ho Chi Minh City"
 date:   2017-05-05 08:22:00 -0700
 tag: vietnam
 location: Vietnam
-image-url: apartment-cafe.jpg
+image-url: apartment-cafe-copy.jpg
 image-alt: exterior of the Apartment Cafe
 excerpt: We drank really good coffee, ate really good phở, and took really good pictures.
 ---

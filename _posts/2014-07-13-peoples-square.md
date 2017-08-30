@@ -4,7 +4,7 @@ title:  "People's Square"
 date:   2014-07-13 5:51:00 -0700
 tag: china
 location: China
-image-url: IMG_1700.jpg
+image-url: musicians-copy.jpg
 image-alt: musicians
 excerpt: People's Square is a large park in the middle of Shanghai. Many people visit here on the weekends.
 ---

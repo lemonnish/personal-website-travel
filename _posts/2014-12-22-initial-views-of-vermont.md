@@ -4,7 +4,7 @@ title:  "Initial Views of Vermont"
 date:   2014-12-22 21:26:00 -0700
 tag: vermont
 location: Vermont, USA
-image-url: parking-lot-snow.jpg
+image-url: parking-lot-snow-copy.jpg
 image-alt: parking lot covered in snow
 excerpt: In the first week before Christmas, I experienced the novelty of snow.
 ---

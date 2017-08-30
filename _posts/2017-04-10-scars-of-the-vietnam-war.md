@@ -4,7 +4,7 @@ title: "Scars of the Vietnam War"
 date:   2017-04-10 13:03:00 -0700
 tag: vietnam
 location: Vietnam
-image-url: mine-action.jpg
+image-url: mine-action-copy.jpg
 image-alt: entrance sign for the mine museum
 excerpt: The DMZ, between historic North and South Vietnam, contains sobering reminders of past violence.
 ---

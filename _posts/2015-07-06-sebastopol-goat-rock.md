@@ -4,7 +4,7 @@ title:  "Sebastopol: Goat Rock"
 date:   2015-07-06 1:37:00 -0700
 tag: california
 location: California, USA
-image-url: rocks.jpg
+image-url: rocks-copy.jpg
 image-alt: craggy rocks on the beach
 excerpt: I spent a day wandering the beach with Jake and his family.
 ---

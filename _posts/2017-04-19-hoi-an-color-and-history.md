@@ -4,7 +4,7 @@ title: "Hội An: Color and History"
 date:   2017-04-19 08:48:00 -0700
 tag: vietnam
 location: Vietnam
-image-url: lanterns-patterned.jpg
+image-url: lanterns-patterned-copy.jpg
 image-alt: patterned fabric lanterns
 excerpt: Hội An was hot and colorful and super touristy. However, it also had lots of charm, good food and drink, and ancient ruins.
 ---

@@ -4,7 +4,7 @@ title: "Northeast Vietnam: Cao Bằng and Bản Giốc Waterfall"
 date:   2017-03-26 09:26:00 -0700
 tag: vietnam
 location: Vietnam
-image-url: ban-gioc-pano.jpg
+image-url: ban-gioc-pano-copy.jpg
 image-alt: Bản Giốc Waterfall
 excerpt: We ate the best <i>phở vịt</i> in a little town called Trùng Khánh.
 ---

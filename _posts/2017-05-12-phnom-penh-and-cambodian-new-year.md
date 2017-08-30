@@ -4,7 +4,7 @@ title: "Phnom Penh and Cambodian New Year Celebrations"
 date:   2017-05-12 08:08:00 -0700
 tag: cambodia
 location: Cambodia
-image-url: quay-light-trails-1.jpg
+image-url: quay-light-trails-1-copy.jpg
 image-alt: light trails from traffic on Sisowath Quay
 excerpt: In Cambodia's capital, we were introduced to new friends, tuk-tuks, and monkeys.
 ---

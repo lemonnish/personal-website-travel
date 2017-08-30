@@ -4,7 +4,7 @@ title:  "Grand Park Jiayao Hotel and 新金桥路"
 date:   2014-08-23 00:58:00 -0700
 tag: china
 location: China
-image-url: street.jpg
+image-url: street-copy.jpg
 image-alt: wide and nearly empty street
 excerpt: I stayed on <i>Xīn Jīn Qiáo Lù</i> in Pudong.
 ---

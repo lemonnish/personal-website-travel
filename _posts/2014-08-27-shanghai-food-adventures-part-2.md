@@ -4,7 +4,7 @@ title:  "Shanghai Food Adventures, part 2"
 date:   2014-08-27 00:37:00 -0700
 tag: china
 location: China
-image-url: variety-1.jpg
+image-url: variety-1-copy.jpg
 image-alt: soft tofu with clams
 excerpt: In which we try a variety of Shanghai-style food, eat at Pizza Hut, and peruse a nearby grocery store.
 ---

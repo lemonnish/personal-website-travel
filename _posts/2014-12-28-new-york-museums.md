@@ -4,7 +4,7 @@ title:  "New York Museums"
 date:   2014-12-28 23:52:00 -0700
 tag: new-york
 location: New York, USA
-image-url: space-enterprise.jpg
+image-url: space-enterprise-copy.jpg
 image-alt: spaceship Enterprise
 excerpt: We visited many many museums.
 ---

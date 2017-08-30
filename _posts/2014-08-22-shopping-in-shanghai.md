@@ -4,7 +4,7 @@ title:  "Shopping in Shanghai"
 date:   2014-08-22 00:56:00 -0700
 tag: china
 location: China
-image-url: apple-store-interior.jpg
+image-url: apple-store-interior-copy.jpg
 image-alt: inside the Apple store
 excerpt: Shanghai is full of upscale malls and many shiny stores.
 ---

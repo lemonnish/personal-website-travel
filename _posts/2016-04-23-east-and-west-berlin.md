@@ -4,7 +4,7 @@ title:  "East and West Berlin"
 date:   2016-04-23 00:38:00 -0700
 tag: germany
 location: Germany
-image-url: wall.jpg
+image-url: wall-copy.jpg
 image-alt: whale graffiti
 excerpt: The Berlin Wall fell in 1989, but there are still reminders of the East-West divide all around the city.
 ---

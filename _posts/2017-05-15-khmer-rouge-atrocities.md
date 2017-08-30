@@ -4,7 +4,7 @@ title: "Khmer Rouge Atrocities"
 date:   2017-05-15 10:18:00 -0700
 tag: cambodia
 location: Cambodia
-image-url: choeung-ek.jpg
+image-url: choeung-ek-copy.jpg
 image-alt: memorial stupa at Choeung Ek
 excerpt: Over four years, the Khmer Rouge killed about one third of Cambodia's population. Memorial sites are located around the country.
 ---

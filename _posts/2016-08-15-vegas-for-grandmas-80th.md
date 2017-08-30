@@ -4,7 +4,7 @@ title:  "Vegas for Grandma's 80th"
 date:   2016-08-15 14:44:00 -0700
 tag: nevada
 location: Nevada, USA
-image-url: glass-ceiling.jpg
+image-url: glass-ceiling-copy.jpg
 image-alt: stained glass ceiling at the Venetian
 excerpt: "Summary: Vegas is Disneyland for adults."
 ---
