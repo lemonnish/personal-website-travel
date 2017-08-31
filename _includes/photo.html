@@ -22,11 +22,21 @@
   {% assign height = 100 %}
 {% endif %}
 
-<figure data-desired-height="{{ height }}" id="{{ include.url }}">
+{% assign url-split = include.url | split: "." %}
+{% assign pic-ext = url-split | last %}
+{% assign pic-name = url-split | first %}
+{% assign pic-folder = site.baseurl | append: "/photos/" | append: page.slug %}
 
-  <img
-    src="{{ site.baseurl }}/photos/{{ page.slug }}/{{ include.url }}"
-    alt="{{ include.alt }}" />
+<figure data-desired-height="{{ height }}" id="{{ include.url }}">
+  {% if include.size=='xlarge' or include.size=='large' %}
+    <img
+      src="{{ pic-folder }}/{{ pic-name }}.large.{{ pic-ext }}"
+      alt="{{ include.alt }}" />
+  {% else %}
+    <img
+      src="{{ pic-folder }}/{{ pic-name }}.{{ pic-ext }}"
+      alt="{{ include.alt }}" />
+  {% endif %}
 
   {% if include.caption %}
     <figcaption>{{ include.caption }}</figcaption>

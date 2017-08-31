@@ -10,9 +10,13 @@ description: default
       <a href='{{ site.baseurl }}{{ post.url }}'>
         <article class='post-preview'>
           {% if post.image-url %}
+            {% assign url-split = post.image-url | split: "." %}
+            {% assign pic-ext = url-split | last %}
+            {% assign pic-name = url-split | first | remove: '-copy' %}
+
             <figure>
               <img
-                src='{{ site.baseurl }}/photos/{{ post.slug }}/{{ post.image-url | remove: "-copy" }}'
+                src='{{ site.baseurl }}/photos/{{ post.slug }}/{{ pic-name | append:".large." | append:pic-ext }}'
                 alt='{{ post.image-alt }}'/>
             </figure>
           {% endif %}
