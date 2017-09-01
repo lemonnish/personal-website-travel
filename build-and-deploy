@@ -1,0 +1,8 @@
+#!/bin/sh
+
+bundle exec jekyll build
+
+scp Caddyfile root@138.68.2.179:/etc/Caddyfile
+rsync -avP _site/ root@138.68.2.179:/srv/www/making-trails
+
+ssh root@138.68.2.179 'pkill -USR1 caddy'
