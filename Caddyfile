@@ -1,5 +1,24 @@
-/making-trails
+https://www.laurennishizaki.com {
+  root /srv/www
 
-root /making-trails
+  redir 307 {
+    if {path} is /
+    / /making-trails
+  }
 
-log stdout
+  log /var/log/caddy/access.log
+  errors /var/log/caddy/errors.log
+
+  tls lmnishizaki@gmail.com
+}
+
+http://laurennishizaki.com,
+http://www.laurennishizaki.com,
+https://laurennishizaki.com {
+  redir / https://www.laurennishizaki.com{path} 301
+
+  log /var/log/caddy/access.log
+  errors /var/log/caddy/errors.log
+
+  tls lmnishizaki@gmail.com
+}
