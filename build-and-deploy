@@ -1,5 +1,13 @@
 #!/bin/sh
 
+for image in photos/*/*.jpg; do
+  if [[ $image != *".large."* ]] && [[ $image != *".med."* ]] && [[ $image != *"/post-list/"* ]]; then
+    convert $image -set filename:name %d/%t \
+      \( +clone -resize 1000x1000\> -write '%[filename:name].large.jpg' +delete \) \
+      -resize 800x800\> '%[filename:name].med.jpg'
+  fi
+done
+
 bundle exec jekyll build
 
 scp Caddyfile root@138.68.2.179:/etc/Caddyfile

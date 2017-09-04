@@ -1,3 +1,5 @@
 _site
 .sass-cache
 .jekyll-metadata
+photos/*/*.large.jpg
+photos/*/*.med.jpg

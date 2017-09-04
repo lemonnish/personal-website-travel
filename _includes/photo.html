@@ -28,13 +28,17 @@
 {% assign pic-folder = site.baseurl | append: "/photos/" | append: page.slug %}
 
 <figure data-desired-height="{{ height }}" id="{{ include.url }}">
-  {% if include.size=='xlarge' or include.size=='large' %}
+  {% if pic-ext!='jpg' %}
+    <img
+      src="{{ pic-folder }}/{{ pic-name }}.{{ pic-ext }}"
+      alt="{{ include.alt }}" />
+  {% elsif include.size=='xlarge' or include.size=='large' %}
     <img
       src="{{ pic-folder }}/{{ pic-name }}.large.{{ pic-ext }}"
       alt="{{ include.alt }}" />
   {% else %}
     <img
-      src="{{ pic-folder }}/{{ pic-name }}.{{ pic-ext }}"
+      src="{{ pic-folder }}/{{ pic-name }}.med.{{ pic-ext }}"
       alt="{{ include.alt }}" />
   {% endif %}
 
