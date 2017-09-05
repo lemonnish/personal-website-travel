@@ -6,6 +6,10 @@ https://www.laurennishizaki.com {
     / /making-trails
   }
 
+  errors {
+    404 making-trails/404.html
+  }
+
   log /var/log/caddy/access.log
   errors /var/log/caddy/errors.log
 
