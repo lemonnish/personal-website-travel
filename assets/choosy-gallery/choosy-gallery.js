@@ -382,7 +382,6 @@ var Gallery = function () {
       // width doesn't change.
       this.selector.css('visibility', 'hidden');
       this.selector.css('height', 0);
-      console.log('unmount');
       $('.loading').css('display', 'block');
     }
   }, {
@@ -391,7 +390,6 @@ var Gallery = function () {
       // make the gallery visible again
       this.selector.css('visibility', 'visible');
       this.selector.css('height', 'auto');
-      console.log('mount');
       $('.loading').css('display', 'none');
     }
   }, {
