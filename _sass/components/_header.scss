@@ -1,5 +1,5 @@
 body > header {
-  border-top: 5px solid #333;
+  border-top: 5px solid $color-theme;
   border-bottom: 1px solid $color-divider;
   padding: $base-unit * 2 0;
 
@@ -20,7 +20,7 @@ body > header {
       @extend %header-link;
     }
   }
-  
+
   p {
     margin: 0;
   }

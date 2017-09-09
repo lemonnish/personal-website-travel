@@ -1,16 +1,20 @@
+$color-theme: #2a7ae2;
+$color-theme-grey: #A3B0C1;
+$color-theme-dark: #1756a9;
+
 $color-base-text: black;
-$color-link: #2a7ae2;
-$color-link-hover: #2a7ae2;
-$color-link-visited: #1756a9;
+$color-link: $color-theme;
+$color-link-hover: $color-theme;
+$color-link-visited: $color-theme-rich;
 
 $color-meta-text: #999;
 $color-quote-text: #555;
 
 $color-border: #eee;
-$color-border-hover: #ccc;
+$color-border-hover: $color-theme-grey;
 
 $color-divider: #ccc;
-$color-divider-dark: #888;
+$color-divider-dark: $color-theme-rich;
 
 $font-family-body: 'Open Sans', sans-serif;
 $font-family-header: 'Roboto Slab', serif;
