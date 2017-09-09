@@ -16,6 +16,7 @@ form.contact-form {
   }
   textarea {
     margin-bottom: $base-unit * 2;
+    height: $base-unit * 16;
   }
   input:last-child {
     font-family: $font-family-header;
@@ -31,9 +32,6 @@ form.contact-form {
       color: white;
     }
   }
-
-  textarea {
-    height: $base-unit * 16;
   }
 
   @media (min-width: $media-div) {

@@ -8,18 +8,19 @@ title: Contact
 
 {% comment %}
 <form class='contact-form' action='' method='post'>
+  <p>All fields are required.</p>
 
   <label for='name'>Name</label>
-  <input type='text' id='name' name='name' placeholder='Louise Belcher'>
+  <input type='text' id='name' name='name' placeholder='Louise Belcher' required/>
 
   <label for='email'>Email</label>
-  <input type='text' id='email' name='email' placeholder='louise@burgers.com'>
+  <input type='text' id='email' name='email' placeholder='louise@burgers.com' required/>
 
   <label for='subject'>Subject</label>
-  <input type='text' id='subject' name='subject' placeholder="What's cooking?">
+  <input type='text' id='subject' name='subject' placeholder="What's cooking?" required/>
 
   <label for='message'>Message</label>
-  <textarea id='message' name='message' placeholder="Idea: 'Totally Radish Burger' (comes with radish)"></textarea>
+  <textarea id='message' name='message' placeholder="Idea: 'Totally Radish Burger' (comes with radish)" required></textarea>
 
   <input type='submit' value='Submit'>
 
