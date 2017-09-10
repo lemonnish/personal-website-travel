@@ -32,9 +32,9 @@ form.contact-form {
       color: white;
     }
   }
-//  p {
-//    margin-top: 0;
-//  }
+  p {
+    margin-top: 0;
+  }
 
   @media (min-width: $media-div) {
     display: grid;
@@ -50,9 +50,9 @@ form.contact-form {
     input, textarea {
       grid-column: field;
     }
-//    p {
-//      grid-column: title / field;
-//    }
+    p {
+      grid-column: title / field;
+    }
   }
 }
 
