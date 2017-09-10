@@ -2,9 +2,9 @@ FROM alpine:3.6
 
 # modified from Abiola Ibrahim's abiosoft/caddy Dockerfile
 
-ARG plugins=http.mailout
+ARG plugins=http.cgi
 
-RUN apk add --no-cache openssh-client git tar curl
+RUN apk add --no-cache openssh-client python3 git tar curl
 
 RUN curl --silent --show-error --fail --location \
       --header "Accept: application/tar+gzip, application/x-gzip, application/octet-stream" -o - \
@@ -20,4 +20,9 @@ COPY Caddyfile /etc/Caddyfile
 
 ENTRYPOINT ["/usr/bin/caddy"]
 
-COPY _site /making-trails
+COPY _site /srv/www/making-trails
+COPY cgi-bin /srv/cgi-bin
+
+RUN chmod +x /srv/cgi-bin/*
+
+RUN mkdir -p /var/log/caddy

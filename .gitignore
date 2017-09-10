@@ -3,3 +3,4 @@ _site
 .jekyll-metadata
 photos/*/*.large.jpg
 photos/*/*.med.jpg
+cgi-bin

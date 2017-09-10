@@ -7,8 +7,12 @@ https://www.laurennishizaki.com {
   }
 
   errors {
+    400 making-trails/400.html
     404 making-trails/404.html
+    503 making-trails/503.html
   }
+
+  cgi /making-trails/contact/submit /srv/cgi-bin/contact.py
 
   log /var/log/caddy/access.log
   errors /var/log/caddy/errors.log

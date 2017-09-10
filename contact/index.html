@@ -2,12 +2,11 @@
 layout: page
 title: Contact
 ---
-<h2>
-  Coming soon!
-</h2>
-
 {% comment %}
-<form class='contact-form' action='' method='post'>
+  <p class='form-submitted failure'>There was an error processing your message! Please try again.</p>
+{% endcomment %}
+
+<form class='contact-form' action='/making-trails/contact/submit' method='post'>
   <p>All fields are required.</p>
 
   <label for='name'>Name</label>
@@ -25,4 +24,17 @@ title: Contact
   <input type='submit' value='Submit'>
 
 </form>
+
+{% comment %}
+
+<script>
+  $(document).ready(function() {
+    $('.contact-form').submit(function(event) {
+        $('.success').css('display','block');
+        $('.contact-form').css('display','none');
+      event.preventDefault();
+    });
+  });
+</script>
+
 {% endcomment %}
