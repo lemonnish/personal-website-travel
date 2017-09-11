@@ -1,36 +1,97 @@
 body > footer {
-  font-size: small;
-  border-top: 1px solid $color-divider;
-  padding: $base-unit * 2 0;
-
-  display: grid;
-  grid-template-columns: inherit;
-  grid-column-gap: inherit;
   grid-column: full;
+  display: block;
+  padding: 2*$base-unit-small 0 0;
 
+  border-top: 1px solid $color-divider;
+
+  align-items: center;
+  font-size: small;
   & > * {
-    grid-column: main;
-  }
-
-  nav {
-    display: flex;
-    margin: 0 auto $base-unit / 2;
-    a {
-      padding: 0 $base-unit-small * 2;
-      border-right: 1px solid $color-divider;
-    }
-    a:last-child {
-      border-right: none;
-    }
-  }
-
-  p {
     margin: 0;
+    line-height: $base-unit;
     text-align: center;
-    line-height: $base-unit * 1.5;
+  }
+  nav {
+    color: $color-link;
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: $base-unit-small/2;
+    a {
+      display: block;
+      padding: 0 0 0 $base-unit;
+      //line-height: $base-unit * 1.5;
+    }
+    a:not(:last-child)::after {
+      border-right: 1px solid $color-divider;
+      padding-right: $base-unit;
+      content: '';
+    }
+    a:link, a:visited {
+      color: $color-link;
+      text-decoration: none;
+    }
+    a:active, a:hover {
+      text-decoration: underline;
+    }
+  }
+  > a {
+    display: block;
+    width: 100%;
+    background-color: $color-link;
+    margin: 0;
+    padding: $base-unit-small/2;
+    height: 2rem;
+    img {
+      height: 100%;//2*$base-unit;
+      display: block;
+      width: 100%;
+      fill: white;//$color-subtle;
+      justify-self: center;
+    }
+  }
+  p {
+    //line-height: $base-unit * 1.5;
+    margin-bottom: 2*$base-unit-small;
     span {
       font-family: $font-family-header;
     }
   }
+}
 
+@media(min-width: $media-div) {
+  body > footer {
+    padding: 2*$base-unit 0;
+    display: grid;
+    grid-template-columns: 1fr 3rem 1fr;
+    grid-auto-flow: row;
+    grid-column-gap: 1rem;
+    nav {
+      display: block;
+      text-align: right;
+      margin: 0;
+      a {
+        border: none;
+        display: inline;
+        padding: 0;
+      }
+      a:not(:last-child)::after {
+        border: none;
+        content: ',';
+        padding: 0;
+      }
+    }
+    p {
+      text-align: left;
+      margin: 0;
+    }
+    > a {
+      grid-area: 1 / 2;
+      height: 3rem;
+      svg {
+        height: 100%;
+      }
+    }
+  }
 }
