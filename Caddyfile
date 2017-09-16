@@ -1,18 +1,37 @@
 https://www.laurennishizaki.com {
   root /srv/www
 
-  redir 307 {
-    if {path} is /
-    / /making-trails
+  errors {
+    400 400.html
+    404 404.html
+    503 503.html
   }
+
+  cgi /contact/submit /srv/cgi-bin/contact.py
+
+  log /var/log/caddy/access.log
+  errors /var/log/caddy/errors.log
+
+  tls lmnishizaki@gmail.com
+}
+https://www.laurennishizaki.com/making-trails {
+  root /srv/www/making-trails
 
   errors {
-    400 making-trails/400.html
-    404 making-trails/404.html
-    503 making-trails/503.html
+    404 404.html
   }
 
-  cgi /making-trails/contact/submit /srv/cgi-bin/contact.py
+  log /var/log/caddy/access.log
+  errors /var/log/caddy/errors.log
+
+  tls lmnishizaki@gmail.com
+}
+https://www.laurennishizaki.com/photo-gallery {
+  root /srv/www/photo-gallery
+
+  errors {
+    404 404.html
+  }
 
   log /var/log/caddy/access.log
   errors /var/log/caddy/errors.log

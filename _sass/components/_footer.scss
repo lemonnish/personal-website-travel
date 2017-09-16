@@ -15,6 +15,7 @@ body > footer {
   nav {
     color: $color-link;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-bottom: $base-unit-small/2;
     a {
