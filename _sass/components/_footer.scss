@@ -1,5 +1,4 @@
 body > footer {
-  grid-column: full;
   display: block;
   padding: 2*$base-unit-small 0 0;
 
@@ -55,33 +54,35 @@ body > footer {
       font-family: $font-family-header;
     }
   }
-}
 
-@media(min-width: $media-div) {
-  body > footer {
-    padding: 2*$base-unit 0;
-    display: grid;
-    grid-template-columns: 1fr minmax(0, 20rem) 3rem minmax(0, 20rem) 1fr;
-    grid-auto-flow: row;
-    grid-column-gap: $base-unit;
-    nav {
-      grid-area: 1 / 2;
-      justify-content: flex-end;
-      margin: 0;
-      a:last-child {
-        padding-right: 0;
+  @supports (display: grid) {
+    grid-column: full;
+
+    @media (min-width: $media-div) {
+      padding: 2*$base-unit 0;
+      display: grid;
+      grid-template-columns: 1fr minmax(0, 20rem) 3rem minmax(0, 20rem) 1fr;
+      grid-auto-flow: row;
+      grid-column-gap: $base-unit;
+      nav {
+        grid-area: 1 / 2;
+        justify-content: flex-end;
+        margin: 0;
+        a:last-child {
+          padding-right: 0;
+        }
       }
-    }
-    p {
-      grid-area: 1 / 4;
-      text-align: left;
-      margin: 0;
-    }
-    > a {
-      grid-area: 1 / 3;
-      height: 3rem;
-      svg {
-        height: 100%;
+      p {
+        grid-area: 1 / 4;
+        text-align: left;
+        margin: 0;
+      }
+      > a {
+        grid-area: 1 / 3;
+        height: 3rem;
+        svg {
+          height: 100%;
+        }
       }
     }
   }

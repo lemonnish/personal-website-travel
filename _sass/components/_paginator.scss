@@ -1,0 +1,34 @@
+nav.paginator {
+  margin: 0;
+  & > * {
+    align-self: center;
+  }
+  & > span.pager {
+    justify-self: center;
+  }
+  a.first, a.prev {
+    justify-self: left;
+  }
+  a.next, a.last {
+    justify-self: right;
+  }
+
+  @media (min-width: $media-div) {
+    a.prev::after {
+      content: 'ious';
+    }
+    span.pager::before {
+      content: 'Page ';
+    }
+  }
+
+  @supports (display: grid) {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    & > span.pager {
+      grid-column-start: 3;
+      grid-column-end: 4;
+    }
+  }
+}

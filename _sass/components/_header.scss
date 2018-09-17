@@ -2,17 +2,7 @@ body > header {
   border-top: 5px solid $color-theme;
   border-bottom: 1px solid $color-divider;
   padding: $base-unit * 2 0;
-
-  grid-column: full;
-
-  display: grid;
-  grid-template-columns: inherit;
-  grid-column-gap: inherit;
-
-  & > * {
-    grid-column: main;
-  }
-
+  
   h1 {
     font-size: 2em;
     margin: 0;
@@ -23,5 +13,16 @@ body > header {
 
   p {
     margin: 0;
+  }
+
+  @supports (display: grid) {
+    grid-column: full;
+    display: grid;
+    grid-template-columns: inherit;
+    grid-column-gap: inherit;
+
+    & > * {
+      grid-column: main;
+    }
   }
 }

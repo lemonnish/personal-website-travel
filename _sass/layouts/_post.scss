@@ -2,12 +2,8 @@ article.post {
   margin: 0 0 $base-unit * 3;
 
   header {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     margin-bottom: $base-unit * 3;
     h1 {
-      grid-column-start: 1;
-      grid-column-end: 3;
       margin-bottom: $base-unit;
     }
     p {
@@ -95,4 +91,16 @@ article.post {
       position: absolute;
     }
   }
+  
+  @supports (display: grid) {
+    header {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      h1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+      }
+    }
+  }
+
 }
