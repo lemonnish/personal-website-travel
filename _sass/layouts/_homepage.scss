@@ -2,10 +2,9 @@
 @import 'util/header-link';
 
 main.homepage {
-  margin: 2 * $base-unit-small 0;
   & > ul {
     @extend %unstyled-list;
-    margin: 2 * $base-unit-small 0;
+    margin: 0 0 2 * $base-unit-small;
 
     li a {
       @extend %header-link;
@@ -27,7 +26,7 @@ main.homepage {
       margin-bottom: 0;
     }
 
-    @media (min-width: $media-div) {
+    @media (min-width: $media-toggle) {
       li:first-child article.post-preview {
         display: block;
 
@@ -75,7 +74,7 @@ main.homepage {
     section {
       display: flex;
       flex-wrap: wrap;
-      margin: $base-unit-small * 2 0;
+      margin: $base-unit-small * 2 0 0;
       & > * {
         display: block;
         flex-grow: 1;

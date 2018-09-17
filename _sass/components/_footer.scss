@@ -6,82 +6,120 @@ body > footer {
 
   align-items: center;
   font-size: small;
-  & > * {
-    margin: 0;
-    line-height: 1rem;//$base-unit;
-    text-align: center;
-  }
-  nav {
-    color: $color-link;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: $base-unit-small/2;
-    a {
-      display: block;
-      padding: 0 $base-unit;
-      border-right: 1px solid $color-divider;
-    }
-    a:last-child {
-      border: none;
-    }
-    a:link, a:visited {
-      color: $color-link;
-      text-decoration: none;
-    }
-    a:active, a:hover {
-      text-decoration: underline;
-    }
-  }
-  > a {
-    display: block;
+
+  div.content {
     width: 100%;
-    background-color: $color-link;
-    margin: 0;
-    padding: $base-unit-small/2;
-    height: 2rem;
-    img {
-      height: 100%;//2*$base-unit;
+    & > * {
+      margin: 0;
+      line-height: 1rem;//$base-unit;
+      text-align: center;
+    }
+    nav {
+      color: $color-link;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 0;
+      a {
+        display: block;
+        padding: 0 $base-unit / 2;
+      }
+      a:link, a:visited {
+        color: $color-link;
+        text-decoration: none;
+      }
+      a:active, a:hover {
+        text-decoration: underline;
+      }
+    }
+    a.logo {
       display: block;
       width: 100%;
-      fill: white;//$color-subtle;
-      justify-self: center;
+      background-color: $color-link;
+      margin: 0;
+      padding: $base-unit-small/2;
+      height: $base-unit * 3;
+      img {
+        height: 100%;//2*$base-unit;
+        display: block;
+        width: 100%;
+        fill: white;//$color-subtle;
+        justify-self: center;
+      }
     }
-  }
-  p {
-    margin-bottom: 2*$base-unit-small;
-    span {
-      font-family: $font-family-header;
+    p {
+      margin: $base-unit-small / 2 0 $base-unit-small * 2;
+      span {
+        font-family: $font-family-header;
+      }
     }
   }
 
   @supports (display: grid) {
+    display: grid;
     grid-column: full;
+    grid-template-columns: inherit;
+    grid-gap: inherit;
 
-    @media (min-width: $media-div) {
-      padding: 2*$base-unit 0;
+    div.content {
       display: grid;
-      grid-template-columns: 1fr minmax(0, 20rem) 3rem minmax(0, 20rem) 1fr;
-      grid-auto-flow: row;
-      grid-column-gap: $base-unit;
-      nav {
-        grid-area: 1 / 2;
-        justify-content: flex-end;
-        margin: 0;
-        a:last-child {
-          padding-right: 0;
+      grid-template-columns: inherit;
+      grid-column: full;
+      grid-gap: inherit;
+      & > * {
+        grid-column: main;
+      }
+      a.logo {
+        grid-column: full;
+      }
+    }
+
+    @media (min-width: $media-toggle) {
+      padding: 2*$base-unit 0;
+      div.content {
+        grid-column: main;
+        grid-template-columns: 1fr [logo-start] auto
+          [logo-end text-start] auto [text-end] 1fr;
+        grid-column-gap: 0;//$base-unit * 2;
+        a.logo {
+          grid-column: logo;
+          grid-row: 1 / span 1;
+          height: 3rem;
+          width: 3rem;
+          margin-right: 1rem;
+        }
+        nav, p {
+          grid-column: text;
+        }
+        nav {
+          justify-content: start;
+          align-items: center;
+          margin: 0;
+          a {
+            //padding: $base-unit / 2 $base-unit;
+            padding: 0 $base-unit 0 0;
+          }
+          & > :first-child {
+            padding-left: 0;
+          }
+        }
+        p {
+          margin-bottom: 0;
+          text-align: left;
         }
       }
-      p {
-        grid-area: 1 / 4;
-        text-align: left;
-        margin: 0;
-      }
-      > a {
-        grid-area: 1 / 3;
-        height: 3rem;
-        svg {
-          height: 100%;
+    }
+    @media (min-width: $media-toggle-wide) {
+      div.content {
+        grid-template-columns: 1fr [logo-start] auto
+          [logo-end text-start] auto [text-end] 1fr;
+        a.logo {
+          margin-right: 2rem;
+        }
+        nav {
+          a {
+            padding: 0 $base-unit * 2 0 0;
+          }
         }
       }
     }

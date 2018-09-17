@@ -36,7 +36,7 @@ article.post-preview {
   }
 
 
-  @media (min-width: $media-div) {
+  @media (min-width: $media-toggle) {
     display: flex;
     flex-direction: row;
 

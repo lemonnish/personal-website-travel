@@ -1,8 +1,6 @@
 @import 'util/unstyled-list';
 
 main.list-page {
-  margin: 0 0 $base-unit * 2;
-
   & > ul {
     @extend %unstyled-list;
     margin: $base-unit 0;

@@ -2,7 +2,13 @@ body > header {
   border-top: 5px solid $color-theme;
   border-bottom: 1px solid $color-divider;
   padding: $base-unit * 2 0;
-  
+
+  div.content {
+    max-width: $max-content-width;
+    margin: 0 auto;
+    padding: 0 $base-unit;
+  }
+
   h1 {
     font-size: 2em;
     margin: 0;
@@ -19,9 +25,15 @@ body > header {
     grid-column: full;
     display: grid;
     grid-template-columns: inherit;
-    grid-column-gap: inherit;
+    grid-gap: inherit;
+    
+    padding-left: 0;
+    padding-right: 0;
 
-    & > * {
+    div.content {
+      max-width: 100%;
+      margin: 0;
+      padding: 0;
       grid-column: main;
     }
   }

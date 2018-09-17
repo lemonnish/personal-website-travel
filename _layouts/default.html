@@ -6,22 +6,26 @@
 <body>
   <header>
     <!-- FIXME hacky trailing / -->
-    <h1><a href='{{ site.baseurl }}/'>{{ site.name }}</a></h1>
-    <p>{{ site.description }}</p>
+    <div class='content'>
+      <h1><a href='{{ site.baseurl }}/'>{{ site.name }}</a></h1>
+      <p>{{ site.description }}</p>
+    </div>
   </header>
 
   {{ content }}
 
   <footer>
-    <nav>
-      <a href='/'>Home</a>
-      <a href='/photo-gallery/'>Photo Gallery</a>
-      <a href='/projects/'>Projects</a>
-      <a href='{{ site.author.github }}'>GitHub</a>
-      <a href='/contact/'>Contact</a>
-    </nav>
-    <p><span>{{ site.name }}</span> © {{ site.time | date: "%Y" }} {{ site.author.name }}. {{ site.copyright }}</p>
-    <a href='/'><img src='/icon-w.svg' alt='logo'/></a>
+    <div class='content'>
+      <nav>
+        <a href='/making-trails/'>Making Trails</a>
+        <a href='/photo-gallery/'>Photo Gallery</a>
+        <a href='/projects/'>Projects</a>
+        <a href='{{ site.author.github }}'>GitHub</a>
+        <a href='/contact/'>Contact</a>
+      </nav>
+      <p><span>{{ site.name }}</span> © {{ site.time | date: "%Y" }} {{ site.author.name }}. {{ site.copyright }}</p>
+      <a class='logo' href='/'><img src='/icon-w.svg' alt='logo'/></a>
+    </div>
   </footer>
 
 </body>

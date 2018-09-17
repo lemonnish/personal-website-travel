@@ -1,15 +1,30 @@
 body {
+  & > main, & > article {
+    padding: 0 $base-unit;
+    margin: $base-unit * 2 auto $base-unit * 3;
+    max-width: $max-content-width;
+  }
 
   @supports (display: grid) {
+    & > main, & > article {
+      padding: 0;
+      margin-left: 0;
+      margin-right: 0;
+      max-width: 100%;
+    }
+
     display: grid;
     grid-template-columns:
       [full-start] minmax(0, 1fr)
       [main-start] minmax(0, $max-content-width) [main-end]
       minmax(0, 1fr) [full-end];
-    grid-column-gap: 1rem;//$base-unit;
-
+    grid-template-rows: max-content auto max-content;
+    grid-column-gap: $base-unit;
+    grid-row-gap: 0;
+    min-height:100vh;
     & > * {
       grid-column: main;
     }
+    
   }
 }

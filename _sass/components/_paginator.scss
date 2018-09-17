@@ -1,19 +1,28 @@
 nav.paginator {
   margin: 0;
+  display: flex;
+
+  align-items: center;
+
   & > * {
-    align-self: center;
-  }
-  & > span.pager {
-    justify-self: center;
-  }
-  a.first, a.prev {
-    justify-self: left;
-  }
-  a.next, a.last {
-    justify-self: right;
+    //align-self: center;
+    flex-grow: 1;
   }
 
-  @media (min-width: $media-div) {
+  span.pager {
+    text-align: center;
+    &:first-child {
+      margin-left: 40%;
+    }
+    &:last-child {
+      margin-right: 40%;
+    }
+  }
+  a.next, a.last {
+    text-align: right;
+  }
+
+  @media (min-width: $media-toggle) {
     a.prev::after {
       content: 'ious';
     }
@@ -26,9 +35,12 @@ nav.paginator {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 
-    & > span.pager {
+    span.pager {
       grid-column-start: 3;
       grid-column-end: 4;
+      &:first-child, &:last-child {
+        margin: 0;
+      }
     }
   }
 }

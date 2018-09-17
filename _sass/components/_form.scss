@@ -37,7 +37,7 @@ form.contact-form {
     margin-top: 0;
   }
 
-  @media (min-width: $media-div) {
+  @media (min-width: $media-toggle) {
     display: grid;
     grid-template-columns:
       [title-start] minmax(0, 8em)

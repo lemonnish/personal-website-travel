@@ -1,17 +1,16 @@
 article.post {
-  margin: 0 0 $base-unit * 3;
-
   header {
+    display: flex;
     margin-bottom: $base-unit * 3;
+    flex-wrap: wrap;
+    justify-content: space-between;
     h1 {
       margin-bottom: $base-unit;
+      width: 100%;
     }
     p {
       margin: 0;
       color: $color-meta-text;
-    }
-    p:nth-of-type(2) {
-      text-align: right;
     }
   }
 
@@ -91,16 +90,4 @@ article.post {
       position: absolute;
     }
   }
-  
-  @supports (display: grid) {
-    header {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      h1 {
-        grid-column-start: 1;
-        grid-column-end: 3;
-      }
-    }
-  }
-
 }
