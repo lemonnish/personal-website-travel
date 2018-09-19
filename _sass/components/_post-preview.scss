@@ -1,60 +1,66 @@
 @import 'util/image-container';
 
-article.post-preview {
-  margin: 0 0 $base-unit-small * 3;
-  padding: 0;
+a.post-preview {
+  article {
+    margin: 0 0 $base-unit-small * 3;
+    padding: 0;
 
-  border-bottom: $base-unit-small * 2 solid $color-border;
-  border-top: 1px solid $color-border;
-
-  figure {
-    @extend %image-container;
-    margin-top: $base-unit-small
-  }
-
-  section {
-    padding: $base-unit-small * 1.5 $base-unit-small;
     border-bottom: $base-unit-small * 2 solid $color-border;
-    & > * {
-      line-height: $base-unit-small * 2;
-      margin: $base-unit-small 0;
-    }
-    h2 {
-      font-size: 1.6em;
-      line-height: $base-unit-small * 3;
-    }
-    p:last-child, time {
-      color: $color-meta-text;
+    border-top: 1px solid $color-border;
+
+    figure {
+      @extend %image-container;
+      margin-top: $base-unit-small
     }
 
-    >:first-child {
-      margin-top: 0;
-    }
-    >:last-child {
-      margin-bottom: 0;
+    section {
+      padding: $base-unit-small * 1.5 $base-unit-small;
+      border-bottom: $base-unit-small * 2 solid $color-border;
+      & > * {
+        line-height: $base-unit-small * 2;
+        margin: $base-unit-small 0;
+      }
+      h2 {
+        font-size: 1.6em;
+        line-height: $base-unit-small * 3;
+      }
+      p:last-child, time {
+        color: $color-meta-text;
+      }
+
+      >:first-child {
+        margin-top: 0;
+      }
+      >:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 
 
   @media (min-width: $media-toggle) {
-    display: flex;
-    flex-direction: row;
+    article {
+      display: flex;
+      flex-direction: row;
 
-    figure {
-      width: 50%;
-      margin-bottom: 0;
-    }
+      figure {
+        width: 50%;
+        margin-bottom: 0;
+      }
 
-    section {
-      width: 50%;
-      flex-grow: 1;
+      section {
+        width: 50%;
+        flex-grow: 1;
+      }
     }
   }
 
-  &:hover {
-    border-color: $color-border-hover;
-    section {
+  &:focus, &:hover, &:active {
+    article {
       border-color: $color-border-hover;
+      section {
+        border-color: $color-border-hover;
+      }
     }
   }
 }

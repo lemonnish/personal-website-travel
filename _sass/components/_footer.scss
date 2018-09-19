@@ -22,13 +22,13 @@ body > footer {
       margin-bottom: 0;
       a {
         display: block;
-        padding: 0 $base-unit / 2;
+        margin: 0 $base-unit / 2;
       }
       a:link, a:visited {
         color: $color-link;
         text-decoration: none;
       }
-      a:active, a:hover {
+      a:focus, a:hover, a:active {
         text-decoration: underline;
       }
     }
@@ -96,8 +96,7 @@ body > footer {
           align-items: center;
           margin: 0;
           a {
-            //padding: $base-unit / 2 $base-unit;
-            padding: 0 $base-unit 0 0;
+            margin: 0 $base-unit 0 0;
           }
           & > :first-child {
             padding-left: 0;
@@ -118,7 +117,7 @@ body > footer {
         }
         nav {
           a {
-            padding: 0 $base-unit * 2 0 0;
+            margin: 0 $base-unit * 2 0 0;
           }
         }
       }

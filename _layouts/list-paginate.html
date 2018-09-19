@@ -11,8 +11,8 @@ layout: default
   <ul>
     {% for post in paginator.posts %}
     <li>
-      <a href='{{ site.baseurl }}{{ post.url }}'>
-        <article class='post-preview'>
+      <a class='post-preview' href='{{ site.baseurl }}{{ post.url }}'>
+        <article>
           {% if post.image-url %}
             <figure>
               <img

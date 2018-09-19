@@ -7,7 +7,7 @@ a {
   &:visited {
     color: $color-link-visited;
   }
-  &:hover, &:active {
+  &:focus, &:hover, &:active {
     color: $color-link-hover;
     text-decoration: underline;
   }

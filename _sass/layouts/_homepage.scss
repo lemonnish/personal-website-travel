@@ -14,7 +14,7 @@ main.homepage {
       min-height: 9 * $base-unit-small;
     }
 
-    article.post-preview {
+    article {
       margin-bottom: $base-unit-small * 2;
       border-bottom-width: $base-unit-small;
       section {
@@ -27,7 +27,7 @@ main.homepage {
     }
 
     @media (min-width: $media-toggle) {
-      li:first-child article.post-preview {
+      li:first-child article {
         display: block;
 
         figure {
@@ -39,7 +39,7 @@ main.homepage {
         }
       }
 
-      li:not(:first-child) article.post-preview {
+      li:not(:first-child) article {
         flex-direction: row-reverse;
 
         figure {
@@ -61,7 +61,7 @@ main.homepage {
     text-align: center;
     border: 2px solid $color-divider;
     @extend %header-link;
-    &:hover {
+    &:focus, &:hover, &:active {
       border-color: $color-divider-dark;
     }
   }
@@ -90,8 +90,10 @@ main.homepage {
           width: 100%;
           height: 100%;
         }
-        &:hover svg rect {
-          fill: $color-svg-background;
+        &:focus, &:hover, &:active {
+          svg rect {
+            fill: $color-svg-background;
+          }
         }
       }
       div.placeholder {
