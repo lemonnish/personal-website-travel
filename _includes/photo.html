@@ -27,7 +27,9 @@
 {% assign pic-name = url-split | first %}
 {% assign pic-folder = site.baseurl | append: "/photos/" | append: page.slug %}
 
-<figure data-desired-height="{{ height }}" id="{{ include.url }}">
+<figure data-desired-height="{{ height }}"
+  id="{{ include.url }}"
+  title="{{ include.alt }}" >
   {% if pic-ext!='jpg' %}
     <img
       src="{{ pic-folder }}/{{ pic-name }}.{{ pic-ext }}"
