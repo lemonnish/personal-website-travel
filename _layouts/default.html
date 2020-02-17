@@ -17,11 +17,19 @@
   <footer>
     <div class='content'>
       <nav>
-        <a href='/making-trails/'>Making Trails</a>
-        <a href='/photo-gallery/'>Photo Gallery</a>
-        <a href='/projects/'>Projects</a>
-        <a href='{{ site.author.github }}'>GitHub</a>
-        <a href='/contact/'>Contact</a>
+        <ul>
+          <li><a href='/making-trails/'>Making Trails</a></li>
+          <li><a href='/photo-gallery/'>Photo Gallery</a></li>
+          <li><a href='/projects/'>Projects</a></li>
+        </ul>
+        <ul>
+          <li><a href='{{ site.author.github }}'>GitHub</a></li>
+          <li><a href='{{ site.author.observable }}'>Observable</a></li>
+          <li><a href='{{ site.author.instagram }}'>Instagram</a></li>
+        </ul>
+        <ul>
+          <li><a href='/contact/'>Contact</a></li>
+        </ul>
       </nav>
       <p><span>{{ site.name }}</span> © {{ site.time | date: "%Y" }} {{ site.author.name }}. {{ site.copyright }}</p>
       <a class='logo' href='/'><img src='/icon-w.svg' alt='logo'/></a>

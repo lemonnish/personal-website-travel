@@ -16,13 +16,16 @@ body > footer {
     }
     nav {
       color: $color-link;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
       margin-bottom: 0;
-      a {
-        display: block;
-        margin: 0 $base-unit / 2;
+      text-align: center;
+      ul {
+        width: 100%;
+        margin: 0 0 $base-unit/2;
+        padding: 0;
+        li {
+          display: inline;
+          margin: 0 $base-unit / 2;
+        }
       }
       a:link, a:visited {
         color: $color-link;
@@ -92,14 +95,17 @@ body > footer {
           grid-column: text;
         }
         nav {
-          justify-content: start;
-          align-items: center;
           margin: 0;
-          a {
-            margin: 0 $base-unit 0 0;
-          }
-          & > :first-child {
-            padding-left: 0;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-column-gap: $base-unit;
+          text-align: left;
+          ul {
+            margin: 0 0 auto 0;
+            li {
+              display: block;
+              margin: 0;
+            }
           }
         }
         p {
@@ -116,8 +122,8 @@ body > footer {
           margin-right: 2rem;
         }
         nav {
-          a {
-            margin: 0 $base-unit * 2 0 0;
+          div {
+            margin-right: $base-unit * 2;
           }
         }
       }
