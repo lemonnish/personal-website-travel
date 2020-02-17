@@ -39,53 +39,18 @@ description: default
   <h2>Filter by location</h2>
 
   <nav class='location'>
-    <section>
-      <div><h3>Asia</h3></div>
-      {% include country-link.html name='cambodia' %}
-      {% include country-link.html name='china' %}
-      {% include country-link.html name='japan' %}
-      {% include country-link.html name='thailand' %}
-      {% include country-link.html name='vietnam' %}
-      <div class='placeholder'></div>
-      <div class='placeholder'></div>
-      <div class='placeholder'></div>
-      <div class='placeholder'></div>
-      <div class='placeholder'></div>
-    </section>
-
-    <section>
-      <div><h3>Europe</h3></div>
-      {% include country-link.html name='germany' %}
-      <div class='placeholder'></div>
-      <div class='placeholder'></div>
-      <div class='placeholder'></div>
-      <div class='placeholder'></div>
-      <div class='placeholder'></div>
-    </section>
-
-    <section>
-      <div><h3>North America: USA</h3></div>
-      {% include country-link.html name='california' %}
-      {% include country-link.html name='massachusetts' %}
-      {% include country-link.html name='nevada' %}
-      {% include country-link.html name='new-york' %}
-      {% include country-link.html name='vermont' %}
-      {% include country-link.html name='washington' %}
-      <div class='placeholder'></div>
-      <div class='placeholder'></div>
-      <div class='placeholder'></div>
-      <div class='placeholder'></div>
-      <div class='placeholder'></div>
-    </section>
-
-    <section>
-      <div><h3>South America</h3></div>
-      {% include country-link.html name='chile' %}
-      <div class='placeholder'></div>
-      <div class='placeholder'></div>
-      <div class='placeholder'></div>
-      <div class='placeholder'></div>
-      <div class='placeholder'></div>
-    </section>
+    {% for country in site.data['tags'].children %}
+      <section>
+        <div><h3>{{ country.display }}</h3></div>
+        {% for location in country.children %}
+          {% include country-link.html name=location.tag %}
+        {% endfor %}
+        {% for i in (1..5) %} {% comment %}
+              placeholders are necessary for stamps to have uniform width
+              {% endcomment %}
+          <div class='placeholder'></div>
+        {% endfor %}
+      </section>
+    {% endfor %}
   </nav>
 </main>

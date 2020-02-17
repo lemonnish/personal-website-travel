@@ -1,0 +1,41 @@
+tag: all-posts
+display: All Posts
+children:
+- tag: asia
+  display: Asia
+  children:
+  - tag: cambodia
+    display: Cambodia
+  - tag: china
+    display: China
+  - tag: japan
+    display: Japan
+  - tag: thailand
+    display: Thailand
+  - tag: vietnam
+    display: Vietnam
+- tag: europe
+  display: Europe
+  children:
+  - tag: germany
+    display: Germany
+- tag: usa
+  display: "North America: USA"
+  children:
+  - tag: california
+    display: California, USA
+  - tag: massachusetts
+    display: Massachusetts, USA
+  - tag: nevada
+    display: Nevada, USA
+  - tag: new-york
+    display: New York, USA
+  - tag: vermont
+    display: Vermont, USA
+  - tag: washington
+    display: Washington, USA
+- tag: south-america
+  display: South America
+  children:
+  - tag: chile
+    display: Chile

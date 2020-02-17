@@ -7,7 +7,12 @@ layout: default
     <p><time datetime='{{ page.date | date: "%Y-%m-%d" }}'>
       {{ page.date | date: "%Y.%m.%d" }}
     </time></p>
-    <p>{{ page.location }}</p>
+    <p>
+      {% for location in page.location-links %}
+        <a href="{{ site.baseurl }}/{{ location.tag }}">{{ location.display }}</a>
+        {% if forloop.last == false %} & {% endif %}
+      {% endfor %}
+    </p>
   </header>
 
   {{ content }}
